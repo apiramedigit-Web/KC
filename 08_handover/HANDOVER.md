@@ -47,7 +47,7 @@ All 12 rows currently show **CARRIED FORWARD from 2026-09-22 (imported from old 
 - All 12 search terms come from eBay categories (the SOT has no sub-type for these SKUs). Some are broad ("LED Ceiling Lights & Chandeliers") and two listings are in misleading categories (the wall sconce 267720120199 under Lampshades & Lightshades; the waste pipe 267791295531 under Electrical Wires & Cables). The fix belongs at the source (SOT or listing category), not in the automation.
 - Three parent rows have the SKU placeholder `sku not assigneds` (267791295531, 267765767284, 267687534749). It is shown as stored in the DB, with the real variation SKUs under it.
 - Last 30 Days Sales: always NOT VERIFIED (eBay sign-in CAPTCHA).
-- Neither project folder is a git repository yet (Mini-AIOS Skill 12 expects a GitHub path).
+- GitHub: https://github.com/apiramedigit-Web/KC (branch `main`, public). The daily run does not commit or push automatically; commit the day's evidence manually when needed.
 
 ## 6. Do not touch
 

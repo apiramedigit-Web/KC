@@ -30,7 +30,7 @@
 | Publish protection | A run whose validated hash did not match was **refused** and the live file was untouched (run `20260922T101300Z-9d4f`, bug since fixed); unit test covers it | VERIFIED |
 | Scheduler | `10_automation/scheduler.ps1 -Status`: daily 08:45, one task after repeated registration | VERIFIED |
 | Live eBay research by the automation | Not yet run: UK-VPN Chrome (CDP 9222) was not running on 2026-09-22 | **UNPROVEN until the first run with the browser up** |
-| PH Dashboard push | Not yet run: PG credentials not set; a write to the shared PH table needs your go-ahead | **UNPROVEN** |
+| PH Dashboard push | Credentials set and dry run OK (would update 8 KWC rows, insert 0); first real push scheduled for the 2026-09-23 08:45 run by owner decision | **UNPROVEN until that run** |
 
 ## 3. Current dashboard content
 
@@ -58,4 +58,4 @@ All 12 rows currently show **CARRIED FORWARD from 2026-09-22 (imported from old 
 
 ## 7. Next action
 
-Set the PG credentials, then check the result of the 2026-09-23 08:45 run in `05_evidence/research_logs/2026-09-23/run_summary_*.json`.
+Check the result of the 2026-09-23 08:45 run in `05_evidence/research_logs/2026-09-23/run_summary_*.json`.

@@ -1,0 +1,580 @@
+{
+ "product_id": "267695260771",
+ "sku": "3 HEAD PENDAN LIGHT",
+ "product_name": "Industrial 3 Light Black Metal Pendant Ceiling Light E27 Kitchen Dining Lamp",
+ "origin": "IMPORTED",
+ "imported_from": "C:\\Users\\LED 222\\Keywords check\\02_Data\\requested\\ids\\267695260771.json",
+ "run_id": "imported-2026-09-22",
+ "run_date": "2026-09-22",
+ "product_subtype": "Pendant Light",
+ "mapping_source": "OLD PROJECT: listings.ebay_listings.title phrase '3 Light Black Metal Pendant Ceiling Light' (no SOT sub-type)",
+ "search_term": "LED Pendant Light",
+ "search_term_rule": "OLD title-derived rule (superseded 2026-09-22 by SOT -> eBay category rule)",
+ "exit_ip": {
+  "ip": "145.239.6.2",
+  "country": "GB",
+  "city": "London",
+  "org": "AS16276 OVH SAS"
+ },
+ "started_at": "2026-09-22T06:46:40.066559+00:00",
+ "captured_at": "2026-09-22T06:46:40.066559+00:00",
+ "finished_at": "2026-09-22T06:46:46.119599+00:00",
+ "search_evidence": {
+  "search_capture": null,
+  "captured_at": "2026-09-22T06:46:40.066559+00:00",
+  "pages": [
+   {
+    "page": 1,
+    "url": "https://www.ebay.co.uk/sch/i.html?_nkw=LED+Pendant+Light&LH_BIN=1&LH_ItemCondition=3&LH_PrefLoc=1&_pgn=1",
+    "http_status": 200,
+    "raw_html": "04_research/search_results/imported_2026-09-22/6ba952a9322e_p1.html"
+   },
+   {
+    "page": 2,
+    "url": "https://www.ebay.co.uk/sch/i.html?_nkw=LED+Pendant+Light&LH_BIN=1&LH_ItemCondition=3&LH_PrefLoc=1&_pgn=2",
+    "http_status": 200,
+    "raw_html": "04_research/search_results/imported_2026-09-22/6ba952a9322e_p2.html"
+   },
+   {
+    "page": 3,
+    "url": "https://www.ebay.co.uk/sch/i.html?_nkw=LED+Pendant+Light&LH_BIN=1&LH_ItemCondition=3&LH_PrefLoc=1&_pgn=3",
+    "http_status": 200,
+    "raw_html": "04_research/search_results/imported_2026-09-22/6ba952a9322e_p3.html"
+   }
+  ],
+  "complete": true
+ },
+ "screening_profile": {
+  "alternatives": [
+   [
+    "pendant",
+    "light"
+   ]
+  ],
+  "heads": [
+   "light"
+  ],
+  "own_title_tokens": [
+   "industrial",
+   "light",
+   "black",
+   "metal",
+   "pendant",
+   "ceiling",
+   "e27",
+   "kitchen",
+   "dining",
+   "lamp"
+  ]
+ },
+ "candidates": 187,
+ "internal_excluded": 37,
+ "tier_counts": {
+  "EXACT MATCH": 83,
+  "SIMILAR": 39,
+  "SAME CATEGORY": 26,
+  "NOT RELEVANT": 2
+ },
+ "shortlist": [
+  {
+   "listing_id": "188551574478",
+   "tier": "EXACT MATCH",
+   "similarity": 0.6,
+   "result_page": 1,
+   "result_position": 14,
+   "item_cache": "02_Data/item_cache/188551574478.json",
+   "item_status": "OK"
+  },
+  {
+   "listing_id": "158053617578",
+   "tier": "EXACT MATCH",
+   "similarity": 0.6,
+   "result_page": 1,
+   "result_position": 64,
+   "item_cache": "02_Data/item_cache/158053617578.json",
+   "item_status": "OK"
+  },
+  {
+   "listing_id": "318877871838",
+   "tier": "EXACT MATCH",
+   "similarity": 0.6,
+   "result_page": 1,
+   "result_position": 70,
+   "item_cache": "02_Data/item_cache/318877871838.json",
+   "item_status": "OK"
+  },
+  {
+   "listing_id": "188818269069",
+   "tier": "EXACT MATCH",
+   "similarity": 0.5,
+   "result_page": 1,
+   "result_position": 12,
+   "item_cache": "02_Data/item_cache/188818269069.json",
+   "item_status": "OK"
+  },
+  {
+   "listing_id": "407063688052",
+   "tier": "EXACT MATCH",
+   "similarity": 0.5,
+   "result_page": 1,
+   "result_position": 16,
+   "item_cache": "02_Data/item_cache/407063688052.json",
+   "item_status": "OK"
+  },
+  {
+   "listing_id": "237081504874",
+   "tier": "EXACT MATCH",
+   "similarity": 0.5,
+   "result_page": 1,
+   "result_position": 18,
+   "item_cache": "02_Data/item_cache/237081504874.json",
+   "item_status": "OK"
+  }
+ ],
+ "final_competitors": [
+  {
+   "listing_id": "407063688052",
+   "seller": "xfx21uk",
+   "title": "4Heads Chandelier Lamp Dimmable Ceiling Light Dining Living Room Pendant Light",
+   "url": "https://www.ebay.co.uk/itm/407063688052",
+   "search_page": 1,
+   "search_position": 16,
+   "product_match": "EXACT MATCH",
+   "similarity": 0.5,
+   "sold": "96 sold",
+   "sales_30_day": "NOT VERIFIED",
+   "description_checked": "Yes",
+   "item_location": "Glenfield, Leicestershire, United Kingdom",
+   "raw_search_page": "04_research/search_results/imported_2026-09-22/6ba952a9322e_p1.html",
+   "raw_item_page": "04_research/competitor_listings/imported_2026-09-22/item_407063688052.html",
+   "raw_description": "04_research/descriptions/imported_2026-09-22/desc_407063688052.txt",
+   "captured_at": "2026-09-22T06:22:01.567219+00:00"
+  },
+  {
+   "listing_id": "158053617578",
+   "seller": "flatwhite20",
+   "title": "60W LED Ceiling Light Modern Vintage Industrial Pendant Light Black Hanging Lamp",
+   "url": "https://www.ebay.co.uk/itm/158053617578",
+   "search_page": 1,
+   "search_position": 64,
+   "product_match": "EXACT MATCH",
+   "similarity": 0.6,
+   "sold": "35 sold",
+   "sales_30_day": "NOT VERIFIED",
+   "description_checked": "Yes",
+   "item_location": "Worcester, United Kingdom",
+   "raw_search_page": "04_research/search_results/imported_2026-09-22/6ba952a9322e_p1.html",
+   "raw_item_page": "04_research/competitor_listings/imported_2026-09-22/item_158053617578.html",
+   "raw_description": "04_research/descriptions/imported_2026-09-22/desc_158053617578.txt",
+   "captured_at": "2026-09-22T05:39:56.031158+00:00"
+  },
+  {
+   "listing_id": "318877871838",
+   "seller": "boyuanlife",
+   "title": "LED 3 Way Pendant Light Industrial Metal Ceiling Lampshade Hanging Retro Lamp UK",
+   "url": "https://www.ebay.co.uk/itm/318877871838",
+   "search_page": 1,
+   "search_position": 70,
+   "product_match": "EXACT MATCH",
+   "similarity": 0.6,
+   "sold": "1 sold",
+   "sales_30_day": "NOT VERIFIED",
+   "description_checked": "Yes",
+   "item_location": "Castle Donington, United Kingdom",
+   "raw_search_page": "04_research/search_results/imported_2026-09-22/6ba952a9322e_p1.html",
+   "raw_item_page": "04_research/competitor_listings/imported_2026-09-22/item_318877871838.html",
+   "raw_description": "04_research/descriptions/imported_2026-09-22/desc_318877871838.txt",
+   "captured_at": "2026-09-22T05:40:08.960066+00:00"
+  },
+  {
+   "listing_id": "188818269069",
+   "seller": "fullfashionbs",
+   "title": "Chic LED Lamp Ceiling Light Modern Chandelier Living Room Kitchen Pendant Light",
+   "url": "https://www.ebay.co.uk/itm/188818269069",
+   "search_page": 1,
+   "search_position": 12,
+   "product_match": "EXACT MATCH",
+   "similarity": 0.5,
+   "sold": "NOT VERIFIED",
+   "sales_30_day": "NOT VERIFIED",
+   "description_checked": "Yes",
+   "item_location": "Glenfield, Leicestershire, United Kingdom",
+   "raw_search_page": "04_research/search_results/imported_2026-09-22/6ba952a9322e_p1.html",
+   "raw_item_page": "04_research/competitor_listings/imported_2026-09-22/item_188818269069.html",
+   "raw_description": "04_research/descriptions/imported_2026-09-22/desc_188818269069.txt",
+   "captured_at": "2026-09-22T05:40:37.494631+00:00"
+  },
+  {
+   "listing_id": "188551574478",
+   "seller": "fullfashionbs",
+   "title": "Dining Living Room LED Ceiling Light Modern Chandelier Lamp Black Pendant Light",
+   "url": "https://www.ebay.co.uk/itm/188551574478",
+   "search_page": 1,
+   "search_position": 14,
+   "product_match": "EXACT MATCH",
+   "similarity": 0.6,
+   "sold": "NOT VERIFIED",
+   "sales_30_day": "NOT VERIFIED",
+   "description_checked": "Yes",
+   "item_location": "Glenfield, Leicestershire, United Kingdom",
+   "raw_search_page": "04_research/search_results/imported_2026-09-22/6ba952a9322e_p1.html",
+   "raw_item_page": "04_research/competitor_listings/imported_2026-09-22/item_188551574478.html",
+   "raw_description": "04_research/descriptions/imported_2026-09-22/desc_188551574478.txt",
+   "captured_at": "2026-09-22T05:40:52.740215+00:00"
+  }
+ ],
+ "verification_status": "VERIFIED",
+ "research_status": "RESEARCHED",
+ "keywords": {
+  "Primary Keyword": [
+   {
+    "keyword": "Pendant Light",
+    "keyword_rank": 5,
+    "of_competitors": 5,
+    "matches": [
+     {
+      "listing_id": "407063688052",
+      "found_in": [
+       "title"
+      ],
+      "snippet": "er Lamp Dimmable Ceiling Light Dining Living Room Pendant Light"
+     },
+     {
+      "listing_id": "158053617578",
+      "found_in": [
+       "title",
+       "description"
+      ],
+      "snippet": "60W LED Ceiling Light Modern Vintage Industrial Pendant Light Black Hanging Lamp"
+     },
+     {
+      "listing_id": "318877871838",
+      "found_in": [
+       "title"
+      ],
+      "snippet": "LED 3 Way Pendant Light Industrial Metal Ceiling Lampshade Hang"
+     },
+     {
+      "listing_id": "188818269069",
+      "found_in": [
+       "title"
+      ],
+      "snippet": "iling Light Modern Chandelier Living Room Kitchen Pendant Light"
+     },
+     {
+      "listing_id": "188551574478",
+      "found_in": [
+       "title"
+      ],
+      "snippet": "om LED Ceiling Light Modern Chandelier Lamp Black Pendant Light"
+     }
+    ],
+    "titles_with_phrase": 5
+   }
+  ],
+  "Secondary Keywords": [
+   {
+    "keyword": "Lamp",
+    "keyword_rank": 5,
+    "of_competitors": 5,
+    "matches": [
+     {
+      "listing_id": "407063688052",
+      "found_in": [
+       "title",
+       "description"
+      ],
+      "snippet": "4Heads Chandelier Lamp Dimmable Ceiling Light Dining Living Ro"
+     },
+     {
+      "listing_id": "158053617578",
+      "found_in": [
+       "title",
+       "description"
+      ],
+      "snippet": "rn Vintage Industrial Pendant Light Black Hanging Lamp"
+     },
+     {
+      "listing_id": "318877871838",
+      "found_in": [
+       "title",
+       "description"
+      ],
+      "snippet": "Industrial Metal Ceiling Lampshade Hanging Retro Lamp UK"
+     },
+     {
+      "listing_id": "188818269069",
+      "found_in": [
+       "title",
+       "description"
+      ],
+      "snippet": "Chic LED Lamp Ceiling Light Modern Chandelier Living"
+     },
+     {
+      "listing_id": "188551574478",
+      "found_in": [
+       "title",
+       "description"
+      ],
+      "snippet": "g Living Room LED Ceiling Light Modern Chandelier Lamp Black Pendant Light"
+     }
+    ],
+    "titles_with_phrase": 5
+   },
+   {
+    "keyword": "Ceiling",
+    "keyword_rank": 5,
+    "of_competitors": 5,
+    "matches": [
+     {
+      "listing_id": "407063688052",
+      "found_in": [
+       "title",
+       "description"
+      ],
+      "snippet": "4Heads Chandelier Lamp Dimmable Ceiling Light Dining Living Room Pendant Light"
+     },
+     {
+      "listing_id": "158053617578",
+      "found_in": [
+       "title",
+       "description"
+      ],
+      "snippet": "60W LED Ceiling Light Modern Vintage Industrial Pendant"
+     },
+     {
+      "listing_id": "318877871838",
+      "found_in": [
+       "title"
+      ],
+      "snippet": "LED 3 Way Pendant Light Industrial Metal Ceiling Lampshade Hanging Retro Lamp UK"
+     },
+     {
+      "listing_id": "188818269069",
+      "found_in": [
+       "title",
+       "description"
+      ],
+      "snippet": "Chic LED Lamp Ceiling Light Modern Chandelier Living Room Kit"
+     },
+     {
+      "listing_id": "188551574478",
+      "found_in": [
+       "title",
+       "description"
+      ],
+      "snippet": "Dining Living Room LED Ceiling Light Modern Chandelier Lamp Black Pend"
+     }
+    ],
+    "titles_with_phrase": 5
+   },
+   {
+    "keyword": "Ceiling Light",
+    "keyword_rank": 4,
+    "of_competitors": 5,
+    "matches": [
+     {
+      "listing_id": "407063688052",
+      "found_in": [
+       "title",
+       "description"
+      ],
+      "snippet": "4Heads Chandelier Lamp Dimmable Ceiling Light Dining Living Room Pendant Light"
+     },
+     {
+      "listing_id": "158053617578",
+      "found_in": [
+       "title",
+       "description"
+      ],
+      "snippet": "60W LED Ceiling Light Modern Vintage Industrial Pendant Light"
+     },
+     {
+      "listing_id": "188818269069",
+      "found_in": [
+       "title",
+       "description"
+      ],
+      "snippet": "Chic LED Lamp Ceiling Light Modern Chandelier Living Room Kitchen P"
+     },
+     {
+      "listing_id": "188551574478",
+      "found_in": [
+       "title",
+       "description"
+      ],
+      "snippet": "Dining Living Room LED Ceiling Light Modern Chandelier Lamp Black Pendant Li"
+     }
+    ],
+    "titles_with_phrase": 4
+   }
+  ],
+  "Long-Tail Keywords": [
+   {
+    "keyword": "Ceiling Light Modern",
+    "keyword_rank": 3,
+    "of_competitors": 5,
+    "matches": [
+     {
+      "listing_id": "158053617578",
+      "found_in": [
+       "title",
+       "description"
+      ],
+      "snippet": "60W LED Ceiling Light Modern Vintage Industrial Pendant Light Black"
+     },
+     {
+      "listing_id": "188818269069",
+      "found_in": [
+       "title"
+      ],
+      "snippet": "Chic LED Lamp Ceiling Light Modern Chandelier Living Room Kitchen Pendant"
+     },
+     {
+      "listing_id": "188551574478",
+      "found_in": [
+       "title"
+      ],
+      "snippet": "Dining Living Room LED Ceiling Light Modern Chandelier Lamp Black Pendant Light"
+     }
+    ],
+    "titles_with_phrase": 3
+   },
+   {
+    "keyword": "LED Ceiling Light Modern",
+    "keyword_rank": 2,
+    "of_competitors": 5,
+    "matches": [
+     {
+      "listing_id": "158053617578",
+      "found_in": [
+       "title",
+       "description"
+      ],
+      "snippet": "60W LED Ceiling Light Modern Vintage Industrial Pendant Light Black"
+     },
+     {
+      "listing_id": "188551574478",
+      "found_in": [
+       "title"
+      ],
+      "snippet": "Dining Living Room LED Ceiling Light Modern Chandelier Lamp Black Pendant Light"
+     }
+    ],
+    "titles_with_phrase": 2
+   },
+   {
+    "keyword": "Ceiling Light Modern Chandelier",
+    "keyword_rank": 2,
+    "of_competitors": 5,
+    "matches": [
+     {
+      "listing_id": "188818269069",
+      "found_in": [
+       "title"
+      ],
+      "snippet": "Chic LED Lamp Ceiling Light Modern Chandelier Living Room Kitchen Pendant Light"
+     },
+     {
+      "listing_id": "188551574478",
+      "found_in": [
+       "title"
+      ],
+      "snippet": "Dining Living Room LED Ceiling Light Modern Chandelier Lamp Black Pendant Light"
+     }
+    ],
+    "titles_with_phrase": 2
+   }
+  ],
+  "Competitor Keywords": [
+   {
+    "keyword": "Living Room",
+    "keyword_rank": 4,
+    "of_competitors": 5,
+    "matches": [
+     {
+      "listing_id": "407063688052",
+      "found_in": [
+       "title",
+       "description"
+      ],
+      "snippet": "ads Chandelier Lamp Dimmable Ceiling Light Dining Living Room Pendant Light"
+     },
+     {
+      "listing_id": "158053617578",
+      "found_in": [
+       "description"
+      ],
+      "snippet": "erior Spaces】 Perfect for kitchens, dining areas, living rooms, lofts, home offices, bars, cafés, and"
+     },
+     {
+      "listing_id": "188818269069",
+      "found_in": [
+       "title",
+       "description"
+      ],
+      "snippet": "Chic LED Lamp Ceiling Light Modern Chandelier Living Room Kitchen Pendant Light"
+     },
+     {
+      "listing_id": "188551574478",
+      "found_in": [
+       "title",
+       "description"
+      ],
+      "snippet": "Dining Living Room LED Ceiling Light Modern Chandelier Lam"
+     }
+    ],
+    "titles_with_phrase": 3
+   },
+   {
+    "keyword": "Chandelier Lamp",
+    "keyword_rank": 2,
+    "of_competitors": 5,
+    "matches": [
+     {
+      "listing_id": "407063688052",
+      "found_in": [
+       "title"
+      ],
+      "snippet": "4Heads Chandelier Lamp Dimmable Ceiling Light Dining Living Ro"
+     },
+     {
+      "listing_id": "188551574478",
+      "found_in": [
+       "title"
+      ],
+      "snippet": "Dining Living Room LED Ceiling Light Modern Chandelier Lamp Black Pendant Light"
+     }
+    ],
+    "titles_with_phrase": 2
+   },
+   {
+    "keyword": "Hanging",
+    "keyword_rank": 2,
+    "of_competitors": 5,
+    "matches": [
+     {
+      "listing_id": "158053617578",
+      "found_in": [
+       "title",
+       "description"
+      ],
+      "snippet": "ght Modern Vintage Industrial Pendant Light Black Hanging Lamp"
+     },
+     {
+      "listing_id": "318877871838",
+      "found_in": [
+       "title"
+      ],
+      "snippet": "Pendant Light Industrial Metal Ceiling Lampshade Hanging Retro Lamp UK"
+     }
+    ],
+    "titles_with_phrase": 2
+   }
+  ]
+ },
+ "import_check": {
+  "keywords_and_ranks_equal_old_project": true,
+  "old": "same"
+ }
+}

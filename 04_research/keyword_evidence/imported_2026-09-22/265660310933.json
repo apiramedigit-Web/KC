@@ -1,0 +1,594 @@
+{
+ "product_id": "265660310933",
+ "sku": "ENC1651-Pendant Light",
+ "product_name": "3-Way Hanging Cage Pendant Light LED Ceiling Light Modern Vintage Chandelier UK",
+ "origin": "IMPORTED",
+ "imported_from": "C:\\Users\\LED 222\\Keywords check\\02_Data\\requested\\ids\\265660310933.json",
+ "run_id": "imported-2026-09-22",
+ "run_date": "2026-09-22",
+ "product_subtype": "Pendant Light",
+ "mapping_source": "OLD PROJECT: listings.ebay_listings.title phrase 'Cage Pendant Light' (no SOT sub-type)",
+ "search_term": "LED Pendant Light",
+ "search_term_rule": "OLD title-derived rule (superseded 2026-09-22 by SOT -> eBay category rule)",
+ "exit_ip": {
+  "ip": "145.239.6.2",
+  "country": "GB",
+  "city": "London",
+  "org": "AS16276 OVH SAS"
+ },
+ "started_at": "2026-09-22T06:45:39.458251+00:00",
+ "captured_at": "2026-09-22T06:45:39.458251+00:00",
+ "finished_at": "2026-09-22T06:45:45.513638+00:00",
+ "search_evidence": {
+  "search_capture": null,
+  "captured_at": "2026-09-22T06:45:39.458251+00:00",
+  "pages": [
+   {
+    "page": 1,
+    "url": "https://www.ebay.co.uk/sch/i.html?_nkw=LED+Pendant+Light&LH_BIN=1&LH_ItemCondition=3&LH_PrefLoc=1&_pgn=1",
+    "http_status": 200,
+    "raw_html": "04_research/search_results/imported_2026-09-22/6ba952a9322e_p1.html"
+   },
+   {
+    "page": 2,
+    "url": "https://www.ebay.co.uk/sch/i.html?_nkw=LED+Pendant+Light&LH_BIN=1&LH_ItemCondition=3&LH_PrefLoc=1&_pgn=2",
+    "http_status": 200,
+    "raw_html": "04_research/search_results/imported_2026-09-22/6ba952a9322e_p2.html"
+   },
+   {
+    "page": 3,
+    "url": "https://www.ebay.co.uk/sch/i.html?_nkw=LED+Pendant+Light&LH_BIN=1&LH_ItemCondition=3&LH_PrefLoc=1&_pgn=3",
+    "http_status": 200,
+    "raw_html": "04_research/search_results/imported_2026-09-22/6ba952a9322e_p3.html"
+   }
+  ],
+  "complete": true
+ },
+ "screening_profile": {
+  "alternatives": [
+   [
+    "pendant",
+    "light"
+   ]
+  ],
+  "heads": [
+   "light"
+  ],
+  "own_title_tokens": [
+   "way",
+   "hanging",
+   "cage",
+   "pendant",
+   "light",
+   "ceiling",
+   "modern",
+   "vintage",
+   "chandelier"
+  ]
+ },
+ "candidates": 187,
+ "internal_excluded": 37,
+ "tier_counts": {
+  "EXACT MATCH": 101,
+  "SIMILAR": 28,
+  "SAME CATEGORY": 19,
+  "NOT RELEVANT": 2
+ },
+ "shortlist": [
+  {
+   "listing_id": "358765983060",
+   "tier": "EXACT MATCH",
+   "similarity": 0.889,
+   "result_page": 1,
+   "result_position": 25,
+   "item_cache": "02_Data/item_cache/358765983060.json",
+   "item_status": "OK"
+  },
+  {
+   "listing_id": "157645356035",
+   "tier": "EXACT MATCH",
+   "similarity": 0.889,
+   "result_page": 3,
+   "result_position": 36,
+   "item_cache": "02_Data/item_cache/157645356035.json",
+   "item_status": "OK"
+  },
+  {
+   "listing_id": "317630144879",
+   "tier": "EXACT MATCH",
+   "similarity": 0.667,
+   "result_page": 1,
+   "result_position": 21,
+   "item_cache": "02_Data/item_cache/317630144879.json",
+   "item_status": "OK"
+  },
+  {
+   "listing_id": "287428249409",
+   "tier": "EXACT MATCH",
+   "similarity": 0.667,
+   "result_page": 1,
+   "result_position": 42,
+   "item_cache": "02_Data/item_cache/287428249409.json",
+   "item_status": "OK"
+  },
+  {
+   "listing_id": "286948530124",
+   "tier": "EXACT MATCH",
+   "similarity": 0.667,
+   "result_page": 1,
+   "result_position": 52,
+   "item_cache": "02_Data/item_cache/286948530124.json",
+   "item_status": "OK"
+  },
+  {
+   "listing_id": "158053617578",
+   "tier": "EXACT MATCH",
+   "similarity": 0.667,
+   "result_page": 1,
+   "result_position": 64,
+   "item_cache": "02_Data/item_cache/158053617578.json",
+   "item_status": "OK"
+  }
+ ],
+ "final_competitors": [
+  {
+   "listing_id": "317630144879",
+   "seller": "snowfall2024",
+   "title": "LED Modern Ceiling Light Bedroom Lamp Vintage Pendant Sputnik Chandelier Fixture",
+   "url": "https://www.ebay.co.uk/itm/317630144879",
+   "search_page": 1,
+   "search_position": 21,
+   "product_match": "EXACT MATCH",
+   "similarity": 0.667,
+   "sold": "237 sold",
+   "sales_30_day": "NOT VERIFIED",
+   "description_checked": "Yes",
+   "item_location": "Leicester, United Kingdom",
+   "raw_search_page": "04_research/search_results/imported_2026-09-22/6ba952a9322e_p1.html",
+   "raw_item_page": "04_research/competitor_listings/imported_2026-09-22/item_317630144879.html",
+   "raw_description": "04_research/descriptions/imported_2026-09-22/desc_317630144879.txt",
+   "captured_at": "2026-09-22T06:11:56.635073+00:00"
+  },
+  {
+   "listing_id": "286948530124",
+   "seller": "zaijiezaili",
+   "title": "Modern LED Ceiling Light Bedroom Lamp Vintage Pendant Sputnik Chandelier+Bulbs",
+   "url": "https://www.ebay.co.uk/itm/286948530124",
+   "search_page": 1,
+   "search_position": 52,
+   "product_match": "EXACT MATCH",
+   "similarity": 0.667,
+   "sold": "40 sold",
+   "sales_30_day": "NOT VERIFIED",
+   "description_checked": "Yes",
+   "item_location": "Leicester, United Kingdom",
+   "raw_search_page": "04_research/search_results/imported_2026-09-22/6ba952a9322e_p1.html",
+   "raw_item_page": "04_research/competitor_listings/imported_2026-09-22/item_286948530124.html",
+   "raw_description": "04_research/descriptions/imported_2026-09-22/desc_286948530124.txt",
+   "captured_at": "2026-09-22T06:12:13.941604+00:00"
+  },
+  {
+   "listing_id": "158053617578",
+   "seller": "flatwhite20",
+   "title": "60W LED Ceiling Light Modern Vintage Industrial Pendant Light Black Hanging Lamp",
+   "url": "https://www.ebay.co.uk/itm/158053617578",
+   "search_page": 1,
+   "search_position": 64,
+   "product_match": "EXACT MATCH",
+   "similarity": 0.667,
+   "sold": "35 sold",
+   "sales_30_day": "NOT VERIFIED",
+   "description_checked": "Yes",
+   "item_location": "Worcester, United Kingdom",
+   "raw_search_page": "04_research/search_results/imported_2026-09-22/6ba952a9322e_p1.html",
+   "raw_item_page": "04_research/competitor_listings/imported_2026-09-22/item_158053617578.html",
+   "raw_description": "04_research/descriptions/imported_2026-09-22/desc_158053617578.txt",
+   "captured_at": "2026-09-22T05:39:56.031158+00:00"
+  },
+  {
+   "listing_id": "157645356035",
+   "seller": "Extrastaruk2018",
+   "title": "1/3 Way Hanging Glass Pendant Light LED Ceiling Light Modern Vintage Chandelier",
+   "url": "https://www.ebay.co.uk/itm/157645356035",
+   "search_page": 3,
+   "search_position": 36,
+   "product_match": "EXACT MATCH",
+   "similarity": 0.889,
+   "sold": "17 sold",
+   "sales_30_day": "NOT VERIFIED",
+   "description_checked": "Yes",
+   "item_location": "MANCHESTER, United Kingdom",
+   "raw_search_page": "04_research/search_results/imported_2026-09-22/6ba952a9322e_p3.html",
+   "raw_item_page": "04_research/competitor_listings/imported_2026-09-22/item_157645356035.html",
+   "raw_description": "04_research/descriptions/imported_2026-09-22/desc_157645356035.txt",
+   "captured_at": "2026-09-22T06:11:41.657382+00:00"
+  },
+  {
+   "listing_id": "287428249409",
+   "seller": "zaijiezaili",
+   "title": "Vintage Pendant Light Modern LED Ceiling Lights Sputnik Chandelier Fixture Lamp",
+   "url": "https://www.ebay.co.uk/itm/287428249409",
+   "search_page": 1,
+   "search_position": 42,
+   "product_match": "EXACT MATCH",
+   "similarity": 0.667,
+   "sold": "15 sold",
+   "sales_30_day": "NOT VERIFIED",
+   "description_checked": "Yes",
+   "item_location": "Leicester, United Kingdom",
+   "raw_search_page": "04_research/search_results/imported_2026-09-22/6ba952a9322e_p1.html",
+   "raw_item_page": "04_research/competitor_listings/imported_2026-09-22/item_287428249409.html",
+   "raw_description": "04_research/descriptions/imported_2026-09-22/desc_287428249409.txt",
+   "captured_at": "2026-09-22T06:12:05.366156+00:00"
+  }
+ ],
+ "verification_status": "VERIFIED",
+ "research_status": "RESEARCHED",
+ "keywords": {
+  "Primary Keyword": [
+   {
+    "keyword": "Ceiling Light",
+    "keyword_rank": 5,
+    "of_competitors": 5,
+    "matches": [
+     {
+      "listing_id": "317630144879",
+      "found_in": [
+       "title",
+       "description"
+      ],
+      "snippet": "LED Modern Ceiling Light Bedroom Lamp Vintage Pendant Sputnik Ch"
+     },
+     {
+      "listing_id": "286948530124",
+      "found_in": [
+       "title",
+       "description"
+      ],
+      "snippet": "Modern LED Ceiling Light Bedroom Lamp Vintage Pendant Sputnik Ch"
+     },
+     {
+      "listing_id": "158053617578",
+      "found_in": [
+       "title",
+       "description"
+      ],
+      "snippet": "60W LED Ceiling Light Modern Vintage Industrial Pendant Light"
+     },
+     {
+      "listing_id": "157645356035",
+      "found_in": [
+       "title"
+      ],
+      "snippet": "1/3 Way Hanging Glass Pendant Light LED Ceiling Light Modern Vintage Chandelier"
+     },
+     {
+      "listing_id": "287428249409",
+      "found_in": [
+       "title",
+       "description"
+      ],
+      "snippet": "Vintage Pendant Light Modern LED Ceiling Lights Sputnik Chandelier Fixture Lamp"
+     }
+    ],
+    "titles_with_phrase": 5
+   }
+  ],
+  "Secondary Keywords": [
+   {
+    "keyword": "LED",
+    "keyword_rank": 5,
+    "of_competitors": 5,
+    "matches": [
+     {
+      "listing_id": "317630144879",
+      "found_in": [
+       "title",
+       "description"
+      ],
+      "snippet": "LED Modern Ceiling Light Bedroom Lamp Vinta"
+     },
+     {
+      "listing_id": "286948530124",
+      "found_in": [
+       "title",
+       "description"
+      ],
+      "snippet": "Modern LED Ceiling Light Bedroom Lamp Vintage Pend"
+     },
+     {
+      "listing_id": "158053617578",
+      "found_in": [
+       "title",
+       "description"
+      ],
+      "snippet": "60W LED Ceiling Light Modern Vintage Industrial"
+     },
+     {
+      "listing_id": "157645356035",
+      "found_in": [
+       "title",
+       "description"
+      ],
+      "snippet": "1/3 Way Hanging Glass Pendant Light LED Ceiling Light Modern Vintage Chandelier"
+     },
+     {
+      "listing_id": "287428249409",
+      "found_in": [
+       "title",
+       "description"
+      ],
+      "snippet": "Vintage Pendant Light Modern LED Ceiling Lights Sputnik Chandelier Fixtu"
+     }
+    ],
+    "titles_with_phrase": 5
+   },
+   {
+    "keyword": "Modern",
+    "keyword_rank": 5,
+    "of_competitors": 5,
+    "matches": [
+     {
+      "listing_id": "317630144879",
+      "found_in": [
+       "title"
+      ],
+      "snippet": "LED Modern Ceiling Light Bedroom Lamp Vintage Pend"
+     },
+     {
+      "listing_id": "286948530124",
+      "found_in": [
+       "title"
+      ],
+      "snippet": "Modern LED Ceiling Light Bedroom Lamp Vintage"
+     },
+     {
+      "listing_id": "158053617578",
+      "found_in": [
+       "title",
+       "description"
+      ],
+      "snippet": "60W LED Ceiling Light Modern Vintage Industrial Pendant Light Black"
+     },
+     {
+      "listing_id": "157645356035",
+      "found_in": [
+       "title"
+      ],
+      "snippet": "Way Hanging Glass Pendant Light LED Ceiling Light Modern Vintage Chandelier"
+     },
+     {
+      "listing_id": "287428249409",
+      "found_in": [
+       "title"
+      ],
+      "snippet": "Vintage Pendant Light Modern LED Ceiling Lights Sputnik Chandelier F"
+     }
+    ],
+    "titles_with_phrase": 5
+   },
+   {
+    "keyword": "Vintage",
+    "keyword_rank": 5,
+    "of_competitors": 5,
+    "matches": [
+     {
+      "listing_id": "317630144879",
+      "found_in": [
+       "title",
+       "description"
+      ],
+      "snippet": "LED Modern Ceiling Light Bedroom Lamp Vintage Pendant Sputnik Chandelier Fixture"
+     },
+     {
+      "listing_id": "286948530124",
+      "found_in": [
+       "title",
+       "description"
+      ],
+      "snippet": "Modern LED Ceiling Light Bedroom Lamp Vintage Pendant Sputnik Chandelier+Bulbs"
+     },
+     {
+      "listing_id": "158053617578",
+      "found_in": [
+       "title",
+       "description"
+      ],
+      "snippet": "60W LED Ceiling Light Modern Vintage Industrial Pendant Light Black Hanging"
+     },
+     {
+      "listing_id": "157645356035",
+      "found_in": [
+       "title",
+       "description"
+      ],
+      "snippet": "ging Glass Pendant Light LED Ceiling Light Modern Vintage Chandelier"
+     },
+     {
+      "listing_id": "287428249409",
+      "found_in": [
+       "title",
+       "description"
+      ],
+      "snippet": "Vintage Pendant Light Modern LED Ceiling Lights"
+     }
+    ],
+    "titles_with_phrase": 5
+   }
+  ],
+  "Long-Tail Keywords": [
+   {
+    "keyword": "LED Ceiling Light",
+    "keyword_rank": 5,
+    "of_competitors": 5,
+    "matches": [
+     {
+      "listing_id": "317630144879",
+      "found_in": [
+       "description"
+      ],
+      "snippet": "gift for friends. Type: Sputnik Chandeliers Name:LED Ceiling Light Item:Vintage Pendant Light Product:Vint"
+     },
+     {
+      "listing_id": "286948530124",
+      "found_in": [
+       "title",
+       "description"
+      ],
+      "snippet": "Modern LED Ceiling Light Bedroom Lamp Vintage Pendant Sputnik Ch"
+     },
+     {
+      "listing_id": "158053617578",
+      "found_in": [
+       "title",
+       "description"
+      ],
+      "snippet": "60W LED Ceiling Light Modern Vintage Industrial Pendant Light"
+     },
+     {
+      "listing_id": "157645356035",
+      "found_in": [
+       "title"
+      ],
+      "snippet": "1/3 Way Hanging Glass Pendant Light LED Ceiling Light Modern Vintage Chandelier"
+     },
+     {
+      "listing_id": "287428249409",
+      "found_in": [
+       "title",
+       "description"
+      ],
+      "snippet": "Vintage Pendant Light Modern LED Ceiling Lights Sputnik Chandelier Fixture Lamp"
+     }
+    ],
+    "titles_with_phrase": 4
+   },
+   {
+    "keyword": "Ceiling Light Bedroom Lamp Vintage",
+    "keyword_rank": 2,
+    "of_competitors": 5,
+    "matches": [
+     {
+      "listing_id": "317630144879",
+      "found_in": [
+       "title"
+      ],
+      "snippet": "LED Modern Ceiling Light Bedroom Lamp Vintage Pendant Sputnik Chandelier Fixture"
+     },
+     {
+      "listing_id": "286948530124",
+      "found_in": [
+       "title"
+      ],
+      "snippet": "Modern LED Ceiling Light Bedroom Lamp Vintage Pendant Sputnik Chandelier+Bulbs"
+     }
+    ],
+    "titles_with_phrase": 2
+   },
+   {
+    "keyword": "Light Bedroom Lamp Vintage Pendant",
+    "keyword_rank": 2,
+    "of_competitors": 5,
+    "matches": [
+     {
+      "listing_id": "317630144879",
+      "found_in": [
+       "title"
+      ],
+      "snippet": "LED Modern Ceiling Light Bedroom Lamp Vintage Pendant Sputnik Chandelier Fixture"
+     },
+     {
+      "listing_id": "286948530124",
+      "found_in": [
+       "title"
+      ],
+      "snippet": "Modern LED Ceiling Light Bedroom Lamp Vintage Pendant Sputnik Chandelier+Bulbs"
+     }
+    ],
+    "titles_with_phrase": 2
+   }
+  ],
+  "Competitor Keywords": [
+   {
+    "keyword": "Sputnik Chandelier",
+    "keyword_rank": 3,
+    "of_competitors": 5,
+    "matches": [
+     {
+      "listing_id": "317630144879",
+      "found_in": [
+       "title",
+       "description"
+      ],
+      "snippet": "Modern Ceiling Light Bedroom Lamp Vintage Pendant Sputnik Chandelier Fixture"
+     },
+     {
+      "listing_id": "286948530124",
+      "found_in": [
+       "title",
+       "description"
+      ],
+      "snippet": "rn LED Ceiling Light Bedroom Lamp Vintage Pendant Sputnik Chandelier+Bulbs"
+     },
+     {
+      "listing_id": "287428249409",
+      "found_in": [
+       "title",
+       "description"
+      ],
+      "snippet": "Vintage Pendant Light Modern LED Ceiling Lights Sputnik Chandelier Fixture Lamp"
+     }
+    ],
+    "titles_with_phrase": 3
+   },
+   {
+    "keyword": "Bedroom Lamp Vintage Pendant Sputnik",
+    "keyword_rank": 2,
+    "of_competitors": 5,
+    "matches": [
+     {
+      "listing_id": "317630144879",
+      "found_in": [
+       "title"
+      ],
+      "snippet": "LED Modern Ceiling Light Bedroom Lamp Vintage Pendant Sputnik Chandelier Fixture"
+     },
+     {
+      "listing_id": "286948530124",
+      "found_in": [
+       "title"
+      ],
+      "snippet": "Modern LED Ceiling Light Bedroom Lamp Vintage Pendant Sputnik Chandelier+Bulbs"
+     }
+    ],
+    "titles_with_phrase": 2
+   },
+   {
+    "keyword": "Modern LED Ceiling Light",
+    "keyword_rank": 2,
+    "of_competitors": 5,
+    "matches": [
+     {
+      "listing_id": "286948530124",
+      "found_in": [
+       "title"
+      ],
+      "snippet": "Modern LED Ceiling Light Bedroom Lamp Vintage Pendant Sputnik Ch"
+     },
+     {
+      "listing_id": "287428249409",
+      "found_in": [
+       "title"
+      ],
+      "snippet": "Vintage Pendant Light Modern LED Ceiling Lights Sputnik Chandelier Fixture Lamp"
+     }
+    ],
+    "titles_with_phrase": 2
+   }
+  ]
+ },
+ "import_check": {
+  "keywords_and_ranks_equal_old_project": true,
+  "old": "same"
+ }
+}

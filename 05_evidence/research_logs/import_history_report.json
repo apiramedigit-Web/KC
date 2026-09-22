@@ -1,0 +1,105 @@
+{
+ "copied": 0,
+ "missing_files": [],
+ "not_available": [],
+ "recompute_equal": {
+  "265660310933": true,
+  "267742103780": true,
+  "267791295531": true,
+  "267784997642": true,
+  "267773888902": true,
+  "267768578649": true,
+  "267765767284": true,
+  "267761469770": true,
+  "267728257222": true,
+  "267720120199": true,
+  "267695260771": true,
+  "267687534749": true
+ },
+ "imported": {
+  "265660310933": {
+   "day": "2026-09-22",
+   "evidence": "04_research/keyword_evidence/imported_2026-09-22/265660310933.json",
+   "captured_at": "2026-09-22T06:45:39.458251+00:00",
+   "origin": "IMPORTED",
+   "status": "VERIFIED"
+  },
+  "267742103780": {
+   "day": "2026-09-22",
+   "evidence": "04_research/keyword_evidence/imported_2026-09-22/267742103780.json",
+   "captured_at": "2026-09-22T06:45:45.514812+00:00",
+   "origin": "IMPORTED",
+   "status": "VERIFIED"
+  },
+  "267791295531": {
+   "day": "2026-09-22",
+   "evidence": "04_research/keyword_evidence/imported_2026-09-22/267791295531.json",
+   "captured_at": "2026-09-22T06:45:51.583102+00:00",
+   "origin": "IMPORTED",
+   "status": "VERIFIED"
+  },
+  "267784997642": {
+   "day": "2026-09-22",
+   "evidence": "04_research/keyword_evidence/imported_2026-09-22/267784997642.json",
+   "captured_at": "2026-09-22T06:45:57.619379+00:00",
+   "origin": "IMPORTED",
+   "status": "VERIFIED"
+  },
+  "267773888902": {
+   "day": "2026-09-22",
+   "evidence": "04_research/keyword_evidence/imported_2026-09-22/267773888902.json",
+   "captured_at": "2026-09-22T06:46:03.753755+00:00",
+   "origin": "IMPORTED",
+   "status": "VERIFIED"
+  },
+  "267768578649": {
+   "day": "2026-09-22",
+   "evidence": "04_research/keyword_evidence/imported_2026-09-22/267768578649.json",
+   "captured_at": "2026-09-22T06:46:09.787060+00:00",
+   "origin": "IMPORTED",
+   "status": "VERIFIED"
+  },
+  "267765767284": {
+   "day": "2026-09-22",
+   "evidence": "04_research/keyword_evidence/imported_2026-09-22/267765767284.json",
+   "captured_at": "2026-09-22T06:46:15.843001+00:00",
+   "origin": "IMPORTED",
+   "status": "VERIFIED"
+  },
+  "267761469770": {
+   "day": "2026-09-22",
+   "evidence": "04_research/keyword_evidence/imported_2026-09-22/267761469770.json",
+   "captured_at": "2026-09-22T06:46:21.900557+00:00",
+   "origin": "IMPORTED",
+   "status": "VERIFIED"
+  },
+  "267728257222": {
+   "day": "2026-09-22",
+   "evidence": "04_research/keyword_evidence/imported_2026-09-22/267728257222.json",
+   "captured_at": "2026-09-22T06:46:27.955642+00:00",
+   "origin": "IMPORTED",
+   "status": "VERIFIED"
+  },
+  "267720120199": {
+   "day": "2026-09-22",
+   "evidence": "04_research/keyword_evidence/imported_2026-09-22/267720120199.json",
+   "captured_at": "2026-09-22T06:46:34.017282+00:00",
+   "origin": "IMPORTED",
+   "status": "VERIFIED"
+  },
+  "267695260771": {
+   "day": "2026-09-22",
+   "evidence": "04_research/keyword_evidence/imported_2026-09-22/267695260771.json",
+   "captured_at": "2026-09-22T06:46:40.066559+00:00",
+   "origin": "IMPORTED",
+   "status": "VERIFIED"
+  },
+  "267687534749": {
+   "day": "2026-09-22",
+   "evidence": "04_research/keyword_evidence/imported_2026-09-22/267687534749.json",
+   "captured_at": "2026-09-22T06:46:46.120790+00:00",
+   "origin": "IMPORTED",
+   "status": "VERIFIED"
+  }
+ }
+}

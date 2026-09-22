@@ -1,0 +1,617 @@
+{
+ "product_id": "267742103780",
+ "sku": "CRSFM110080BM+WSCH135BM+LSCY290BG",
+ "product_name": "Industrial Vintage Wall Light E27 Black Gold Inner Metal Farmhouse Sconce Lamp",
+ "origin": "IMPORTED",
+ "imported_from": "C:\\Users\\LED 222\\Keywords check\\02_Data\\requested\\ids\\267742103780.json",
+ "run_id": "imported-2026-09-22",
+ "run_date": "2026-09-22",
+ "product_subtype": "Wall Light",
+ "mapping_source": "OLD PROJECT: listings.ebay_listings.title phrase 'Industrial Vintage Wall Light' (no SOT sub-type)",
+ "search_term": "LED Wall Light",
+ "search_term_rule": "OLD title-derived rule (superseded 2026-09-22 by SOT -> eBay category rule)",
+ "exit_ip": {
+  "ip": "145.239.6.2",
+  "country": "GB",
+  "city": "London",
+  "org": "AS16276 OVH SAS"
+ },
+ "started_at": "2026-09-22T06:45:45.514812+00:00",
+ "captured_at": "2026-09-22T06:45:45.514812+00:00",
+ "finished_at": "2026-09-22T06:45:51.581000+00:00",
+ "search_evidence": {
+  "search_capture": null,
+  "captured_at": "2026-09-22T06:45:45.514812+00:00",
+  "pages": [
+   {
+    "page": 1,
+    "url": "https://www.ebay.co.uk/sch/i.html?_nkw=LED+Wall+Light&LH_BIN=1&LH_ItemCondition=3&LH_PrefLoc=1&_pgn=1",
+    "http_status": 200,
+    "raw_html": "04_research/search_results/imported_2026-09-22/0d6d881454b3_p1.html"
+   },
+   {
+    "page": 2,
+    "url": "https://www.ebay.co.uk/sch/i.html?_nkw=LED+Wall+Light&LH_BIN=1&LH_ItemCondition=3&LH_PrefLoc=1&_pgn=2",
+    "http_status": 200,
+    "raw_html": "04_research/search_results/imported_2026-09-22/0d6d881454b3_p2.html"
+   },
+   {
+    "page": 3,
+    "url": "https://www.ebay.co.uk/sch/i.html?_nkw=LED+Wall+Light&LH_BIN=1&LH_ItemCondition=3&LH_PrefLoc=1&_pgn=3",
+    "http_status": 200,
+    "raw_html": "04_research/search_results/imported_2026-09-22/0d6d881454b3_p3.html"
+   }
+  ],
+  "complete": true
+ },
+ "screening_profile": {
+  "alternatives": [
+   [
+    "wall",
+    "light"
+   ]
+  ],
+  "heads": [
+   "light"
+  ],
+  "own_title_tokens": [
+   "industrial",
+   "vintage",
+   "wall",
+   "light",
+   "e27",
+   "black",
+   "gold",
+   "inner",
+   "metal",
+   "farmhouse",
+   "sconce",
+   "lamp"
+  ]
+ },
+ "candidates": 190,
+ "internal_excluded": 6,
+ "tier_counts": {
+  "EXACT MATCH": 4,
+  "SIMILAR": 166,
+  "SAME CATEGORY": 11,
+  "NOT RELEVANT": 3
+ },
+ "shortlist": [
+  {
+   "listing_id": "396020956760",
+   "tier": "EXACT MATCH",
+   "similarity": 0.667,
+   "result_page": 1,
+   "result_position": 72,
+   "item_cache": "02_Data/item_cache/396020956760.json",
+   "item_status": "OK"
+  },
+  {
+   "listing_id": "127043490441",
+   "tier": "EXACT MATCH",
+   "similarity": 0.417,
+   "result_page": 1,
+   "result_position": 67,
+   "item_cache": "02_Data/item_cache/127043490441.json",
+   "item_status": "OK"
+  },
+  {
+   "listing_id": "127940017791",
+   "tier": "EXACT MATCH",
+   "similarity": 0.417,
+   "result_page": 2,
+   "result_position": 27,
+   "item_cache": "02_Data/item_cache/127940017791.json",
+   "item_status": "OK"
+  },
+  {
+   "listing_id": "389368085243",
+   "tier": "EXACT MATCH",
+   "similarity": 0.417,
+   "result_page": 2,
+   "result_position": 40,
+   "item_cache": "02_Data/item_cache/389368085243.json",
+   "item_status": "OK"
+  },
+  {
+   "listing_id": "128026609612",
+   "tier": "SIMILAR",
+   "similarity": 0.333,
+   "result_page": 1,
+   "result_position": 2,
+   "item_cache": "02_Data/item_cache/128026609612.json",
+   "item_status": "OK"
+  },
+  {
+   "listing_id": "147482192876",
+   "tier": "SIMILAR",
+   "similarity": 0.333,
+   "result_page": 1,
+   "result_position": 5,
+   "item_cache": "02_Data/item_cache/147482192876.json",
+   "item_status": "OK"
+  }
+ ],
+ "final_competitors": [
+  {
+   "listing_id": "396020956760",
+   "seller": "creatbetterlifede",
+   "title": "E27 Vintage Industrial Wall Light Metal Brushed Adjustable Wall Sconce Lamp Skzy",
+   "url": "https://www.ebay.co.uk/itm/396020956760",
+   "search_page": 1,
+   "search_position": 72,
+   "product_match": "EXACT MATCH",
+   "similarity": 0.667,
+   "sold": "244 sold",
+   "sales_30_day": "NOT VERIFIED",
+   "description_checked": "Yes",
+   "item_location": "Leicestershire, United Kingdom",
+   "raw_search_page": "04_research/search_results/imported_2026-09-22/0d6d881454b3_p1.html",
+   "raw_item_page": "04_research/competitor_listings/imported_2026-09-22/item_396020956760.html",
+   "raw_description": "04_research/descriptions/imported_2026-09-22/desc_396020956760.txt",
+   "captured_at": "2026-09-22T06:12:44.967964+00:00"
+  },
+  {
+   "listing_id": "127043490441",
+   "seller": "ibrilliancehome",
+   "title": "16W Modern LED Wall Light Warm White Indoor Black Wall Sconce Lamp Living Room",
+   "url": "https://www.ebay.co.uk/itm/127043490441",
+   "search_page": 1,
+   "search_position": 67,
+   "product_match": "EXACT MATCH",
+   "similarity": 0.417,
+   "sold": "70 sold",
+   "sales_30_day": "NOT VERIFIED",
+   "description_checked": "Yes",
+   "item_location": "Dunstable, United Kingdom",
+   "raw_search_page": "04_research/search_results/imported_2026-09-22/0d6d881454b3_p1.html",
+   "raw_item_page": "04_research/competitor_listings/imported_2026-09-22/item_127043490441.html",
+   "raw_description": "04_research/descriptions/imported_2026-09-22/desc_127043490441.txt",
+   "captured_at": "2026-09-22T06:12:52.821788+00:00"
+  },
+  {
+   "listing_id": "389368085243",
+   "seller": "imodernlumos",
+   "title": "LED Wall Light Gold 3000K/4500K/6500K Indoor Lighting Fixture Moden Sconce Lamp",
+   "url": "https://www.ebay.co.uk/itm/389368085243",
+   "search_page": 2,
+   "search_position": 40,
+   "product_match": "EXACT MATCH",
+   "similarity": 0.417,
+   "sold": "33 sold",
+   "sales_30_day": "NOT VERIFIED",
+   "description_checked": "Yes",
+   "item_location": "Dunstable, United Kingdom",
+   "raw_search_page": "04_research/search_results/imported_2026-09-22/0d6d881454b3_p2.html",
+   "raw_item_page": "04_research/competitor_listings/imported_2026-09-22/item_389368085243.html",
+   "raw_description": "04_research/descriptions/imported_2026-09-22/desc_389368085243.txt",
+   "captured_at": "2026-09-22T06:13:17.228353+00:00"
+  },
+  {
+   "listing_id": "127940017791",
+   "seller": "ibrilliancehome",
+   "title": "2x Gold 40cm Modern LED Wall Light Warm White Wall Lamp Bedroom Indoor Sconce",
+   "url": "https://www.ebay.co.uk/itm/127940017791",
+   "search_page": 2,
+   "search_position": 27,
+   "product_match": "EXACT MATCH",
+   "similarity": 0.417,
+   "sold": "5 sold",
+   "sales_30_day": "NOT VERIFIED",
+   "description_checked": "Yes",
+   "item_location": "Dunstable, United Kingdom",
+   "raw_search_page": "04_research/search_results/imported_2026-09-22/0d6d881454b3_p2.html",
+   "raw_item_page": "04_research/competitor_listings/imported_2026-09-22/item_127940017791.html",
+   "raw_description": "04_research/descriptions/imported_2026-09-22/desc_127940017791.txt",
+   "captured_at": "2026-09-22T06:13:03.170769+00:00"
+  },
+  {
+   "listing_id": "147482192876",
+   "seller": "yntbuyagain",
+   "title": "Modern LED Wall Lamp Living Room Wall Light Bedroom Bedside Wall Sconce Lighting",
+   "url": "https://www.ebay.co.uk/itm/147482192876",
+   "search_page": 1,
+   "search_position": 5,
+   "product_match": "SIMILAR",
+   "similarity": 0.333,
+   "sold": "48 sold",
+   "sales_30_day": "NOT VERIFIED",
+   "description_checked": "Yes",
+   "item_location": "Birmingham, United Kingdom",
+   "raw_search_page": "04_research/search_results/imported_2026-09-22/0d6d881454b3_p1.html",
+   "raw_item_page": "04_research/competitor_listings/imported_2026-09-22/item_147482192876.html",
+   "raw_description": "04_research/descriptions/imported_2026-09-22/desc_147482192876.txt",
+   "captured_at": "2026-09-22T06:13:37.899280+00:00"
+  }
+ ],
+ "verification_status": "VERIFIED",
+ "research_status": "RESEARCHED",
+ "keywords": {
+  "Primary Keyword": [
+   {
+    "keyword": "Wall Light",
+    "keyword_rank": 5,
+    "of_competitors": 5,
+    "matches": [
+     {
+      "listing_id": "396020956760",
+      "found_in": [
+       "title",
+       "description"
+      ],
+      "snippet": "E27 Vintage Industrial Wall Light Metal Brushed Adjustable Wall Sconce La"
+     },
+     {
+      "listing_id": "127043490441",
+      "found_in": [
+       "title",
+       "description"
+      ],
+      "snippet": "16W Modern LED Wall Light Warm White Indoor Black Wall Sconce Lam"
+     },
+     {
+      "listing_id": "389368085243",
+      "found_in": [
+       "title",
+       "description"
+      ],
+      "snippet": "LED Wall Light Gold 3000K/4500K/6500K Indoor Lighting"
+     },
+     {
+      "listing_id": "127940017791",
+      "found_in": [
+       "title"
+      ],
+      "snippet": "2x Gold 40cm Modern LED Wall Light Warm White Wall Lamp Bedroom Indoor Sco"
+     },
+     {
+      "listing_id": "147482192876",
+      "found_in": [
+       "title",
+       "description"
+      ],
+      "snippet": "Modern LED Wall Lamp Living Room Wall Light Bedroom Bedside Wall Sconce Lighting"
+     }
+    ],
+    "titles_with_phrase": 5
+   }
+  ],
+  "Secondary Keywords": [
+   {
+    "keyword": "Sconce",
+    "keyword_rank": 5,
+    "of_competitors": 5,
+    "matches": [
+     {
+      "listing_id": "396020956760",
+      "found_in": [
+       "title",
+       "description"
+      ],
+      "snippet": "dustrial Wall Light Metal Brushed Adjustable Wall Sconce Lamp Skzy"
+     },
+     {
+      "listing_id": "127043490441",
+      "found_in": [
+       "title",
+       "description"
+      ],
+      "snippet": "odern LED Wall Light Warm White Indoor Black Wall Sconce Lamp Living Room"
+     },
+     {
+      "listing_id": "389368085243",
+      "found_in": [
+       "title",
+       "description"
+      ],
+      "snippet": "d 3000K/4500K/6500K Indoor Lighting Fixture Moden Sconce Lamp"
+     },
+     {
+      "listing_id": "127940017791",
+      "found_in": [
+       "title",
+       "description"
+      ],
+      "snippet": "ED Wall Light Warm White Wall Lamp Bedroom Indoor Sconce"
+     },
+     {
+      "listing_id": "147482192876",
+      "found_in": [
+       "title",
+       "description"
+      ],
+      "snippet": "Lamp Living Room Wall Light Bedroom Bedside Wall Sconce Lighting"
+     }
+    ],
+    "titles_with_phrase": 5
+   },
+   {
+    "keyword": "Lamp",
+    "keyword_rank": 5,
+    "of_competitors": 5,
+    "matches": [
+     {
+      "listing_id": "396020956760",
+      "found_in": [
+       "title",
+       "description"
+      ],
+      "snippet": "l Wall Light Metal Brushed Adjustable Wall Sconce Lamp Skzy"
+     },
+     {
+      "listing_id": "127043490441",
+      "found_in": [
+       "title",
+       "description"
+      ],
+      "snippet": "ED Wall Light Warm White Indoor Black Wall Sconce Lamp Living Room"
+     },
+     {
+      "listing_id": "389368085243",
+      "found_in": [
+       "title",
+       "description"
+      ],
+      "snippet": "/4500K/6500K Indoor Lighting Fixture Moden Sconce Lamp"
+     },
+     {
+      "listing_id": "127940017791",
+      "found_in": [
+       "title",
+       "description"
+      ],
+      "snippet": "x Gold 40cm Modern LED Wall Light Warm White Wall Lamp Bedroom Indoor Sconce"
+     },
+     {
+      "listing_id": "147482192876",
+      "found_in": [
+       "title",
+       "description"
+      ],
+      "snippet": "Modern LED Wall Lamp Living Room Wall Light Bedroom Bedside"
+     }
+    ],
+    "titles_with_phrase": 5
+   },
+   {
+    "keyword": "LED Wall",
+    "keyword_rank": 4,
+    "of_competitors": 5,
+    "matches": [
+     {
+      "listing_id": "127043490441",
+      "found_in": [
+       "title",
+       "description"
+      ],
+      "snippet": "16W Modern LED Wall Light Warm White Indoor Black Wall Scon"
+     },
+     {
+      "listing_id": "389368085243",
+      "found_in": [
+       "title",
+       "description"
+      ],
+      "snippet": "LED Wall Light Gold 3000K/4500K/6500K Indoor Lig"
+     },
+     {
+      "listing_id": "127940017791",
+      "found_in": [
+       "title",
+       "description"
+      ],
+      "snippet": "2x Gold 40cm Modern LED Wall Light Warm White Wall Lamp Bedroom Indo"
+     },
+     {
+      "listing_id": "147482192876",
+      "found_in": [
+       "title",
+       "description"
+      ],
+      "snippet": "Modern LED Wall Lamp Living Room Wall Light Bedroom Bed"
+     }
+    ],
+    "titles_with_phrase": 4
+   }
+  ],
+  "Long-Tail Keywords": [
+   {
+    "keyword": "Modern LED Wall",
+    "keyword_rank": 3,
+    "of_competitors": 5,
+    "matches": [
+     {
+      "listing_id": "127043490441",
+      "found_in": [
+       "title"
+      ],
+      "snippet": "16W Modern LED Wall Light Warm White Indoor Black Wall Scon"
+     },
+     {
+      "listing_id": "127940017791",
+      "found_in": [
+       "title"
+      ],
+      "snippet": "2x Gold 40cm Modern LED Wall Light Warm White Wall Lamp Bedroom Indo"
+     },
+     {
+      "listing_id": "147482192876",
+      "found_in": [
+       "title",
+       "description"
+      ],
+      "snippet": "Modern LED Wall Lamp Living Room Wall Light Bedroom Bed"
+     }
+    ],
+    "titles_with_phrase": 3
+   },
+   {
+    "keyword": "LED Wall Light",
+    "keyword_rank": 3,
+    "of_competitors": 5,
+    "matches": [
+     {
+      "listing_id": "127043490441",
+      "found_in": [
+       "title",
+       "description"
+      ],
+      "snippet": "16W Modern LED Wall Light Warm White Indoor Black Wall Sconce Lam"
+     },
+     {
+      "listing_id": "389368085243",
+      "found_in": [
+       "title",
+       "description"
+      ],
+      "snippet": "LED Wall Light Gold 3000K/4500K/6500K Indoor Lighting"
+     },
+     {
+      "listing_id": "127940017791",
+      "found_in": [
+       "title"
+      ],
+      "snippet": "2x Gold 40cm Modern LED Wall Light Warm White Wall Lamp Bedroom Indoor Sco"
+     }
+    ],
+    "titles_with_phrase": 3
+   },
+   {
+    "keyword": "Modern LED Wall Light Warm",
+    "keyword_rank": 2,
+    "of_competitors": 5,
+    "matches": [
+     {
+      "listing_id": "127043490441",
+      "found_in": [
+       "title"
+      ],
+      "snippet": "16W Modern LED Wall Light Warm White Indoor Black Wall Sconce Lamp Liv"
+     },
+     {
+      "listing_id": "127940017791",
+      "found_in": [
+       "title"
+      ],
+      "snippet": "2x Gold 40cm Modern LED Wall Light Warm White Wall Lamp Bedroom Indoor Sconce"
+     }
+    ],
+    "titles_with_phrase": 2
+   }
+  ],
+  "Competitor Keywords": [
+   {
+    "keyword": "Wall Sconce",
+    "keyword_rank": 5,
+    "of_competitors": 5,
+    "matches": [
+     {
+      "listing_id": "396020956760",
+      "found_in": [
+       "title",
+       "description"
+      ],
+      "snippet": "ge Industrial Wall Light Metal Brushed Adjustable Wall Sconce Lamp Skzy"
+     },
+     {
+      "listing_id": "127043490441",
+      "found_in": [
+       "title",
+       "description"
+      ],
+      "snippet": "16W Modern LED Wall Light Warm White Indoor Black Wall Sconce Lamp Living Room"
+     },
+     {
+      "listing_id": "389368085243",
+      "found_in": [
+       "description"
+      ],
+      "snippet": "ndoor Lighting Fixture Moden Sconce Lamp 3-Colors wall sconce : This modern indoor wall sconce can be"
+     },
+     {
+      "listing_id": "127940017791",
+      "found_in": [
+       "description"
+      ],
+      "snippet": "2pcs Elegant Warm White 3000K LED Wall Sconce Description: Elegant Modern Design: Thi"
+     },
+     {
+      "listing_id": "147482192876",
+      "found_in": [
+       "title",
+       "description"
+      ],
+      "snippet": "Wall Lamp Living Room Wall Light Bedroom Bedside Wall Sconce Lighting"
+     }
+    ],
+    "titles_with_phrase": 3
+   },
+   {
+    "keyword": "Indoor",
+    "keyword_rank": 4,
+    "of_competitors": 5,
+    "matches": [
+     {
+      "listing_id": "127043490441",
+      "found_in": [
+       "title",
+       "description"
+      ],
+      "snippet": "16W Modern LED Wall Light Warm White Indoor Black Wall Sconce Lamp Living Room"
+     },
+     {
+      "listing_id": "389368085243",
+      "found_in": [
+       "title",
+       "description"
+      ],
+      "snippet": "LED Wall Light Gold 3000K/4500K/6500K Indoor Lighting Fixture Moden Sconce Lamp"
+     },
+     {
+      "listing_id": "127940017791",
+      "found_in": [
+       "title",
+       "description"
+      ],
+      "snippet": "odern LED Wall Light Warm White Wall Lamp Bedroom Indoor Sconce"
+     },
+     {
+      "listing_id": "147482192876",
+      "found_in": [
+       "description"
+      ],
+      "snippet": "Wall Lamp Sensor Type : Light Installation Area : Indoor Room : Any Room Lighting Technology : L"
+     }
+    ],
+    "titles_with_phrase": 3
+   },
+   {
+    "keyword": "LED Wall Light Warm White",
+    "keyword_rank": 2,
+    "of_competitors": 5,
+    "matches": [
+     {
+      "listing_id": "127043490441",
+      "found_in": [
+       "title"
+      ],
+      "snippet": "16W Modern LED Wall Light Warm White Indoor Black Wall Sconce Lamp Living Ro"
+     },
+     {
+      "listing_id": "127940017791",
+      "found_in": [
+       "title"
+      ],
+      "snippet": "2x Gold 40cm Modern LED Wall Light Warm White Wall Lamp Bedroom Indoor Sconce"
+     }
+    ],
+    "titles_with_phrase": 2
+   }
+  ]
+ },
+ "import_check": {
+  "keywords_and_ranks_equal_old_project": true,
+  "old": "same"
+ }
+}

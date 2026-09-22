@@ -1,0 +1,5 @@
+2026-09-22 15:39:35,593 INFO [PREFLIGHT] DONE scope=OK source_db_env=True ph_env=['PGHOST', 'PGPORT', 'PGDATABASE', 'PGUSER', 'PGPASSWORD'] browser_cdp=NOT REACHABLE (URLError)
+2026-09-22 15:39:37,342 INFO [VALIDATE_SOURCE] PASS issues={'267791295531': ["SKU placeholder/empty on parent row ('sku not assigneds')"], '267765767284': ["SKU placeholder/empty on parent row ('sku not assigneds')"], '267687534749': ["SKU placeholder/empty on parent row ('sku not assigneds')"]}
+2026-09-22 15:39:38,367 INFO [RESEARCH] PLAN todo=12 skipped=0
+2026-09-22 15:39:47,464 INFO [VALIDATE_OUTPUT] FAIL critical=2 warnings=1
+2026-09-22 15:39:47,467 INFO [RUN] DRY_RUN_FAILED summary=evidence/research_logs/2026-09-22/dry_run_summary_20260922T100933Z-135c.json

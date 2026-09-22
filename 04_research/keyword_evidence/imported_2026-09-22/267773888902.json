@@ -1,0 +1,640 @@
+{
+ "product_id": "267773888902",
+ "sku": "Plug-In Wall Light Bedroom Bedside Living Room",
+ "product_name": "Modern LED Wall Light Bedroom Bedside Living Room Wall Sconce Lamp",
+ "origin": "IMPORTED",
+ "imported_from": "C:\\Users\\LED 222\\Keywords check\\02_Data\\requested\\ids\\267773888902.json",
+ "run_id": "imported-2026-09-22",
+ "run_date": "2026-09-22",
+ "product_subtype": "Wall Light",
+ "mapping_source": "OLD PROJECT: listings.ebay_listings.title phrase 'Modern LED Wall Light' (no SOT sub-type)",
+ "search_term": "LED Wall Light",
+ "search_term_rule": "OLD title-derived rule (superseded 2026-09-22 by SOT -> eBay category rule)",
+ "exit_ip": {
+  "ip": "145.239.6.2",
+  "country": "GB",
+  "city": "London",
+  "org": "AS16276 OVH SAS"
+ },
+ "started_at": "2026-09-22T06:46:03.753755+00:00",
+ "captured_at": "2026-09-22T06:46:03.753755+00:00",
+ "finished_at": "2026-09-22T06:46:09.785826+00:00",
+ "search_evidence": {
+  "search_capture": null,
+  "captured_at": "2026-09-22T06:46:03.753755+00:00",
+  "pages": [
+   {
+    "page": 1,
+    "url": "https://www.ebay.co.uk/sch/i.html?_nkw=LED+Wall+Light&LH_BIN=1&LH_ItemCondition=3&LH_PrefLoc=1&_pgn=1",
+    "http_status": 200,
+    "raw_html": "04_research/search_results/imported_2026-09-22/0d6d881454b3_p1.html"
+   },
+   {
+    "page": 2,
+    "url": "https://www.ebay.co.uk/sch/i.html?_nkw=LED+Wall+Light&LH_BIN=1&LH_ItemCondition=3&LH_PrefLoc=1&_pgn=2",
+    "http_status": 200,
+    "raw_html": "04_research/search_results/imported_2026-09-22/0d6d881454b3_p2.html"
+   },
+   {
+    "page": 3,
+    "url": "https://www.ebay.co.uk/sch/i.html?_nkw=LED+Wall+Light&LH_BIN=1&LH_ItemCondition=3&LH_PrefLoc=1&_pgn=3",
+    "http_status": 200,
+    "raw_html": "04_research/search_results/imported_2026-09-22/0d6d881454b3_p3.html"
+   }
+  ],
+  "complete": true
+ },
+ "screening_profile": {
+  "alternatives": [
+   [
+    "wall",
+    "light"
+   ]
+  ],
+  "heads": [
+   "light"
+  ],
+  "own_title_tokens": [
+   "modern",
+   "wall",
+   "light",
+   "bedroom",
+   "bedside",
+   "living",
+   "room",
+   "sconce",
+   "lamp"
+  ]
+ },
+ "candidates": 190,
+ "internal_excluded": 6,
+ "tier_counts": {
+  "EXACT MATCH": 101,
+  "SIMILAR": 69,
+  "SAME CATEGORY": 11,
+  "NOT RELEVANT": 3
+ },
+ "shortlist": [
+  {
+   "listing_id": "147482192876",
+   "tier": "EXACT MATCH",
+   "similarity": 1.0,
+   "result_page": 1,
+   "result_position": 5,
+   "item_cache": "02_Data/item_cache/147482192876.json",
+   "item_status": "OK"
+  },
+  {
+   "listing_id": "407120014034",
+   "tier": "EXACT MATCH",
+   "similarity": 1.0,
+   "result_page": 1,
+   "result_position": 39,
+   "item_cache": "02_Data/item_cache/407120014034.json",
+   "item_status": "OK"
+  },
+  {
+   "listing_id": "178356490811",
+   "tier": "EXACT MATCH",
+   "similarity": 1.0,
+   "result_page": 3,
+   "result_position": 10,
+   "item_cache": "02_Data/item_cache/178356490811.json",
+   "item_status": "OK"
+  },
+  {
+   "listing_id": "398378833887",
+   "tier": "EXACT MATCH",
+   "similarity": 0.889,
+   "result_page": 1,
+   "result_position": 51,
+   "item_cache": "02_Data/item_cache/398378833887.json",
+   "item_status": "OK"
+  },
+  {
+   "listing_id": "318823776714",
+   "tier": "EXACT MATCH",
+   "similarity": 0.889,
+   "result_page": 1,
+   "result_position": 58,
+   "item_cache": "02_Data/item_cache/318823776714.json",
+   "item_status": "OK"
+  },
+  {
+   "listing_id": "388976802157",
+   "tier": "EXACT MATCH",
+   "similarity": 0.889,
+   "result_page": 1,
+   "result_position": 74,
+   "item_cache": "02_Data/item_cache/388976802157.json",
+   "item_status": "OK"
+  }
+ ],
+ "final_competitors": [
+  {
+   "listing_id": "388976802157",
+   "seller": "imodernlumos",
+   "title": "Modern LED Wall Lights Strip ndoor Wall Sconce Lamp Hallway Bedroom Living Room",
+   "url": "https://www.ebay.co.uk/itm/388976802157",
+   "search_page": 1,
+   "search_position": 74,
+   "product_match": "EXACT MATCH",
+   "similarity": 0.889,
+   "sold": "53 sold",
+   "sales_30_day": "NOT VERIFIED",
+   "description_checked": "Yes",
+   "item_location": "Dunstable, United Kingdom",
+   "raw_search_page": "04_research/search_results/imported_2026-09-22/0d6d881454b3_p1.html",
+   "raw_item_page": "04_research/competitor_listings/imported_2026-09-22/item_388976802157.html",
+   "raw_description": "04_research/descriptions/imported_2026-09-22/desc_388976802157.txt",
+   "captured_at": "2026-09-22T06:17:05.245095+00:00"
+  },
+  {
+   "listing_id": "147482192876",
+   "seller": "yntbuyagain",
+   "title": "Modern LED Wall Lamp Living Room Wall Light Bedroom Bedside Wall Sconce Lighting",
+   "url": "https://www.ebay.co.uk/itm/147482192876",
+   "search_page": 1,
+   "search_position": 5,
+   "product_match": "EXACT MATCH",
+   "similarity": 1.0,
+   "sold": "48 sold",
+   "sales_30_day": "NOT VERIFIED",
+   "description_checked": "Yes",
+   "item_location": "Birmingham, United Kingdom",
+   "raw_search_page": "04_research/search_results/imported_2026-09-22/0d6d881454b3_p1.html",
+   "raw_item_page": "04_research/competitor_listings/imported_2026-09-22/item_147482192876.html",
+   "raw_description": "04_research/descriptions/imported_2026-09-22/desc_147482192876.txt",
+   "captured_at": "2026-09-22T06:13:37.899280+00:00"
+  },
+  {
+   "listing_id": "398378833887",
+   "seller": "nottingshop",
+   "title": "32cm Modern LED Wall Light Sconce Linear Bar Lamp Bedroom Living Room Indoor",
+   "url": "https://www.ebay.co.uk/itm/398378833887",
+   "search_page": 1,
+   "search_position": 51,
+   "product_match": "EXACT MATCH",
+   "similarity": 0.889,
+   "sold": "5 sold",
+   "sales_30_day": "NOT VERIFIED",
+   "description_checked": "Yes",
+   "item_location": "Nottingham, United Kingdom",
+   "raw_search_page": "04_research/search_results/imported_2026-09-22/0d6d881454b3_p1.html",
+   "raw_item_page": "04_research/competitor_listings/imported_2026-09-22/item_398378833887.html",
+   "raw_description": "04_research/descriptions/imported_2026-09-22/desc_398378833887.txt",
+   "captured_at": "2026-09-22T06:16:45.902526+00:00"
+  },
+  {
+   "listing_id": "178356490811",
+   "seller": "usmayflower6",
+   "title": "Modern LED Wall Lamp Living Room Wall Light Bedroom Bedside Wall Sconce Lighting",
+   "url": "https://www.ebay.co.uk/itm/178356490811",
+   "search_page": 3,
+   "search_position": 10,
+   "product_match": "EXACT MATCH",
+   "similarity": 1.0,
+   "sold": "3 sold",
+   "sales_30_day": "NOT VERIFIED",
+   "description_checked": "Yes",
+   "item_location": "Birmingham, United Kingdom",
+   "raw_search_page": "04_research/search_results/imported_2026-09-22/0d6d881454b3_p3.html",
+   "raw_item_page": "04_research/competitor_listings/imported_2026-09-22/item_178356490811.html",
+   "raw_description": "04_research/descriptions/imported_2026-09-22/desc_178356490811.txt",
+   "captured_at": "2026-09-22T06:16:34.326249+00:00"
+  },
+  {
+   "listing_id": "407120014034",
+   "seller": "afforshopsw",
+   "title": "Modern LED Wall Lamp Living Room Wall Light Bedroom Bedside Wall Sconce Lighting",
+   "url": "https://www.ebay.co.uk/itm/407120014034",
+   "search_page": 1,
+   "search_position": 39,
+   "product_match": "EXACT MATCH",
+   "similarity": 1.0,
+   "sold": "2 sold",
+   "sales_30_day": "NOT VERIFIED",
+   "description_checked": "Yes",
+   "item_location": "Birmingham, United Kingdom",
+   "raw_search_page": "04_research/search_results/imported_2026-09-22/0d6d881454b3_p1.html",
+   "raw_item_page": "04_research/competitor_listings/imported_2026-09-22/item_407120014034.html",
+   "raw_description": "04_research/descriptions/imported_2026-09-22/desc_407120014034.txt",
+   "captured_at": "2026-09-22T06:16:23.622615+00:00"
+  }
+ ],
+ "verification_status": "VERIFIED",
+ "research_status": "RESEARCHED",
+ "keywords": {
+  "Primary Keyword": [
+   {
+    "keyword": "Wall Light",
+    "keyword_rank": 5,
+    "of_competitors": 5,
+    "matches": [
+     {
+      "listing_id": "388976802157",
+      "found_in": [
+       "title",
+       "description"
+      ],
+      "snippet": "Modern LED Wall Lights Strip ndoor Wall Sconce Lamp Hallway Be"
+     },
+     {
+      "listing_id": "147482192876",
+      "found_in": [
+       "title",
+       "description"
+      ],
+      "snippet": "Modern LED Wall Lamp Living Room Wall Light Bedroom Bedside Wall Sconce Lighting"
+     },
+     {
+      "listing_id": "398378833887",
+      "found_in": [
+       "title",
+       "description"
+      ],
+      "snippet": "32cm Modern LED Wall Light Sconce Linear Bar Lamp Bedroom Living R"
+     },
+     {
+      "listing_id": "178356490811",
+      "found_in": [
+       "title",
+       "description"
+      ],
+      "snippet": "Modern LED Wall Lamp Living Room Wall Light Bedroom Bedside Wall Sconce Lighting"
+     },
+     {
+      "listing_id": "407120014034",
+      "found_in": [
+       "title",
+       "description"
+      ],
+      "snippet": "Modern LED Wall Lamp Living Room Wall Light Bedroom Bedside Wall Sconce Lighting"
+     }
+    ],
+    "titles_with_phrase": 5
+   }
+  ],
+  "Secondary Keywords": [
+   {
+    "keyword": "Living Room",
+    "keyword_rank": 5,
+    "of_competitors": 5,
+    "matches": [
+     {
+      "listing_id": "388976802157",
+      "found_in": [
+       "title",
+       "description"
+      ],
+      "snippet": "ghts Strip ndoor Wall Sconce Lamp Hallway Bedroom Living Room"
+     },
+     {
+      "listing_id": "147482192876",
+      "found_in": [
+       "title",
+       "description"
+      ],
+      "snippet": "Modern LED Wall Lamp Living Room Wall Light Bedroom Bedside Wall Sconce"
+     },
+     {
+      "listing_id": "398378833887",
+      "found_in": [
+       "title",
+       "description"
+      ],
+      "snippet": "ern LED Wall Light Sconce Linear Bar Lamp Bedroom Living Room Indoor"
+     },
+     {
+      "listing_id": "178356490811",
+      "found_in": [
+       "title",
+       "description"
+      ],
+      "snippet": "Modern LED Wall Lamp Living Room Wall Light Bedroom Bedside Wall Sconce"
+     },
+     {
+      "listing_id": "407120014034",
+      "found_in": [
+       "title",
+       "description"
+      ],
+      "snippet": "Modern LED Wall Lamp Living Room Wall Light Bedroom Bedside Wall Sconce"
+     }
+    ],
+    "titles_with_phrase": 5
+   },
+   {
+    "keyword": "Sconce",
+    "keyword_rank": 5,
+    "of_competitors": 5,
+    "matches": [
+     {
+      "listing_id": "388976802157",
+      "found_in": [
+       "title",
+       "description"
+      ],
+      "snippet": "Modern LED Wall Lights Strip ndoor Wall Sconce Lamp Hallway Bedroom Living Room"
+     },
+     {
+      "listing_id": "147482192876",
+      "found_in": [
+       "title",
+       "description"
+      ],
+      "snippet": "Lamp Living Room Wall Light Bedroom Bedside Wall Sconce Lighting"
+     },
+     {
+      "listing_id": "398378833887",
+      "found_in": [
+       "title",
+       "description"
+      ],
+      "snippet": "32cm Modern LED Wall Light Sconce Linear Bar Lamp Bedroom Living Room Ind"
+     },
+     {
+      "listing_id": "178356490811",
+      "found_in": [
+       "title",
+       "description"
+      ],
+      "snippet": "Lamp Living Room Wall Light Bedroom Bedside Wall Sconce Lighting"
+     },
+     {
+      "listing_id": "407120014034",
+      "found_in": [
+       "title",
+       "description"
+      ],
+      "snippet": "Lamp Living Room Wall Light Bedroom Bedside Wall Sconce Lighting"
+     }
+    ],
+    "titles_with_phrase": 5
+   },
+   {
+    "keyword": "Lamp",
+    "keyword_rank": 5,
+    "of_competitors": 5,
+    "matches": [
+     {
+      "listing_id": "388976802157",
+      "found_in": [
+       "title",
+       "description"
+      ],
+      "snippet": "Modern LED Wall Lights Strip ndoor Wall Sconce Lamp Hallway Bedroom Living Room"
+     },
+     {
+      "listing_id": "147482192876",
+      "found_in": [
+       "title",
+       "description"
+      ],
+      "snippet": "Modern LED Wall Lamp Living Room Wall Light Bedroom Bedside"
+     },
+     {
+      "listing_id": "398378833887",
+      "found_in": [
+       "title",
+       "description"
+      ],
+      "snippet": "32cm Modern LED Wall Light Sconce Linear Bar Lamp Bedroom Living Room Indoor"
+     },
+     {
+      "listing_id": "178356490811",
+      "found_in": [
+       "title",
+       "description"
+      ],
+      "snippet": "Modern LED Wall Lamp Living Room Wall Light Bedroom Bedside"
+     },
+     {
+      "listing_id": "407120014034",
+      "found_in": [
+       "title",
+       "description"
+      ],
+      "snippet": "Modern LED Wall Lamp Living Room Wall Light Bedroom Bedside"
+     }
+    ],
+    "titles_with_phrase": 5
+   }
+  ],
+  "Long-Tail Keywords": [
+   {
+    "keyword": "Modern LED Wall",
+    "keyword_rank": 5,
+    "of_competitors": 5,
+    "matches": [
+     {
+      "listing_id": "388976802157",
+      "found_in": [
+       "title",
+       "description"
+      ],
+      "snippet": "Modern LED Wall Lights Strip ndoor Wall Sconce Lamp Hal"
+     },
+     {
+      "listing_id": "147482192876",
+      "found_in": [
+       "title",
+       "description"
+      ],
+      "snippet": "Modern LED Wall Lamp Living Room Wall Light Bedroom Bed"
+     },
+     {
+      "listing_id": "398378833887",
+      "found_in": [
+       "title"
+      ],
+      "snippet": "32cm Modern LED Wall Light Sconce Linear Bar Lamp Bedroom Li"
+     },
+     {
+      "listing_id": "178356490811",
+      "found_in": [
+       "title",
+       "description"
+      ],
+      "snippet": "Modern LED Wall Lamp Living Room Wall Light Bedroom Bed"
+     },
+     {
+      "listing_id": "407120014034",
+      "found_in": [
+       "title",
+       "description"
+      ],
+      "snippet": "Modern LED Wall Lamp Living Room Wall Light Bedroom Bed"
+     }
+    ],
+    "titles_with_phrase": 5
+   },
+   {
+    "keyword": "Modern LED Wall Lamp Living",
+    "keyword_rank": 3,
+    "of_competitors": 5,
+    "matches": [
+     {
+      "listing_id": "147482192876",
+      "found_in": [
+       "title",
+       "description"
+      ],
+      "snippet": "Modern LED Wall Lamp Living Room Wall Light Bedroom Bedside Wall Sc"
+     },
+     {
+      "listing_id": "178356490811",
+      "found_in": [
+       "title",
+       "description"
+      ],
+      "snippet": "Modern LED Wall Lamp Living Room Wall Light Bedroom Bedside Wall Sc"
+     },
+     {
+      "listing_id": "407120014034",
+      "found_in": [
+       "title",
+       "description"
+      ],
+      "snippet": "Modern LED Wall Lamp Living Room Wall Light Bedroom Bedside Wall Sc"
+     }
+    ],
+    "titles_with_phrase": 3
+   },
+   {
+    "keyword": "LED Wall Lamp Living Room",
+    "keyword_rank": 3,
+    "of_competitors": 5,
+    "matches": [
+     {
+      "listing_id": "147482192876",
+      "found_in": [
+       "title",
+       "description"
+      ],
+      "snippet": "Modern LED Wall Lamp Living Room Wall Light Bedroom Bedside Wall Sconce"
+     },
+     {
+      "listing_id": "178356490811",
+      "found_in": [
+       "title",
+       "description"
+      ],
+      "snippet": "Modern LED Wall Lamp Living Room Wall Light Bedroom Bedside Wall Sconce"
+     },
+     {
+      "listing_id": "407120014034",
+      "found_in": [
+       "title",
+       "description"
+      ],
+      "snippet": "Modern LED Wall Lamp Living Room Wall Light Bedroom Bedside Wall Sconce"
+     }
+    ],
+    "titles_with_phrase": 3
+   }
+  ],
+  "Competitor Keywords": [
+   {
+    "keyword": "Wall Lamp Living Room Wall",
+    "keyword_rank": 3,
+    "of_competitors": 5,
+    "matches": [
+     {
+      "listing_id": "147482192876",
+      "found_in": [
+       "title",
+       "description"
+      ],
+      "snippet": "Modern LED Wall Lamp Living Room Wall Light Bedroom Bedside Wall Sconce Light"
+     },
+     {
+      "listing_id": "178356490811",
+      "found_in": [
+       "title",
+       "description"
+      ],
+      "snippet": "Modern LED Wall Lamp Living Room Wall Light Bedroom Bedside Wall Sconce Light"
+     },
+     {
+      "listing_id": "407120014034",
+      "found_in": [
+       "title",
+       "description"
+      ],
+      "snippet": "Modern LED Wall Lamp Living Room Wall Light Bedroom Bedside Wall Sconce Light"
+     }
+    ],
+    "titles_with_phrase": 3
+   },
+   {
+    "keyword": "Lamp Living Room Wall Light",
+    "keyword_rank": 3,
+    "of_competitors": 5,
+    "matches": [
+     {
+      "listing_id": "147482192876",
+      "found_in": [
+       "title",
+       "description"
+      ],
+      "snippet": "Modern LED Wall Lamp Living Room Wall Light Bedroom Bedside Wall Sconce Lighting"
+     },
+     {
+      "listing_id": "178356490811",
+      "found_in": [
+       "title",
+       "description"
+      ],
+      "snippet": "Modern LED Wall Lamp Living Room Wall Light Bedroom Bedside Wall Sconce Lighting"
+     },
+     {
+      "listing_id": "407120014034",
+      "found_in": [
+       "title",
+       "description"
+      ],
+      "snippet": "Modern LED Wall Lamp Living Room Wall Light Bedroom Bedside Wall Sconce Lighting"
+     }
+    ],
+    "titles_with_phrase": 3
+   },
+   {
+    "keyword": "Living Room Wall Light Bedroom",
+    "keyword_rank": 3,
+    "of_competitors": 5,
+    "matches": [
+     {
+      "listing_id": "147482192876",
+      "found_in": [
+       "title",
+       "description"
+      ],
+      "snippet": "Modern LED Wall Lamp Living Room Wall Light Bedroom Bedside Wall Sconce Lighting"
+     },
+     {
+      "listing_id": "178356490811",
+      "found_in": [
+       "title",
+       "description"
+      ],
+      "snippet": "Modern LED Wall Lamp Living Room Wall Light Bedroom Bedside Wall Sconce Lighting"
+     },
+     {
+      "listing_id": "407120014034",
+      "found_in": [
+       "title",
+       "description"
+      ],
+      "snippet": "Modern LED Wall Lamp Living Room Wall Light Bedroom Bedside Wall Sconce Lighting"
+     }
+    ],
+    "titles_with_phrase": 3
+   }
+  ]
+ },
+ "import_check": {
+  "keywords_and_ranks_equal_old_project": true,
+  "old": "same"
+ }
+}

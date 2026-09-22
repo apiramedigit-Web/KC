@@ -1,0 +1,600 @@
+{
+ "product_id": "267687534749",
+ "sku": "sku not assigneds",
+ "product_name": "2 Pack Industrial Pendant Light Shades 18cm E27 Kitchen Ceiling Lamp Shade Set",
+ "origin": "IMPORTED",
+ "imported_from": "C:\\Users\\LED 222\\Keywords check\\02_Data\\requested\\ids\\267687534749.json",
+ "run_id": "imported-2026-09-22",
+ "run_date": "2026-09-22",
+ "product_subtype": "LampShade",
+ "mapping_source": "OLD PROJECT: listings.ebay_listings.title phrase 'Industrial Pendant Light Shades' (no SOT sub-type)",
+ "search_term": "LED LampShade",
+ "search_term_rule": "OLD title-derived rule (superseded 2026-09-22 by SOT -> eBay category rule)",
+ "exit_ip": {
+  "ip": "145.239.6.2",
+  "country": "GB",
+  "city": "London",
+  "org": "AS16276 OVH SAS"
+ },
+ "started_at": "2026-09-22T06:46:46.120790+00:00",
+ "captured_at": "2026-09-22T06:46:46.120790+00:00",
+ "finished_at": "2026-09-22T06:46:52.183076+00:00",
+ "search_evidence": {
+  "search_capture": null,
+  "captured_at": "2026-09-22T06:46:46.120790+00:00",
+  "pages": [
+   {
+    "page": 1,
+    "url": "https://www.ebay.co.uk/sch/i.html?_nkw=LED+LampShade&LH_BIN=1&LH_ItemCondition=3&LH_PrefLoc=1&_pgn=1",
+    "http_status": 200,
+    "raw_html": "04_research/search_results/imported_2026-09-22/7639606316af_p1.html"
+   },
+   {
+    "page": 2,
+    "url": "https://www.ebay.co.uk/sch/i.html?_nkw=LED+LampShade&LH_BIN=1&LH_ItemCondition=3&LH_PrefLoc=1&_pgn=2",
+    "http_status": 200,
+    "raw_html": "04_research/search_results/imported_2026-09-22/7639606316af_p2.html"
+   },
+   {
+    "page": 3,
+    "url": "https://www.ebay.co.uk/sch/i.html?_nkw=LED+LampShade&LH_BIN=1&LH_ItemCondition=3&LH_PrefLoc=1&_pgn=3",
+    "http_status": 200,
+    "raw_html": "04_research/search_results/imported_2026-09-22/7639606316af_p3.html"
+   }
+  ],
+  "complete": true
+ },
+ "screening_profile": {
+  "alternatives": [
+   [
+    "lampshade"
+   ]
+  ],
+  "heads": [
+   "lampshade"
+  ],
+  "own_title_tokens": [
+   "pack",
+   "industrial",
+   "pendant",
+   "light",
+   "shades",
+   "18cm",
+   "e27",
+   "kitchen",
+   "ceiling",
+   "lamp",
+   "shade",
+   "set"
+  ]
+ },
+ "candidates": 185,
+ "internal_excluded": 52,
+ "tier_counts": {
+  "EXACT MATCH": 80,
+  "SIMILAR": 27,
+  "SAME CATEGORY": 15,
+  "NOT RELEVANT": 11
+ },
+ "shortlist": [
+  {
+   "listing_id": "372257190104",
+   "tier": "EXACT MATCH",
+   "similarity": 0.583,
+   "result_page": 1,
+   "result_position": 24,
+   "item_cache": "02_Data/item_cache/372257190104.json",
+   "item_status": "OK"
+  },
+  {
+   "listing_id": "375477789578",
+   "tier": "EXACT MATCH",
+   "similarity": 0.583,
+   "result_page": 1,
+   "result_position": 56,
+   "item_cache": "02_Data/item_cache/375477789578.json",
+   "item_status": "OK"
+  },
+  {
+   "listing_id": "232708905363",
+   "tier": "EXACT MATCH",
+   "similarity": 0.583,
+   "result_page": 2,
+   "result_position": 56,
+   "item_cache": "02_Data/item_cache/232708905363.json",
+   "item_status": "OK"
+  },
+  {
+   "listing_id": "355751536067",
+   "tier": "EXACT MATCH",
+   "similarity": 0.5,
+   "result_page": 1,
+   "result_position": 8,
+   "item_cache": "02_Data/item_cache/355751536067.json",
+   "item_status": "OK"
+  },
+  {
+   "listing_id": "232708902506",
+   "tier": "EXACT MATCH",
+   "similarity": 0.5,
+   "result_page": 1,
+   "result_position": 36,
+   "item_cache": "02_Data/item_cache/232708902506.json",
+   "item_status": "OK"
+  },
+  {
+   "listing_id": "174653483247",
+   "tier": "EXACT MATCH",
+   "similarity": 0.5,
+   "result_page": 1,
+   "result_position": 37,
+   "item_cache": "02_Data/item_cache/174653483247.json",
+   "item_status": "OK"
+  }
+ ],
+ "final_competitors": [
+  {
+   "listing_id": "372257190104",
+   "seller": "ValueLights",
+   "title": "Ceiling Light Shade Geometric Pendant Lampshade Lamp Industrial Cage Vintage LED",
+   "url": "https://www.ebay.co.uk/itm/372257190104",
+   "search_page": 1,
+   "search_position": 24,
+   "product_match": "EXACT MATCH",
+   "similarity": 0.583,
+   "sold": "11,841 sold",
+   "sales_30_day": "NOT VERIFIED",
+   "description_checked": "Yes",
+   "item_location": "Manchester, United Kingdom",
+   "raw_search_page": "04_research/search_results/imported_2026-09-22/7639606316af_p1.html",
+   "raw_item_page": "04_research/competitor_listings/imported_2026-09-22/item_372257190104.html",
+   "raw_description": "04_research/descriptions/imported_2026-09-22/desc_372257190104.txt",
+   "captured_at": "2026-09-22T06:22:38.238649+00:00"
+  },
+  {
+   "listing_id": "232708902506",
+   "seller": "ValueLights",
+   "title": "35cm Tiered Ceiling Pendant Light Shade Easy Fit Fabric Lampshade LED Bulb Lamp",
+   "url": "https://www.ebay.co.uk/itm/232708902506",
+   "search_page": 1,
+   "search_position": 36,
+   "product_match": "EXACT MATCH",
+   "similarity": 0.5,
+   "sold": "4,358 sold",
+   "sales_30_day": "NOT VERIFIED",
+   "description_checked": "Yes",
+   "item_location": "Manchester, United Kingdom",
+   "raw_search_page": "04_research/search_results/imported_2026-09-22/7639606316af_p1.html",
+   "raw_item_page": "04_research/competitor_listings/imported_2026-09-22/item_232708902506.html",
+   "raw_description": "04_research/descriptions/imported_2026-09-22/desc_232708902506.txt",
+   "captured_at": "2026-09-22T06:24:14.517598+00:00"
+  },
+  {
+   "listing_id": "174653483247",
+   "seller": "santa.online24",
+   "title": "COTTON COOLIE LAMPSHADE CEILING LIGHT PENDANT TABLE LAMP SHADE 7 SIZES 40 COLOUR",
+   "url": "https://www.ebay.co.uk/itm/174653483247",
+   "search_page": 1,
+   "search_position": 37,
+   "product_match": "EXACT MATCH",
+   "similarity": 0.5,
+   "sold": "2,805 sold",
+   "sales_30_day": "NOT VERIFIED",
+   "description_checked": "Yes",
+   "item_location": "GLASGOW,SC, United Kingdom",
+   "raw_search_page": "04_research/search_results/imported_2026-09-22/7639606316af_p1.html",
+   "raw_item_page": "04_research/competitor_listings/imported_2026-09-22/item_174653483247.html",
+   "raw_description": "04_research/descriptions/imported_2026-09-22/desc_174653483247.txt",
+   "captured_at": "2026-09-22T06:24:23.098725+00:00"
+  },
+  {
+   "listing_id": "355751536067",
+   "seller": "ValueLights",
+   "title": "Ceiling Light Shade Easy Fit Small Dual Drum Pendant Living Room Lampshade Lamp",
+   "url": "https://www.ebay.co.uk/itm/355751536067",
+   "search_page": 1,
+   "search_position": 8,
+   "product_match": "EXACT MATCH",
+   "similarity": 0.5,
+   "sold": "2,615 sold",
+   "sales_30_day": "NOT VERIFIED",
+   "description_checked": "Yes",
+   "item_location": "Manchester, United Kingdom",
+   "raw_search_page": "04_research/search_results/imported_2026-09-22/7639606316af_p1.html",
+   "raw_item_page": "04_research/competitor_listings/imported_2026-09-22/item_355751536067.html",
+   "raw_description": "04_research/descriptions/imported_2026-09-22/desc_355751536067.txt",
+   "captured_at": "2026-09-22T06:24:04.675964+00:00"
+  },
+  {
+   "listing_id": "232708905363",
+   "seller": "ValueLights",
+   "title": "Industrial Metal Ceiling Pendant Light Shade Easy Fit Lampshade Kitchen LED Bulb",
+   "url": "https://www.ebay.co.uk/itm/232708905363",
+   "search_page": 2,
+   "search_position": 56,
+   "product_match": "EXACT MATCH",
+   "similarity": 0.583,
+   "sold": "957 sold",
+   "sales_30_day": "NOT VERIFIED",
+   "description_checked": "Yes",
+   "item_location": "Manchester, United Kingdom",
+   "raw_search_page": "04_research/search_results/imported_2026-09-22/7639606316af_p2.html",
+   "raw_item_page": "04_research/competitor_listings/imported_2026-09-22/item_232708905363.html",
+   "raw_description": "04_research/descriptions/imported_2026-09-22/desc_232708905363.txt",
+   "captured_at": "2026-09-22T06:23:55.627173+00:00"
+  }
+ ],
+ "verification_status": "VERIFIED",
+ "research_status": "RESEARCHED",
+ "keywords": {
+  "Primary Keyword": [
+   {
+    "keyword": "Lampshade",
+    "keyword_rank": 5,
+    "of_competitors": 5,
+    "matches": [
+     {
+      "listing_id": "372257190104",
+      "found_in": [
+       "title"
+      ],
+      "snippet": "Ceiling Light Shade Geometric Pendant Lampshade Lamp Industrial Cage Vintage LED"
+     },
+     {
+      "listing_id": "232708902506",
+      "found_in": [
+       "title"
+      ],
+      "snippet": "iered Ceiling Pendant Light Shade Easy Fit Fabric Lampshade LED Bulb Lamp"
+     },
+     {
+      "listing_id": "174653483247",
+      "found_in": [
+       "title"
+      ],
+      "snippet": "COTTON COOLIE LAMPSHADE CEILING LIGHT PENDANT TABLE LAMP SHADE"
+     },
+     {
+      "listing_id": "355751536067",
+      "found_in": [
+       "title"
+      ],
+      "snippet": "hade Easy Fit Small Dual Drum Pendant Living Room Lampshade Lamp"
+     },
+     {
+      "listing_id": "232708905363",
+      "found_in": [
+       "title"
+      ],
+      "snippet": "strial Metal Ceiling Pendant Light Shade Easy Fit Lampshade Kitchen LED Bulb"
+     }
+    ],
+    "titles_with_phrase": 5
+   }
+  ],
+  "Secondary Keywords": [
+   {
+    "keyword": "Ceiling",
+    "keyword_rank": 5,
+    "of_competitors": 5,
+    "matches": [
+     {
+      "listing_id": "372257190104",
+      "found_in": [
+       "title",
+       "description"
+      ],
+      "snippet": "Ceiling Light Shade Geometric Pendant Lampshade"
+     },
+     {
+      "listing_id": "232708902506",
+      "found_in": [
+       "title",
+       "description"
+      ],
+      "snippet": "35cm Tiered Ceiling Pendant Light Shade Easy Fit Fabric Lam"
+     },
+     {
+      "listing_id": "174653483247",
+      "found_in": [
+       "title",
+       "description"
+      ],
+      "snippet": "COTTON COOLIE LAMPSHADE CEILING LIGHT PENDANT TABLE LAMP SHADE 7 SIZES"
+     },
+     {
+      "listing_id": "355751536067",
+      "found_in": [
+       "title",
+       "description"
+      ],
+      "snippet": "Ceiling Light Shade Easy Fit Small Dual Drum Pe"
+     },
+     {
+      "listing_id": "232708905363",
+      "found_in": [
+       "title",
+       "description"
+      ],
+      "snippet": "Industrial Metal Ceiling Pendant Light Shade Easy Fit Lampshade"
+     }
+    ],
+    "titles_with_phrase": 5
+   },
+   {
+    "keyword": "Light",
+    "keyword_rank": 5,
+    "of_competitors": 5,
+    "matches": [
+     {
+      "listing_id": "372257190104",
+      "found_in": [
+       "title",
+       "description"
+      ],
+      "snippet": "Ceiling Light Shade Geometric Pendant Lampshade Lamp"
+     },
+     {
+      "listing_id": "232708902506",
+      "found_in": [
+       "title",
+       "description"
+      ],
+      "snippet": "35cm Tiered Ceiling Pendant Light Shade Easy Fit Fabric Lampshade LED Bul"
+     },
+     {
+      "listing_id": "174653483247",
+      "found_in": [
+       "title",
+       "description"
+      ],
+      "snippet": "COTTON COOLIE LAMPSHADE CEILING LIGHT PENDANT TABLE LAMP SHADE 7 SIZES 40 COL"
+     },
+     {
+      "listing_id": "355751536067",
+      "found_in": [
+       "title"
+      ],
+      "snippet": "Ceiling Light Shade Easy Fit Small Dual Drum Pendant"
+     },
+     {
+      "listing_id": "232708905363",
+      "found_in": [
+       "title",
+       "description"
+      ],
+      "snippet": "Industrial Metal Ceiling Pendant Light Shade Easy Fit Lampshade Kitchen LED Bu"
+     }
+    ],
+    "titles_with_phrase": 5
+   },
+   {
+    "keyword": "Shade",
+    "keyword_rank": 5,
+    "of_competitors": 5,
+    "matches": [
+     {
+      "listing_id": "372257190104",
+      "found_in": [
+       "title",
+       "description"
+      ],
+      "snippet": "Ceiling Light Shade Geometric Pendant Lampshade Lamp Indust"
+     },
+     {
+      "listing_id": "232708902506",
+      "found_in": [
+       "title",
+       "description"
+      ],
+      "snippet": "35cm Tiered Ceiling Pendant Light Shade Easy Fit Fabric Lampshade LED Bulb Lamp"
+     },
+     {
+      "listing_id": "174653483247",
+      "found_in": [
+       "title",
+       "description"
+      ],
+      "snippet": "COOLIE LAMPSHADE CEILING LIGHT PENDANT TABLE LAMP SHADE 7 SIZES 40 COLOUR"
+     },
+     {
+      "listing_id": "355751536067",
+      "found_in": [
+       "title",
+       "description"
+      ],
+      "snippet": "Ceiling Light Shade Easy Fit Small Dual Drum Pendant Living"
+     },
+     {
+      "listing_id": "232708905363",
+      "found_in": [
+       "title",
+       "description"
+      ],
+      "snippet": "Industrial Metal Ceiling Pendant Light Shade Easy Fit Lampshade Kitchen LED Bulb"
+     }
+    ],
+    "titles_with_phrase": 5
+   }
+  ],
+  "Long-Tail Keywords": [
+   {
+    "keyword": "Light Shade Easy Fit",
+    "keyword_rank": 3,
+    "of_competitors": 5,
+    "matches": [
+     {
+      "listing_id": "232708902506",
+      "found_in": [
+       "title"
+      ],
+      "snippet": "35cm Tiered Ceiling Pendant Light Shade Easy Fit Fabric Lampshade LED Bulb Lamp"
+     },
+     {
+      "listing_id": "355751536067",
+      "found_in": [
+       "title"
+      ],
+      "snippet": "Ceiling Light Shade Easy Fit Small Dual Drum Pendant Living Room Lam"
+     },
+     {
+      "listing_id": "232708905363",
+      "found_in": [
+       "title"
+      ],
+      "snippet": "Industrial Metal Ceiling Pendant Light Shade Easy Fit Lampshade Kitchen LED Bulb"
+     }
+    ],
+    "titles_with_phrase": 3
+   },
+   {
+    "keyword": "Ceiling Pendant Light Shade Easy",
+    "keyword_rank": 2,
+    "of_competitors": 5,
+    "matches": [
+     {
+      "listing_id": "232708902506",
+      "found_in": [
+       "title"
+      ],
+      "snippet": "35cm Tiered Ceiling Pendant Light Shade Easy Fit Fabric Lampshade LED Bulb Lamp"
+     },
+     {
+      "listing_id": "232708905363",
+      "found_in": [
+       "title"
+      ],
+      "snippet": "Industrial Metal Ceiling Pendant Light Shade Easy Fit Lampshade Kitchen LED Bulb"
+     }
+    ],
+    "titles_with_phrase": 2
+   },
+   {
+    "keyword": "Pendant Light Shade Easy Fit",
+    "keyword_rank": 2,
+    "of_competitors": 5,
+    "matches": [
+     {
+      "listing_id": "232708902506",
+      "found_in": [
+       "title"
+      ],
+      "snippet": "35cm Tiered Ceiling Pendant Light Shade Easy Fit Fabric Lampshade LED Bulb Lamp"
+     },
+     {
+      "listing_id": "232708905363",
+      "found_in": [
+       "title"
+      ],
+      "snippet": "Industrial Metal Ceiling Pendant Light Shade Easy Fit Lampshade Kitchen LED Bulb"
+     }
+    ],
+    "titles_with_phrase": 2
+   }
+  ],
+  "Competitor Keywords": [
+   {
+    "keyword": "Ceiling Light",
+    "keyword_rank": 4,
+    "of_competitors": 5,
+    "matches": [
+     {
+      "listing_id": "372257190104",
+      "found_in": [
+       "title",
+       "description"
+      ],
+      "snippet": "Ceiling Light Shade Geometric Pendant Lampshade Lamp"
+     },
+     {
+      "listing_id": "232708902506",
+      "found_in": [
+       "description"
+      ],
+      "snippet": "om of your home. They simply fit to your existing ceiling light socket - no wiring required. Our shades"
+     },
+     {
+      "listing_id": "174653483247",
+      "found_in": [
+       "title"
+      ],
+      "snippet": "COTTON COOLIE LAMPSHADE CEILING LIGHT PENDANT TABLE LAMP SHADE 7 SIZES 40 COL"
+     },
+     {
+      "listing_id": "355751536067",
+      "found_in": [
+       "title"
+      ],
+      "snippet": "Ceiling Light Shade Easy Fit Small Dual Drum Pendant"
+     }
+    ],
+    "titles_with_phrase": 3
+   },
+   {
+    "keyword": "LED",
+    "keyword_rank": 4,
+    "of_competitors": 5,
+    "matches": [
+     {
+      "listing_id": "372257190104",
+      "found_in": [
+       "title",
+       "description"
+      ],
+      "snippet": "ic Pendant Lampshade Lamp Industrial Cage Vintage LED"
+     },
+     {
+      "listing_id": "232708902506",
+      "found_in": [
+       "title",
+       "description"
+      ],
+      "snippet": "ing Pendant Light Shade Easy Fit Fabric Lampshade LED Bulb Lamp"
+     },
+     {
+      "listing_id": "355751536067",
+      "found_in": [
+       "description"
+      ],
+      "snippet": "60mm x Depth: 260mm Bulb Specification Bulb Type: LED GLS Wattage: 10W Colour Temperature: 30"
+     },
+     {
+      "listing_id": "232708905363",
+      "found_in": [
+       "title",
+       "description"
+      ],
+      "snippet": "ng Pendant Light Shade Easy Fit Lampshade Kitchen LED Bulb"
+     }
+    ],
+    "titles_with_phrase": 3
+   },
+   {
+    "keyword": "Lampshade Lamp",
+    "keyword_rank": 2,
+    "of_competitors": 5,
+    "matches": [
+     {
+      "listing_id": "372257190104",
+      "found_in": [
+       "title"
+      ],
+      "snippet": "Ceiling Light Shade Geometric Pendant Lampshade Lamp Industrial Cage Vintage LED"
+     },
+     {
+      "listing_id": "355751536067",
+      "found_in": [
+       "title"
+      ],
+      "snippet": "hade Easy Fit Small Dual Drum Pendant Living Room Lampshade Lamp"
+     }
+    ],
+    "titles_with_phrase": 2
+   }
+  ]
+ },
+ "import_check": {
+  "keywords_and_ranks_equal_old_project": true,
+  "old": "same"
+ }
+}

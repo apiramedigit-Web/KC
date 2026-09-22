@@ -1,0 +1,197 @@
+{
+ "run_id": "20260922T101453Z-908c",
+ "run_date": "2026-09-22",
+ "html": "report/.staging/keyword_check_kobiga.20260922T101453Z-908c.html",
+ "html_md5": "74699e0cbe14ee6842f17336fea9321e",
+ "overall": "PASS",
+ "critical_failures": 0,
+ "warnings": 1,
+ "rows": 12,
+ "checks": [
+  {
+   "check": "Column headers == requirement CSV columns, in order",
+   "result": "PASS",
+   "critical": true,
+   "detail": {
+    "html": [
+     "SKU",
+     "Product ID",
+     "Product Name",
+     "Primary Keyword",
+     "Keyword Rank",
+     "Secondary Keywords",
+     "Keyword Rank",
+     "Long-Tail Keywords",
+     "Keyword Rank",
+     "Competitor Keywords",
+     "Keyword Rank"
+    ],
+    "csv": [
+     "SKU",
+     "Product ID",
+     "Product Name",
+     "Primary Keyword",
+     "Keyword Rank",
+     "Secondary Keywords",
+     "Keyword Rank",
+     "Long-Tail Keywords",
+     "Keyword Rank",
+     "Competitor Keywords",
+     "Keyword Rank"
+    ]
+   }
+  },
+  {
+   "check": "'Keyword' group header spans the 8 keyword columns",
+   "result": "PASS",
+   "critical": true,
+   "detail": ""
+  },
+  {
+   "check": "Dashboard Product IDs == scope.json IDs (none missing, none extra, same order)",
+   "result": "PASS",
+   "critical": true,
+   "detail": {
+    "missing": [],
+    "extra": []
+   }
+  },
+  {
+   "check": "No duplicate Product ID rows",
+   "result": "PASS",
+   "critical": true,
+   "detail": ""
+  },
+  {
+   "check": "Embedded dataset rows == scope.json IDs",
+   "result": "PASS",
+   "critical": true,
+   "detail": ""
+  },
+  {
+   "check": "SKU / Product Name / marketplace / account equal a fresh DB read for every row",
+   "result": "PASS",
+   "critical": true,
+   "detail": []
+  },
+  {
+   "check": "Every row has Mapping Source (SOT_SUBTYPE / EBAY_CATEGORY) or Mapping Status NOT VERIFIED",
+   "result": "PASS",
+   "critical": true,
+   "detail": ""
+  },
+  {
+   "check": "Every row has a freshness label",
+   "result": "PASS",
+   "critical": true,
+   "detail": ""
+  },
+  {
+   "check": "No row labelled CURRENT unless its evidence is LIVE research from this run date",
+   "result": "PASS",
+   "critical": true,
+   "detail": []
+  },
+  {
+   "check": "Every competitor belongs to its Product ID's evidence and appears in that ID's captured search pages",
+   "result": "PASS",
+   "critical": true,
+   "detail": []
+  },
+  {
+   "check": "No internal account / own listing among competitors",
+   "result": "PASS",
+   "critical": true,
+   "detail": []
+  },
+  {
+   "check": "Search captures: GB exit, Buy It Now + New + UK Only, pages 1-3 served",
+   "result": "PASS",
+   "critical": true,
+   "detail": []
+  },
+  {
+   "check": "Every competitor item located in the United Kingdom",
+   "result": "PASS",
+   "critical": true,
+   "detail": []
+  },
+  {
+   "check": "Verification status matches competitor count (VERIFIED 3-5, PARTIAL 2, else NOT VERIFIED)",
+   "result": "PASS",
+   "critical": true,
+   "detail": []
+  },
+  {
+   "check": "Competitor titles equal the raw item pages",
+   "result": "PASS",
+   "critical": true,
+   "detail": []
+  },
+  {
+   "check": "Every Keyword Rank equals an independent recount over raw titles + descriptions",
+   "result": "PASS",
+   "critical": true,
+   "detail": []
+  },
+  {
+   "check": "Every keyword is in >=2 of that ID's final titles; Competitor Keywords not in our own title",
+   "result": "PASS",
+   "critical": true,
+   "detail": []
+  },
+  {
+   "check": "No numeric Rank where fewer than 2 competitors",
+   "result": "PASS",
+   "critical": true,
+   "detail": []
+  },
+  {
+   "check": "Standalone: no external script / stylesheet / font / image / iframe",
+   "result": "PASS",
+   "critical": true,
+   "detail": []
+  },
+  {
+   "check": "CSS, JavaScript and data embedded",
+   "result": "PASS",
+   "critical": true,
+   "detail": ""
+  },
+  {
+   "check": "Rank definition and Document URL from the requirement present",
+   "result": "PASS",
+   "critical": false,
+   "detail": ""
+  },
+  {
+   "check": "Opens from file:// with no JavaScript errors and no network requests; rendered rows = scope",
+   "result": "PASS",
+   "critical": true,
+   "detail": [
+    [],
+    [],
+    12
+   ]
+  },
+  {
+   "check": "Search box and filters work (ID search, verification, freshness)",
+   "result": "PASS",
+   "critical": true,
+   "detail": [
+    1,
+    12,
+    12,
+    0,
+    0,
+    12
+   ]
+  },
+  {
+   "check": "All rows researched today (CURRENT)",
+   "result": "FAIL",
+   "critical": false,
+   "detail": "['265660310933', '267742103780', '267791295531', '267784997642', '267773888902', '267768578649', '267765767284', '267761469770', '267728257222', '267720120199', '267695260771', '267687534749']"
+  }
+ ]
+}

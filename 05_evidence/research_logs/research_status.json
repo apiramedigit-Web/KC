@@ -1,0 +1,194 @@
+{
+ "265660310933": {
+  "last_verified": {
+   "day": "2026-09-22",
+   "evidence": "04_research/keyword_evidence/imported_2026-09-22/265660310933.json",
+   "captured_at": "2026-09-22T06:45:39.458251+00:00",
+   "origin": "IMPORTED",
+   "status": "VERIFIED"
+  },
+  "attempts": 1,
+  "day": "2026-09-22",
+  "run_id": "20260922T103103Z-c678",
+  "status": "FAILED",
+  "updated_at": "2026-09-22T10:31:09.487063+00:00",
+  "retryable": true,
+  "error": "browser not reachable at http://127.0.0.1:9222: Error"
+ },
+ "267742103780": {
+  "last_verified": {
+   "day": "2026-09-22",
+   "evidence": "04_research/keyword_evidence/imported_2026-09-22/267742103780.json",
+   "captured_at": "2026-09-22T06:45:45.514812+00:00",
+   "origin": "IMPORTED",
+   "status": "VERIFIED"
+  },
+  "attempts": 1,
+  "day": "2026-09-22",
+  "run_id": "20260922T103103Z-c678",
+  "status": "FAILED",
+  "updated_at": "2026-09-22T10:31:09.487081+00:00",
+  "retryable": true,
+  "error": "browser not reachable at http://127.0.0.1:9222: Error"
+ },
+ "267791295531": {
+  "last_verified": {
+   "day": "2026-09-22",
+   "evidence": "04_research/keyword_evidence/imported_2026-09-22/267791295531.json",
+   "captured_at": "2026-09-22T06:45:51.583102+00:00",
+   "origin": "IMPORTED",
+   "status": "VERIFIED"
+  },
+  "attempts": 1,
+  "day": "2026-09-22",
+  "run_id": "20260922T103103Z-c678",
+  "status": "FAILED",
+  "updated_at": "2026-09-22T10:31:09.487088+00:00",
+  "retryable": true,
+  "error": "browser not reachable at http://127.0.0.1:9222: Error"
+ },
+ "267784997642": {
+  "last_verified": {
+   "day": "2026-09-22",
+   "evidence": "04_research/keyword_evidence/imported_2026-09-22/267784997642.json",
+   "captured_at": "2026-09-22T06:45:57.619379+00:00",
+   "origin": "IMPORTED",
+   "status": "VERIFIED"
+  },
+  "attempts": 1,
+  "day": "2026-09-22",
+  "run_id": "20260922T103103Z-c678",
+  "status": "FAILED",
+  "updated_at": "2026-09-22T10:31:09.487094+00:00",
+  "retryable": true,
+  "error": "browser not reachable at http://127.0.0.1:9222: Error"
+ },
+ "267773888902": {
+  "last_verified": {
+   "day": "2026-09-22",
+   "evidence": "04_research/keyword_evidence/imported_2026-09-22/267773888902.json",
+   "captured_at": "2026-09-22T06:46:03.753755+00:00",
+   "origin": "IMPORTED",
+   "status": "VERIFIED"
+  },
+  "attempts": 1,
+  "day": "2026-09-22",
+  "run_id": "20260922T103103Z-c678",
+  "status": "FAILED",
+  "updated_at": "2026-09-22T10:31:09.487098+00:00",
+  "retryable": true,
+  "error": "browser not reachable at http://127.0.0.1:9222: Error"
+ },
+ "267768578649": {
+  "last_verified": {
+   "day": "2026-09-22",
+   "evidence": "04_research/keyword_evidence/imported_2026-09-22/267768578649.json",
+   "captured_at": "2026-09-22T06:46:09.787060+00:00",
+   "origin": "IMPORTED",
+   "status": "VERIFIED"
+  },
+  "attempts": 1,
+  "day": "2026-09-22",
+  "run_id": "20260922T103103Z-c678",
+  "status": "FAILED",
+  "updated_at": "2026-09-22T10:31:09.487102+00:00",
+  "retryable": true,
+  "error": "browser not reachable at http://127.0.0.1:9222: Error"
+ },
+ "267765767284": {
+  "last_verified": {
+   "day": "2026-09-22",
+   "evidence": "04_research/keyword_evidence/imported_2026-09-22/267765767284.json",
+   "captured_at": "2026-09-22T06:46:15.843001+00:00",
+   "origin": "IMPORTED",
+   "status": "VERIFIED"
+  },
+  "attempts": 1,
+  "day": "2026-09-22",
+  "run_id": "20260922T103103Z-c678",
+  "status": "FAILED",
+  "updated_at": "2026-09-22T10:31:09.487107+00:00",
+  "retryable": true,
+  "error": "browser not reachable at http://127.0.0.1:9222: Error"
+ },
+ "267761469770": {
+  "last_verified": {
+   "day": "2026-09-22",
+   "evidence": "04_research/keyword_evidence/imported_2026-09-22/267761469770.json",
+   "captured_at": "2026-09-22T06:46:21.900557+00:00",
+   "origin": "IMPORTED",
+   "status": "VERIFIED"
+  },
+  "attempts": 1,
+  "day": "2026-09-22",
+  "run_id": "20260922T103103Z-c678",
+  "status": "FAILED",
+  "updated_at": "2026-09-22T10:31:09.487110+00:00",
+  "retryable": true,
+  "error": "browser not reachable at http://127.0.0.1:9222: Error"
+ },
+ "267728257222": {
+  "last_verified": {
+   "day": "2026-09-22",
+   "evidence": "04_research/keyword_evidence/imported_2026-09-22/267728257222.json",
+   "captured_at": "2026-09-22T06:46:27.955642+00:00",
+   "origin": "IMPORTED",
+   "status": "VERIFIED"
+  },
+  "attempts": 1,
+  "day": "2026-09-22",
+  "run_id": "20260922T103103Z-c678",
+  "status": "FAILED",
+  "updated_at": "2026-09-22T10:31:09.487114+00:00",
+  "retryable": true,
+  "error": "browser not reachable at http://127.0.0.1:9222: Error"
+ },
+ "267720120199": {
+  "last_verified": {
+   "day": "2026-09-22",
+   "evidence": "04_research/keyword_evidence/imported_2026-09-22/267720120199.json",
+   "captured_at": "2026-09-22T06:46:34.017282+00:00",
+   "origin": "IMPORTED",
+   "status": "VERIFIED"
+  },
+  "attempts": 1,
+  "day": "2026-09-22",
+  "run_id": "20260922T103103Z-c678",
+  "status": "FAILED",
+  "updated_at": "2026-09-22T10:31:09.487118+00:00",
+  "retryable": true,
+  "error": "browser not reachable at http://127.0.0.1:9222: Error"
+ },
+ "267695260771": {
+  "last_verified": {
+   "day": "2026-09-22",
+   "evidence": "04_research/keyword_evidence/imported_2026-09-22/267695260771.json",
+   "captured_at": "2026-09-22T06:46:40.066559+00:00",
+   "origin": "IMPORTED",
+   "status": "VERIFIED"
+  },
+  "attempts": 1,
+  "day": "2026-09-22",
+  "run_id": "20260922T103103Z-c678",
+  "status": "FAILED",
+  "updated_at": "2026-09-22T10:31:09.487122+00:00",
+  "retryable": true,
+  "error": "browser not reachable at http://127.0.0.1:9222: Error"
+ },
+ "267687534749": {
+  "last_verified": {
+   "day": "2026-09-22",
+   "evidence": "04_research/keyword_evidence/imported_2026-09-22/267687534749.json",
+   "captured_at": "2026-09-22T06:46:46.120790+00:00",
+   "origin": "IMPORTED",
+   "status": "VERIFIED"
+  },
+  "attempts": 1,
+  "day": "2026-09-22",
+  "run_id": "20260922T103103Z-c678",
+  "status": "FAILED",
+  "updated_at": "2026-09-22T10:31:09.487126+00:00",
+  "retryable": true,
+  "error": "browser not reachable at http://127.0.0.1:9222: Error"
+ }
+}

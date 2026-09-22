@@ -1,0 +1,646 @@
+{
+ "product_id": "267784997642",
+ "sku": "LED Ceiling Spot Light",
+ "product_name": "7W LED Recessed Downlight Ceiling Spot Light Cool White 6400K 38°/60° Beam",
+ "origin": "IMPORTED",
+ "imported_from": "C:\\Users\\LED 222\\Keywords check\\02_Data\\requested\\ids\\267784997642.json",
+ "run_id": "imported-2026-09-22",
+ "run_date": "2026-09-22",
+ "product_subtype": "Downlight",
+ "mapping_source": "OLD PROJECT: listings.ebay_listings.title phrase '7W LED Recessed Downlight' (no SOT sub-type)",
+ "search_term": "LED Downlight",
+ "search_term_rule": "OLD title-derived rule (superseded 2026-09-22 by SOT -> eBay category rule)",
+ "exit_ip": {
+  "ip": "145.239.6.2",
+  "country": "GB",
+  "city": "London",
+  "org": "AS16276 OVH SAS"
+ },
+ "started_at": "2026-09-22T06:45:57.619379+00:00",
+ "captured_at": "2026-09-22T06:45:57.619379+00:00",
+ "finished_at": "2026-09-22T06:46:03.752409+00:00",
+ "search_evidence": {
+  "search_capture": null,
+  "captured_at": "2026-09-22T06:45:57.619379+00:00",
+  "pages": [
+   {
+    "page": 1,
+    "url": "https://www.ebay.co.uk/sch/i.html?_nkw=LED+Downlight&LH_BIN=1&LH_ItemCondition=3&LH_PrefLoc=1&_pgn=1",
+    "http_status": 200,
+    "raw_html": "04_research/search_results/imported_2026-09-22/c27cb65c86eb_p1.html"
+   },
+   {
+    "page": 2,
+    "url": "https://www.ebay.co.uk/sch/i.html?_nkw=LED+Downlight&LH_BIN=1&LH_ItemCondition=3&LH_PrefLoc=1&_pgn=2",
+    "http_status": 200,
+    "raw_html": "04_research/search_results/imported_2026-09-22/c27cb65c86eb_p2.html"
+   },
+   {
+    "page": 3,
+    "url": "https://www.ebay.co.uk/sch/i.html?_nkw=LED+Downlight&LH_BIN=1&LH_ItemCondition=3&LH_PrefLoc=1&_pgn=3",
+    "http_status": 200,
+    "raw_html": "04_research/search_results/imported_2026-09-22/c27cb65c86eb_p3.html"
+   }
+  ],
+  "complete": true
+ },
+ "screening_profile": {
+  "alternatives": [
+   [
+    "downlight"
+   ]
+  ],
+  "heads": [
+   "downlight"
+  ],
+  "own_title_tokens": [
+   "7w",
+   "recessed",
+   "downlight",
+   "ceiling",
+   "spot",
+   "light",
+   "cool",
+   "white",
+   "6400k",
+   "beam"
+  ]
+ },
+ "candidates": 185,
+ "internal_excluded": 0,
+ "tier_counts": {
+  "EXACT MATCH": 89,
+  "SIMILAR": 73,
+  "SAME CATEGORY": 5,
+  "NOT RELEVANT": 18
+ },
+ "shortlist": [
+  {
+   "listing_id": "187772257774",
+   "tier": "EXACT MATCH",
+   "similarity": 0.6,
+   "result_page": 1,
+   "result_position": 13,
+   "item_cache": "02_Data/item_cache/187772257774.json",
+   "item_status": "OK"
+  },
+  {
+   "listing_id": "161461562461",
+   "tier": "EXACT MATCH",
+   "similarity": 0.6,
+   "result_page": 1,
+   "result_position": 67,
+   "item_cache": "02_Data/item_cache/161461562461.json",
+   "item_status": "OK"
+  },
+  {
+   "listing_id": "307064906781",
+   "tier": "EXACT MATCH",
+   "similarity": 0.6,
+   "result_page": 2,
+   "result_position": 25,
+   "item_cache": "02_Data/item_cache/307064906781.json",
+   "item_status": "OK"
+  },
+  {
+   "listing_id": "257622465799",
+   "tier": "EXACT MATCH",
+   "similarity": 0.6,
+   "result_page": 2,
+   "result_position": 27,
+   "item_cache": "02_Data/item_cache/257622465799.json",
+   "item_status": "OK"
+  },
+  {
+   "listing_id": "154185100017",
+   "tier": "EXACT MATCH",
+   "similarity": 0.6,
+   "result_page": 2,
+   "result_position": 41,
+   "item_cache": "02_Data/item_cache/154185100017.json",
+   "item_status": "OK"
+  },
+  {
+   "listing_id": "327063764248",
+   "tier": "EXACT MATCH",
+   "similarity": 0.6,
+   "result_page": 2,
+   "result_position": 43,
+   "item_cache": "02_Data/item_cache/327063764248.json",
+   "item_status": "OK"
+  }
+ ],
+ "final_competitors": [
+  {
+   "listing_id": "154185100017",
+   "seller": "alussolighting",
+   "title": "68mm LED Recessed Ceiling Light 7W Ultra Slim Dimmable Downlight Flat Panel Spot",
+   "url": "https://www.ebay.co.uk/itm/154185100017",
+   "search_page": 2,
+   "search_position": 41,
+   "product_match": "EXACT MATCH",
+   "similarity": 0.6,
+   "sold": "2,649 sold",
+   "sales_30_day": "NOT VERIFIED",
+   "description_checked": "Yes",
+   "item_location": "Leicester, United Kingdom",
+   "raw_search_page": "04_research/search_results/imported_2026-09-22/c27cb65c86eb_p2.html",
+   "raw_item_page": "04_research/competitor_listings/imported_2026-09-22/item_154185100017.html",
+   "raw_description": "04_research/descriptions/imported_2026-09-22/desc_154185100017.txt",
+   "captured_at": "2026-09-22T06:16:06.756795+00:00"
+  },
+  {
+   "listing_id": "161461562461",
+   "seller": "Manchester_Led",
+   "title": "White Recessed Ceiling Downlight Trims GU10 LED Round Fixed Spot Lights Fitting",
+   "url": "https://www.ebay.co.uk/itm/161461562461",
+   "search_page": 1,
+   "search_position": 67,
+   "product_match": "EXACT MATCH",
+   "similarity": 0.6,
+   "sold": "1,202 sold",
+   "sales_30_day": "NOT VERIFIED",
+   "description_checked": "Yes",
+   "item_location": "Manchester, Stretford, Greater Manchester, United Kingdom",
+   "raw_search_page": "04_research/search_results/imported_2026-09-22/c27cb65c86eb_p1.html",
+   "raw_item_page": "04_research/competitor_listings/imported_2026-09-22/item_161461562461.html",
+   "raw_description": "04_research/descriptions/imported_2026-09-22/desc_161461562461.txt",
+   "captured_at": "2026-09-22T06:15:43.255937+00:00"
+  },
+  {
+   "listing_id": "187772257774",
+   "seller": "griezmann72",
+   "title": "10x Recessed LED Ceiling Light 5W 7W 10W Flat Panel Spot Dimmable Slim Downlight",
+   "url": "https://www.ebay.co.uk/itm/187772257774",
+   "search_page": 1,
+   "search_position": 13,
+   "product_match": "EXACT MATCH",
+   "similarity": 0.6,
+   "sold": "419 sold",
+   "sales_30_day": "NOT VERIFIED",
+   "description_checked": "Yes",
+   "item_location": "MANCHESTER, United Kingdom",
+   "raw_search_page": "04_research/search_results/imported_2026-09-22/c27cb65c86eb_p1.html",
+   "raw_item_page": "04_research/competitor_listings/imported_2026-09-22/item_187772257774.html",
+   "raw_description": "04_research/descriptions/imported_2026-09-22/desc_187772257774.txt",
+   "captured_at": "2026-09-22T06:15:34.161495+00:00"
+  },
+  {
+   "listing_id": "327063764248",
+   "seller": "alusso-light",
+   "title": "Recessed LED Ceiling Light 4W 5W 7W 10W Flat Panel Spot Dimmable Slim Downlight",
+   "url": "https://www.ebay.co.uk/itm/327063764248",
+   "search_page": 2,
+   "search_position": 43,
+   "product_match": "EXACT MATCH",
+   "similarity": 0.6,
+   "sold": "89 sold",
+   "sales_30_day": "NOT VERIFIED",
+   "description_checked": "Yes",
+   "item_location": "Leicester,Enderby, United Kingdom",
+   "raw_search_page": "04_research/search_results/imported_2026-09-22/c27cb65c86eb_p2.html",
+   "raw_item_page": "04_research/competitor_listings/imported_2026-09-22/item_327063764248.html",
+   "raw_description": "04_research/descriptions/imported_2026-09-22/desc_327063764248.txt",
+   "captured_at": "2026-09-22T06:16:14.403111+00:00"
+  },
+  {
+   "listing_id": "307064906781",
+   "seller": "vahaha100",
+   "title": "10x Recessed LED Ceiling Light 5W 7W 10W Flat Panel Spot Dimmable Slim Downlight",
+   "url": "https://www.ebay.co.uk/itm/307064906781",
+   "search_page": 2,
+   "search_position": 25,
+   "product_match": "EXACT MATCH",
+   "similarity": 0.6,
+   "sold": "10 sold",
+   "sales_30_day": "NOT VERIFIED",
+   "description_checked": "Yes",
+   "item_location": "MANCHESTER, United Kingdom",
+   "raw_search_page": "04_research/search_results/imported_2026-09-22/c27cb65c86eb_p2.html",
+   "raw_item_page": "04_research/competitor_listings/imported_2026-09-22/item_307064906781.html",
+   "raw_description": "04_research/descriptions/imported_2026-09-22/desc_307064906781.txt",
+   "captured_at": "2026-09-22T06:15:51.020468+00:00"
+  }
+ ],
+ "verification_status": "VERIFIED",
+ "research_status": "RESEARCHED",
+ "keywords": {
+  "Primary Keyword": [
+   {
+    "keyword": "Downlight",
+    "keyword_rank": 5,
+    "of_competitors": 5,
+    "matches": [
+     {
+      "listing_id": "154185100017",
+      "found_in": [
+       "title",
+       "description"
+      ],
+      "snippet": "LED Recessed Ceiling Light 7W Ultra Slim Dimmable Downlight Flat Panel Spot"
+     },
+     {
+      "listing_id": "161461562461",
+      "found_in": [
+       "title",
+       "description"
+      ],
+      "snippet": "White Recessed Ceiling Downlight Trims GU10 LED Round Fixed Spot Lights"
+     },
+     {
+      "listing_id": "187772257774",
+      "found_in": [
+       "title",
+       "description"
+      ],
+      "snippet": "ing Light 5W 7W 10W Flat Panel Spot Dimmable Slim Downlight"
+     },
+     {
+      "listing_id": "327063764248",
+      "found_in": [
+       "title",
+       "description"
+      ],
+      "snippet": "Light 4W 5W 7W 10W Flat Panel Spot Dimmable Slim Downlight"
+     },
+     {
+      "listing_id": "307064906781",
+      "found_in": [
+       "title",
+       "description"
+      ],
+      "snippet": "ing Light 5W 7W 10W Flat Panel Spot Dimmable Slim Downlight"
+     }
+    ],
+    "titles_with_phrase": 5
+   }
+  ],
+  "Secondary Keywords": [
+   {
+    "keyword": "LED",
+    "keyword_rank": 5,
+    "of_competitors": 5,
+    "matches": [
+     {
+      "listing_id": "154185100017",
+      "found_in": [
+       "title",
+       "description"
+      ],
+      "snippet": "68mm LED Recessed Ceiling Light 7W Ultra Slim Di"
+     },
+     {
+      "listing_id": "161461562461",
+      "found_in": [
+       "title",
+       "description"
+      ],
+      "snippet": "White Recessed Ceiling Downlight Trims GU10 LED Round Fixed Spot Lights Fitting"
+     },
+     {
+      "listing_id": "187772257774",
+      "found_in": [
+       "title",
+       "description"
+      ],
+      "snippet": "10x Recessed LED Ceiling Light 5W 7W 10W Flat Panel Spot"
+     },
+     {
+      "listing_id": "327063764248",
+      "found_in": [
+       "title",
+       "description"
+      ],
+      "snippet": "Recessed LED Ceiling Light 4W 5W 7W 10W Flat Panel S"
+     },
+     {
+      "listing_id": "307064906781",
+      "found_in": [
+       "title",
+       "description"
+      ],
+      "snippet": "10x Recessed LED Ceiling Light 5W 7W 10W Flat Panel Spot"
+     }
+    ],
+    "titles_with_phrase": 5
+   },
+   {
+    "keyword": "Recessed",
+    "keyword_rank": 5,
+    "of_competitors": 5,
+    "matches": [
+     {
+      "listing_id": "154185100017",
+      "found_in": [
+       "title",
+       "description"
+      ],
+      "snippet": "68mm LED Recessed Ceiling Light 7W Ultra Slim Dimmable Do"
+     },
+     {
+      "listing_id": "161461562461",
+      "found_in": [
+       "title",
+       "description"
+      ],
+      "snippet": "White Recessed Ceiling Downlight Trims GU10 LED Round"
+     },
+     {
+      "listing_id": "187772257774",
+      "found_in": [
+       "title",
+       "description"
+      ],
+      "snippet": "10x Recessed LED Ceiling Light 5W 7W 10W Flat Panel"
+     },
+     {
+      "listing_id": "327063764248",
+      "found_in": [
+       "title",
+       "description"
+      ],
+      "snippet": "Recessed LED Ceiling Light 4W 5W 7W 10W Flat Pan"
+     },
+     {
+      "listing_id": "307064906781",
+      "found_in": [
+       "title",
+       "description"
+      ],
+      "snippet": "10x Recessed LED Ceiling Light 5W 7W 10W Flat Panel"
+     }
+    ],
+    "titles_with_phrase": 5
+   },
+   {
+    "keyword": "Ceiling",
+    "keyword_rank": 5,
+    "of_competitors": 5,
+    "matches": [
+     {
+      "listing_id": "154185100017",
+      "found_in": [
+       "title",
+       "description"
+      ],
+      "snippet": "68mm LED Recessed Ceiling Light 7W Ultra Slim Dimmable Downlight"
+     },
+     {
+      "listing_id": "161461562461",
+      "found_in": [
+       "title"
+      ],
+      "snippet": "White Recessed Ceiling Downlight Trims GU10 LED Round Fixed Sp"
+     },
+     {
+      "listing_id": "187772257774",
+      "found_in": [
+       "title",
+       "description"
+      ],
+      "snippet": "10x Recessed LED Ceiling Light 5W 7W 10W Flat Panel Spot Dimmabl"
+     },
+     {
+      "listing_id": "327063764248",
+      "found_in": [
+       "title",
+       "description"
+      ],
+      "snippet": "Recessed LED Ceiling Light 4W 5W 7W 10W Flat Panel Spot Dimm"
+     },
+     {
+      "listing_id": "307064906781",
+      "found_in": [
+       "title",
+       "description"
+      ],
+      "snippet": "10x Recessed LED Ceiling Light 5W 7W 10W Flat Panel Spot Dimmabl"
+     }
+    ],
+    "titles_with_phrase": 5
+   }
+  ],
+  "Long-Tail Keywords": [
+   {
+    "keyword": "Flat Panel Spot",
+    "keyword_rank": 4,
+    "of_competitors": 5,
+    "matches": [
+     {
+      "listing_id": "154185100017",
+      "found_in": [
+       "title"
+      ],
+      "snippet": "ed Ceiling Light 7W Ultra Slim Dimmable Downlight Flat Panel Spot"
+     },
+     {
+      "listing_id": "187772257774",
+      "found_in": [
+       "title"
+      ],
+      "snippet": "10x Recessed LED Ceiling Light 5W 7W 10W Flat Panel Spot Dimmable Slim Downlight"
+     },
+     {
+      "listing_id": "327063764248",
+      "found_in": [
+       "title"
+      ],
+      "snippet": "Recessed LED Ceiling Light 4W 5W 7W 10W Flat Panel Spot Dimmable Slim Downlight"
+     },
+     {
+      "listing_id": "307064906781",
+      "found_in": [
+       "title"
+      ],
+      "snippet": "10x Recessed LED Ceiling Light 5W 7W 10W Flat Panel Spot Dimmable Slim Downlight"
+     }
+    ],
+    "titles_with_phrase": 4
+   },
+   {
+    "keyword": "5W 7W 10W Flat Panel",
+    "keyword_rank": 3,
+    "of_competitors": 5,
+    "matches": [
+     {
+      "listing_id": "187772257774",
+      "found_in": [
+       "title"
+      ],
+      "snippet": "10x Recessed LED Ceiling Light 5W 7W 10W Flat Panel Spot Dimmable Slim Downlight"
+     },
+     {
+      "listing_id": "327063764248",
+      "found_in": [
+       "title"
+      ],
+      "snippet": "Recessed LED Ceiling Light 4W 5W 7W 10W Flat Panel Spot Dimmable Slim Downlight"
+     },
+     {
+      "listing_id": "307064906781",
+      "found_in": [
+       "title"
+      ],
+      "snippet": "10x Recessed LED Ceiling Light 5W 7W 10W Flat Panel Spot Dimmable Slim Downlight"
+     }
+    ],
+    "titles_with_phrase": 3
+   },
+   {
+    "keyword": "7W 10W Flat Panel Spot",
+    "keyword_rank": 3,
+    "of_competitors": 5,
+    "matches": [
+     {
+      "listing_id": "187772257774",
+      "found_in": [
+       "title"
+      ],
+      "snippet": "10x Recessed LED Ceiling Light 5W 7W 10W Flat Panel Spot Dimmable Slim Downlight"
+     },
+     {
+      "listing_id": "327063764248",
+      "found_in": [
+       "title"
+      ],
+      "snippet": "Recessed LED Ceiling Light 4W 5W 7W 10W Flat Panel Spot Dimmable Slim Downlight"
+     },
+     {
+      "listing_id": "307064906781",
+      "found_in": [
+       "title"
+      ],
+      "snippet": "10x Recessed LED Ceiling Light 5W 7W 10W Flat Panel Spot Dimmable Slim Downlight"
+     }
+    ],
+    "titles_with_phrase": 3
+   }
+  ],
+  "Competitor Keywords": [
+   {
+    "keyword": "Ceiling Light",
+    "keyword_rank": 4,
+    "of_competitors": 5,
+    "matches": [
+     {
+      "listing_id": "154185100017",
+      "found_in": [
+       "title",
+       "description"
+      ],
+      "snippet": "68mm LED Recessed Ceiling Light 7W Ultra Slim Dimmable Downlight Flat P"
+     },
+     {
+      "listing_id": "187772257774",
+      "found_in": [
+       "title",
+       "description"
+      ],
+      "snippet": "10x Recessed LED Ceiling Light 5W 7W 10W Flat Panel Spot Dimmable Slim"
+     },
+     {
+      "listing_id": "327063764248",
+      "found_in": [
+       "title",
+       "description"
+      ],
+      "snippet": "Recessed LED Ceiling Light 4W 5W 7W 10W Flat Panel Spot Dimmable S"
+     },
+     {
+      "listing_id": "307064906781",
+      "found_in": [
+       "title",
+       "description"
+      ],
+      "snippet": "10x Recessed LED Ceiling Light 5W 7W 10W Flat Panel Spot Dimmable Slim"
+     }
+    ],
+    "titles_with_phrase": 4
+   },
+   {
+    "keyword": "Slim",
+    "keyword_rank": 4,
+    "of_competitors": 5,
+    "matches": [
+     {
+      "listing_id": "154185100017",
+      "found_in": [
+       "title",
+       "description"
+      ],
+      "snippet": "68mm LED Recessed Ceiling Light 7W Ultra Slim Dimmable Downlight Flat Panel Spot"
+     },
+     {
+      "listing_id": "187772257774",
+      "found_in": [
+       "title",
+       "description"
+      ],
+      "snippet": "Ceiling Light 5W 7W 10W Flat Panel Spot Dimmable Slim Downlight"
+     },
+     {
+      "listing_id": "327063764248",
+      "found_in": [
+       "title",
+       "description"
+      ],
+      "snippet": "iling Light 4W 5W 7W 10W Flat Panel Spot Dimmable Slim Downlight"
+     },
+     {
+      "listing_id": "307064906781",
+      "found_in": [
+       "title",
+       "description"
+      ],
+      "snippet": "Ceiling Light 5W 7W 10W Flat Panel Spot Dimmable Slim Downlight"
+     }
+    ],
+    "titles_with_phrase": 4
+   },
+   {
+    "keyword": "Dimmable",
+    "keyword_rank": 4,
+    "of_competitors": 5,
+    "matches": [
+     {
+      "listing_id": "154185100017",
+      "found_in": [
+       "title",
+       "description"
+      ],
+      "snippet": "68mm LED Recessed Ceiling Light 7W Ultra Slim Dimmable Downlight Flat Panel Spot"
+     },
+     {
+      "listing_id": "187772257774",
+      "found_in": [
+       "title",
+       "description"
+      ],
+      "snippet": "essed LED Ceiling Light 5W 7W 10W Flat Panel Spot Dimmable Slim Downlight"
+     },
+     {
+      "listing_id": "327063764248",
+      "found_in": [
+       "title",
+       "description"
+      ],
+      "snippet": "ed LED Ceiling Light 4W 5W 7W 10W Flat Panel Spot Dimmable Slim Downlight"
+     },
+     {
+      "listing_id": "307064906781",
+      "found_in": [
+       "title",
+       "description"
+      ],
+      "snippet": "essed LED Ceiling Light 5W 7W 10W Flat Panel Spot Dimmable Slim Downlight"
+     }
+    ],
+    "titles_with_phrase": 4
+   }
+  ]
+ },
+ "import_check": {
+  "keywords_and_ranks_equal_old_project": true,
+  "old": "same"
+ }
+}

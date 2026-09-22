@@ -1,0 +1,6 @@
+# Python cache
+__pycache__/
+*.pyc
+# atomic-write temp files and the run lock (runtime only)
+*.tmp
+05_evidence/research_logs/run.lock

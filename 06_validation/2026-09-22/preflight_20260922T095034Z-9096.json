@@ -1,0 +1,329 @@
+{
+ "run_id": "20260922T095034Z-9096",
+ "type": "preflight",
+ "overall": "PASS",
+ "scope_version": 2,
+ "approved_ids": [
+  "265660310933",
+  "267742103780",
+  "267791295531",
+  "267784997642",
+  "267773888902",
+  "267768578649",
+  "267765767284",
+  "267761469770",
+  "267728257222",
+  "267720120199",
+  "267695260771",
+  "267687534749"
+ ],
+ "db_fetched_at": "2026-09-22T09:50:34.626031+00:00",
+ "checks": [
+  {
+   "check": "Every approved Product ID found in listings.ebay_listings",
+   "result": "PASS",
+   "critical": true,
+   "detail": []
+  },
+  {
+   "check": "Approved IDs returned = approved list (no extra, none missing)",
+   "result": "PASS",
+   "critical": true,
+   "detail": ""
+  },
+  {
+   "check": "Exactly one parent row (is_parent=1) per found ID",
+   "result": "PASS",
+   "critical": true,
+   "detail": []
+  },
+  {
+   "check": "Every found ID mapped (SOT_SUBTYPE or EBAY_CATEGORY) or explicitly NOT VERIFIED",
+   "result": "PASS",
+   "critical": false,
+   "detail": {
+    "not_verified": []
+   }
+  }
+ ],
+ "per_id_issues": {
+  "265660310933": [],
+  "267742103780": [],
+  "267791295531": [
+   "SKU placeholder/empty on parent row ('sku not assigneds')"
+  ],
+  "267784997642": [],
+  "267773888902": [],
+  "267768578649": [],
+  "267765767284": [
+   "SKU placeholder/empty on parent row ('sku not assigneds')"
+  ],
+  "267761469770": [],
+  "267728257222": [],
+  "267720120199": [],
+  "267695260771": [],
+  "267687534749": [
+   "SKU placeholder/empty on parent row ('sku not assigneds')"
+  ]
+ },
+ "per_id": [
+  {
+   "product_id": "265660310933",
+   "found": true,
+   "sku": "ENC1651-Pendant Light",
+   "product_name": "3-Way Hanging Cage Pendant Light LED Ceiling Light Modern Vintage Chandelier UK",
+   "marketplace": "UK",
+   "account": "Electricalsone",
+   "listing_status": "Active",
+   "is_ended": 0,
+   "ebay_category_path": "Home, Furniture & DIY:Lighting:Ceiling Lights & Chandeliers",
+   "source_updated_at": "2026-09-22 02:00:33",
+   "variation_skus": [
+    "CRFF500BC+WCBCBC3PK",
+    "ENC1651"
+   ],
+   "sot_subtype": null,
+   "ebay_category": "Ceiling Lights & Chandeliers",
+   "product_subtype": "Ceiling Lights & Chandeliers",
+   "mapping_source": "EBAY_CATEGORY",
+   "mapping_status": "VERIFIED",
+   "mapping_note": "no SOT sub-type for any of 3 listing SKUs; eBay category leaf used"
+  },
+  {
+   "product_id": "267742103780",
+   "found": true,
+   "sku": "CRSFM110080BM+WSCH135BM+LSCY290BG",
+   "product_name": "Industrial Vintage Wall Light E27 Black Gold Inner Metal Farmhouse Sconce Lamp",
+   "marketplace": "UK",
+   "account": "Electricalsone",
+   "listing_status": "Active",
+   "is_ended": 0,
+   "ebay_category_path": "Home, Furniture & DIY:Lighting:Wall Lights",
+   "source_updated_at": "2026-09-22 03:01:07",
+   "variation_skus": [],
+   "sot_subtype": null,
+   "ebay_category": "Wall Lights",
+   "product_subtype": "Wall Lights",
+   "mapping_source": "EBAY_CATEGORY",
+   "mapping_status": "VERIFIED",
+   "mapping_note": "no SOT sub-type for any of 1 listing SKUs; eBay category leaf used"
+  },
+  {
+   "product_id": "267791295531",
+   "found": true,
+   "sku": "sku not assigneds",
+   "product_name": "20mm Pushfit Waste Pipe 2 Metre Length White PVCU Plumbing Pipe fittings",
+   "marketplace": "UK",
+   "account": "Electricalsone",
+   "listing_status": "Active",
+   "is_ended": 0,
+   "ebay_category_path": "Home, Furniture & DIY:DIY Materials:Electrical Supplies:Electrical Wires & Cables",
+   "source_updated_at": "2026-09-22 02:01:23",
+   "variation_skus": [
+    "PCUPVCD202WH2PK",
+    "PCUPVCD202WH5PK",
+    "PCUPVCD202WHAPK"
+   ],
+   "sot_subtype": null,
+   "ebay_category": "Electrical Wires & Cables",
+   "product_subtype": "Electrical Wires & Cables",
+   "mapping_source": "EBAY_CATEGORY",
+   "mapping_status": "VERIFIED",
+   "mapping_note": "no SOT sub-type for any of 3 listing SKUs; eBay category leaf used"
+  },
+  {
+   "product_id": "267784997642",
+   "found": true,
+   "sku": "LED Ceiling Spot Light",
+   "product_name": "7W LED Recessed Downlight Ceiling Spot Light Cool White 6400K 38°/60° Beam",
+   "marketplace": "UK",
+   "account": "Electricalsone",
+   "listing_status": "Active",
+   "is_ended": 0,
+   "ebay_category_path": "Home, Furniture & DIY:Lighting:Ceiling Lights & Chandeliers",
+   "source_updated_at": "2026-09-22 02:01:23",
+   "variation_skus": [],
+   "sot_subtype": null,
+   "ebay_category": "Ceiling Lights & Chandeliers",
+   "product_subtype": "Ceiling Lights & Chandeliers",
+   "mapping_source": "EBAY_CATEGORY",
+   "mapping_status": "VERIFIED",
+   "mapping_note": "no SOT sub-type for any of 1 listing SKUs; eBay category leaf used"
+  },
+  {
+   "product_id": "267773888902",
+   "found": true,
+   "sku": "Plug-In Wall Light Bedroom Bedside Living Room",
+   "product_name": "Modern LED Wall Light Bedroom Bedside Living Room Wall Sconce Lamp",
+   "marketplace": "UK",
+   "account": "Electricalsone",
+   "listing_status": "Active",
+   "is_ended": 0,
+   "ebay_category_path": "Home, Furniture & DIY:Lighting:Wall Lights",
+   "source_updated_at": "2026-09-22 02:01:23",
+   "variation_skus": [
+    "ENC10055",
+    "ENC10058"
+   ],
+   "sot_subtype": null,
+   "ebay_category": "Wall Lights",
+   "product_subtype": "Wall Lights",
+   "mapping_source": "EBAY_CATEGORY",
+   "mapping_status": "VERIFIED",
+   "mapping_note": "no SOT sub-type for any of 3 listing SKUs; eBay category leaf used"
+  },
+  {
+   "product_id": "267768578649",
+   "found": true,
+   "sku": "Industrial 3 Way Black Spider Pendant Light",
+   "product_name": "3 Way Spider Pendant Light E27 Industrial Black Ceiling Chandelier Retro Lamp",
+   "marketplace": "UK",
+   "account": "Electricalsone",
+   "listing_status": "Active",
+   "is_ended": 0,
+   "ebay_category_path": "Home, Furniture & DIY:Lighting:Ceiling Lights & Chandeliers",
+   "source_updated_at": "2026-09-22 02:01:23",
+   "variation_skus": [
+    "ENC7058",
+    "ENC7059"
+   ],
+   "sot_subtype": null,
+   "ebay_category": "Ceiling Lights & Chandeliers",
+   "product_subtype": "Ceiling Lights & Chandeliers",
+   "mapping_source": "EBAY_CATEGORY",
+   "mapping_status": "VERIFIED",
+   "mapping_note": "no SOT sub-type for any of 3 listing SKUs; eBay category leaf used"
+  },
+  {
+   "product_id": "267765767284",
+   "found": true,
+   "sku": "sku not assigneds",
+   "product_name": "Vintage E27 Wall Sconce Light Glass Shade Antique Brass Indoor Lamp Fixture",
+   "marketplace": "UK",
+   "account": "Electricalsone",
+   "listing_status": "Active",
+   "is_ended": 0,
+   "ebay_category_path": "Home, Furniture & DIY:Lighting:Wall Lights",
+   "source_updated_at": "2026-09-22 02:01:23",
+   "variation_skus": [
+    "CRSF120YB+WSUSHE27YB+LSGLSC1508CL",
+    "CRSF120YB+WSUSHE27YB+SPAL68YB+LSGLSC1508CL",
+    "ENC10264"
+   ],
+   "sot_subtype": null,
+   "ebay_category": "Wall Lights",
+   "product_subtype": "Wall Lights",
+   "mapping_source": "EBAY_CATEGORY",
+   "mapping_status": "VERIFIED",
+   "mapping_note": "no SOT sub-type for any of 3 listing SKUs; eBay category leaf used"
+  },
+  {
+   "product_id": "267761469770",
+   "found": true,
+   "sku": "LDDTCB2212APK",
+   "product_name": "LED Corn Bulb E14 E27 B22 Screw Bayonet 12W 14W High Power Light Bulb",
+   "marketplace": "UK",
+   "account": "Electricalsone",
+   "listing_status": "Active",
+   "is_ended": 0,
+   "ebay_category_path": "Home, Furniture & DIY:Lighting:Light Bulbs",
+   "source_updated_at": "2026-09-22 03:01:07",
+   "variation_skus": [],
+   "sot_subtype": null,
+   "ebay_category": "Light Bulbs",
+   "product_subtype": "Light Bulbs",
+   "mapping_source": "EBAY_CATEGORY",
+   "mapping_status": "VERIFIED",
+   "mapping_note": "no SOT sub-type for any of 1 listing SKUs; eBay category leaf used"
+  },
+  {
+   "product_id": "267728257222",
+   "found": true,
+   "sku": "TPOSBDBM2PK",
+   "product_name": "2 Pack Raven Crow Table Lamp Resin Gothic Bird LED Bedside Light Home Décor",
+   "marketplace": "UK",
+   "account": "Electricalsone",
+   "listing_status": "Active",
+   "is_ended": 0,
+   "ebay_category_path": "Home, Furniture & DIY:Lighting:Lamps",
+   "source_updated_at": "2026-09-22 03:01:07",
+   "variation_skus": [],
+   "sot_subtype": null,
+   "ebay_category": "Lamps",
+   "product_subtype": "Lamps",
+   "mapping_source": "EBAY_CATEGORY",
+   "mapping_status": "VERIFIED",
+   "mapping_note": "no SOT sub-type for any of 1 listing SKUs; eBay category leaf used"
+  },
+  {
+   "product_id": "267720120199",
+   "found": true,
+   "sku": "Plug In Wall Lamp",
+   "product_name": "2 Pack Industrial Wall Sconce Light Metal Cone Shade E27 Plug In Adjustable",
+   "marketplace": "UK",
+   "account": "Electricalsone",
+   "listing_status": "Active",
+   "is_ended": 0,
+   "ebay_category_path": "Home, Furniture & DIY:Lighting:Lampshades & Lightshades",
+   "source_updated_at": "2026-09-22 02:01:23",
+   "variation_skus": [
+    "ENC7758"
+   ],
+   "sot_subtype": null,
+   "ebay_category": "Lampshades & Lightshades",
+   "product_subtype": "Lampshades & Lightshades",
+   "mapping_source": "EBAY_CATEGORY",
+   "mapping_status": "VERIFIED",
+   "mapping_note": "no SOT sub-type for any of 2 listing SKUs; eBay category leaf used"
+  },
+  {
+   "product_id": "267695260771",
+   "found": true,
+   "sku": "3 HEAD PENDAN LIGHT",
+   "product_name": "Industrial 3 Light Black Metal Pendant Ceiling Light E27 Kitchen Dining Lamp",
+   "marketplace": "UK",
+   "account": "Electricalsone",
+   "listing_status": "Active",
+   "is_ended": 0,
+   "ebay_category_path": "Home, Furniture & DIY:Lighting:Ceiling Lights & Chandeliers",
+   "source_updated_at": "2026-09-22 02:01:23",
+   "variation_skus": [
+    "CRFF500BM+PHCH1BMRBM3PK+LSCY210BG3PK",
+    "ENC8467"
+   ],
+   "sot_subtype": null,
+   "ebay_category": "Ceiling Lights & Chandeliers",
+   "product_subtype": "Ceiling Lights & Chandeliers",
+   "mapping_source": "EBAY_CATEGORY",
+   "mapping_status": "VERIFIED",
+   "mapping_note": "no SOT sub-type for any of 2 listing SKUs; eBay category leaf used"
+  },
+  {
+   "product_id": "267687534749",
+   "found": true,
+   "sku": "sku not assigneds",
+   "product_name": "2 Pack Industrial Pendant Light Shades 18cm E27 Kitchen Ceiling Lamp Shade Set",
+   "marketplace": "UK",
+   "account": "Electricalsone",
+   "listing_status": "Active",
+   "is_ended": 0,
+   "ebay_category_path": "Home, Furniture & DIY:Lighting:Lampshades & Lightshades",
+   "source_updated_at": "2026-09-22 02:01:23",
+   "variation_skus": [
+    "LSHQ180BG2PK+RPR44WH2PK",
+    "LSHQ180BM2PK+RPR44WH2PK"
+   ],
+   "sot_subtype": null,
+   "ebay_category": "Lampshades & Lightshades",
+   "product_subtype": "Lampshades & Lightshades",
+   "mapping_source": "EBAY_CATEGORY",
+   "mapping_status": "VERIFIED",
+   "mapping_note": "no SOT sub-type for any of 2 listing SKUs; eBay category leaf used"
+  }
+ ],
+ "outputs": [
+  "evidence/database/2026-09-22/source_snapshot_preflight_20260922T095034Z-9096.json",
+  "source_mapping/product_mapping/2026-09-22/mapping_preflight_20260922T095034Z-9096.csv",
+  "validation/2026-09-22/preflight_20260922T095034Z-9096.json"
+ ]
+}

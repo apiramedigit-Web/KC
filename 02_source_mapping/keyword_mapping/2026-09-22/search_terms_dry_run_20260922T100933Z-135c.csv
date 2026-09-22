@@ -1,0 +1,13 @@
+﻿product_id,product_subtype,mapping_source,ebay_category_path,search_term_rule,search_term
+265660310933,Ceiling Lights & Chandeliers,EBAY_CATEGORY,"Home, Furniture & DIY:Lighting:Ceiling Lights & Chandeliers",'LED' + Product Sub-Type (Keyword Analysis.pdf Step 2),LED Ceiling Lights & Chandeliers
+267742103780,Wall Lights,EBAY_CATEGORY,"Home, Furniture & DIY:Lighting:Wall Lights",'LED' + Product Sub-Type (Keyword Analysis.pdf Step 2),LED Wall Lights
+267791295531,Electrical Wires & Cables,EBAY_CATEGORY,"Home, Furniture & DIY:DIY Materials:Electrical Supplies:Electrical Wires & Cables",category outside Lighting -> no LED prefix,Electrical Wires & Cables
+267784997642,Ceiling Lights & Chandeliers,EBAY_CATEGORY,"Home, Furniture & DIY:Lighting:Ceiling Lights & Chandeliers",'LED' + Product Sub-Type (Keyword Analysis.pdf Step 2),LED Ceiling Lights & Chandeliers
+267773888902,Wall Lights,EBAY_CATEGORY,"Home, Furniture & DIY:Lighting:Wall Lights",'LED' + Product Sub-Type (Keyword Analysis.pdf Step 2),LED Wall Lights
+267768578649,Ceiling Lights & Chandeliers,EBAY_CATEGORY,"Home, Furniture & DIY:Lighting:Ceiling Lights & Chandeliers",'LED' + Product Sub-Type (Keyword Analysis.pdf Step 2),LED Ceiling Lights & Chandeliers
+267765767284,Wall Lights,EBAY_CATEGORY,"Home, Furniture & DIY:Lighting:Wall Lights",'LED' + Product Sub-Type (Keyword Analysis.pdf Step 2),LED Wall Lights
+267761469770,Light Bulbs,EBAY_CATEGORY,"Home, Furniture & DIY:Lighting:Light Bulbs",'LED' + Product Sub-Type (Keyword Analysis.pdf Step 2),LED Light Bulbs
+267728257222,Lamps,EBAY_CATEGORY,"Home, Furniture & DIY:Lighting:Lamps",'LED' + Product Sub-Type (Keyword Analysis.pdf Step 2),LED Lamps
+267720120199,Lampshades & Lightshades,EBAY_CATEGORY,"Home, Furniture & DIY:Lighting:Lampshades & Lightshades",'LED' + Product Sub-Type (Keyword Analysis.pdf Step 2),LED Lampshades & Lightshades
+267695260771,Ceiling Lights & Chandeliers,EBAY_CATEGORY,"Home, Furniture & DIY:Lighting:Ceiling Lights & Chandeliers",'LED' + Product Sub-Type (Keyword Analysis.pdf Step 2),LED Ceiling Lights & Chandeliers
+267687534749,Lampshades & Lightshades,EBAY_CATEGORY,"Home, Furniture & DIY:Lighting:Lampshades & Lightshades",'LED' + Product Sub-Type (Keyword Analysis.pdf Step 2),LED Lampshades & Lightshades

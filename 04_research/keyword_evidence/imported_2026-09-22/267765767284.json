@@ -1,0 +1,604 @@
+{
+ "product_id": "267765767284",
+ "sku": "sku not assigneds",
+ "product_name": "Vintage E27 Wall Sconce Light Glass Shade Antique Brass Indoor Lamp Fixture",
+ "origin": "IMPORTED",
+ "imported_from": "C:\\Users\\LED 222\\Keywords check\\02_Data\\requested\\ids\\267765767284.json",
+ "run_id": "imported-2026-09-22",
+ "run_date": "2026-09-22",
+ "product_subtype": "Wall Light",
+ "mapping_source": "OLD PROJECT: listings.ebay_listings.title phrase 'Vintage E27 Wall Sconce Light' (no SOT sub-type)",
+ "search_term": "LED Wall Light",
+ "search_term_rule": "OLD title-derived rule (superseded 2026-09-22 by SOT -> eBay category rule)",
+ "exit_ip": {
+  "ip": "145.239.6.2",
+  "country": "GB",
+  "city": "London",
+  "org": "AS16276 OVH SAS"
+ },
+ "started_at": "2026-09-22T06:46:15.843001+00:00",
+ "captured_at": "2026-09-22T06:46:15.843001+00:00",
+ "finished_at": "2026-09-22T06:46:21.899263+00:00",
+ "search_evidence": {
+  "search_capture": null,
+  "captured_at": "2026-09-22T06:46:15.843001+00:00",
+  "pages": [
+   {
+    "page": 1,
+    "url": "https://www.ebay.co.uk/sch/i.html?_nkw=LED+Wall+Light&LH_BIN=1&LH_ItemCondition=3&LH_PrefLoc=1&_pgn=1",
+    "http_status": 200,
+    "raw_html": "04_research/search_results/imported_2026-09-22/0d6d881454b3_p1.html"
+   },
+   {
+    "page": 2,
+    "url": "https://www.ebay.co.uk/sch/i.html?_nkw=LED+Wall+Light&LH_BIN=1&LH_ItemCondition=3&LH_PrefLoc=1&_pgn=2",
+    "http_status": 200,
+    "raw_html": "04_research/search_results/imported_2026-09-22/0d6d881454b3_p2.html"
+   },
+   {
+    "page": 3,
+    "url": "https://www.ebay.co.uk/sch/i.html?_nkw=LED+Wall+Light&LH_BIN=1&LH_ItemCondition=3&LH_PrefLoc=1&_pgn=3",
+    "http_status": 200,
+    "raw_html": "04_research/search_results/imported_2026-09-22/0d6d881454b3_p3.html"
+   }
+  ],
+  "complete": true
+ },
+ "screening_profile": {
+  "alternatives": [
+   [
+    "wall",
+    "light"
+   ]
+  ],
+  "heads": [
+   "light"
+  ],
+  "own_title_tokens": [
+   "vintage",
+   "e27",
+   "wall",
+   "sconce",
+   "light",
+   "glass",
+   "shade",
+   "antique",
+   "brass",
+   "indoor",
+   "lamp",
+   "fixture"
+  ]
+ },
+ "candidates": 190,
+ "internal_excluded": 6,
+ "tier_counts": {
+  "EXACT MATCH": 38,
+  "SIMILAR": 132,
+  "SAME CATEGORY": 11,
+  "NOT RELEVANT": 3
+ },
+ "shortlist": [
+  {
+   "listing_id": "407233649545",
+   "tier": "EXACT MATCH",
+   "similarity": 0.5,
+   "result_page": 1,
+   "result_position": 18,
+   "item_cache": "02_Data/item_cache/407233649545.json",
+   "item_status": "OK"
+  },
+  {
+   "listing_id": "407083487842",
+   "tier": "EXACT MATCH",
+   "similarity": 0.5,
+   "result_page": 1,
+   "result_position": 41,
+   "item_cache": "02_Data/item_cache/407083487842.json",
+   "item_status": "OK"
+  },
+  {
+   "listing_id": "398080102857",
+   "tier": "EXACT MATCH",
+   "similarity": 0.5,
+   "result_page": 1,
+   "result_position": 64,
+   "item_cache": "02_Data/item_cache/398080102857.json",
+   "item_status": "OK"
+  },
+  {
+   "listing_id": "396020956760",
+   "tier": "EXACT MATCH",
+   "similarity": 0.5,
+   "result_page": 1,
+   "result_position": 72,
+   "item_cache": "02_Data/item_cache/396020956760.json",
+   "item_status": "OK"
+  },
+  {
+   "listing_id": "389368085243",
+   "tier": "EXACT MATCH",
+   "similarity": 0.5,
+   "result_page": 2,
+   "result_position": 40,
+   "item_cache": "02_Data/item_cache/389368085243.json",
+   "item_status": "OK"
+  },
+  {
+   "listing_id": "407173398771",
+   "tier": "EXACT MATCH",
+   "similarity": 0.5,
+   "result_page": 3,
+   "result_position": 9,
+   "item_cache": "02_Data/item_cache/407173398771.json",
+   "item_status": "OK"
+  }
+ ],
+ "final_competitors": [
+  {
+   "listing_id": "396020956760",
+   "seller": "creatbetterlifede",
+   "title": "E27 Vintage Industrial Wall Light Metal Brushed Adjustable Wall Sconce Lamp Skzy",
+   "url": "https://www.ebay.co.uk/itm/396020956760",
+   "search_page": 1,
+   "search_position": 72,
+   "product_match": "EXACT MATCH",
+   "similarity": 0.5,
+   "sold": "244 sold",
+   "sales_30_day": "NOT VERIFIED",
+   "description_checked": "Yes",
+   "item_location": "Leicestershire, United Kingdom",
+   "raw_search_page": "04_research/search_results/imported_2026-09-22/0d6d881454b3_p1.html",
+   "raw_item_page": "04_research/competitor_listings/imported_2026-09-22/item_396020956760.html",
+   "raw_description": "04_research/descriptions/imported_2026-09-22/desc_396020956760.txt",
+   "captured_at": "2026-09-22T06:12:44.967964+00:00"
+  },
+  {
+   "listing_id": "398080102857",
+   "seller": "Global Horizon Group",
+   "title": "Modern LED Wall Light Up Down Sconce Indoor Wall Lamp Hallway Bedroom Fixture",
+   "url": "https://www.ebay.co.uk/itm/398080102857",
+   "search_page": 1,
+   "search_position": 64,
+   "product_match": "EXACT MATCH",
+   "similarity": 0.5,
+   "sold": "61 sold",
+   "sales_30_day": "NOT VERIFIED",
+   "description_checked": "Yes",
+   "item_location": "Liverpool, United Kingdom",
+   "raw_search_page": "04_research/search_results/imported_2026-09-22/0d6d881454b3_p1.html",
+   "raw_item_page": "04_research/competitor_listings/imported_2026-09-22/item_398080102857.html",
+   "raw_description": "04_research/descriptions/imported_2026-09-22/desc_398080102857.txt",
+   "captured_at": "2026-09-22T06:18:03.910063+00:00"
+  },
+  {
+   "listing_id": "407083487842",
+   "seller": "brightlights8888",
+   "title": "Modern LED Wall Light Fixture Sconce Up Down Outdoor Indoor Exterior Door Lamp",
+   "url": "https://www.ebay.co.uk/itm/407083487842",
+   "search_page": 1,
+   "search_position": 41,
+   "product_match": "EXACT MATCH",
+   "similarity": 0.5,
+   "sold": "46 sold",
+   "sales_30_day": "NOT VERIFIED",
+   "description_checked": "Yes",
+   "item_location": "Castle Donington,Leicestershire, United Kingdom",
+   "raw_search_page": "04_research/search_results/imported_2026-09-22/0d6d881454b3_p1.html",
+   "raw_item_page": "04_research/competitor_listings/imported_2026-09-22/item_407083487842.html",
+   "raw_description": "04_research/descriptions/imported_2026-09-22/desc_407083487842.txt",
+   "captured_at": "2026-09-22T06:17:52.167910+00:00"
+  },
+  {
+   "listing_id": "389368085243",
+   "seller": "imodernlumos",
+   "title": "LED Wall Light Gold 3000K/4500K/6500K Indoor Lighting Fixture Moden Sconce Lamp",
+   "url": "https://www.ebay.co.uk/itm/389368085243",
+   "search_page": 2,
+   "search_position": 40,
+   "product_match": "EXACT MATCH",
+   "similarity": 0.5,
+   "sold": "33 sold",
+   "sales_30_day": "NOT VERIFIED",
+   "description_checked": "Yes",
+   "item_location": "Dunstable, United Kingdom",
+   "raw_search_page": "04_research/search_results/imported_2026-09-22/0d6d881454b3_p2.html",
+   "raw_item_page": "04_research/competitor_listings/imported_2026-09-22/item_389368085243.html",
+   "raw_description": "04_research/descriptions/imported_2026-09-22/desc_389368085243.txt",
+   "captured_at": "2026-09-22T06:13:17.228353+00:00"
+  },
+  {
+   "listing_id": "407173398771",
+   "seller": "brightlights8888",
+   "title": "Modern LED Wall Light Up Down Sconce Indoor Wall Lamp Hallway Bedroom Fixture",
+   "url": "https://www.ebay.co.uk/itm/407173398771",
+   "search_page": 3,
+   "search_position": 9,
+   "product_match": "EXACT MATCH",
+   "similarity": 0.5,
+   "sold": "6 sold",
+   "sales_30_day": "NOT VERIFIED",
+   "description_checked": "Yes",
+   "item_location": "Castle Donington,Leicestershire, United Kingdom",
+   "raw_search_page": "04_research/search_results/imported_2026-09-22/0d6d881454b3_p3.html",
+   "raw_item_page": "04_research/competitor_listings/imported_2026-09-22/item_407173398771.html",
+   "raw_description": "04_research/descriptions/imported_2026-09-22/desc_407173398771.txt",
+   "captured_at": "2026-09-22T06:18:14.955932+00:00"
+  }
+ ],
+ "verification_status": "VERIFIED",
+ "research_status": "RESEARCHED",
+ "keywords": {
+  "Primary Keyword": [
+   {
+    "keyword": "Wall Light",
+    "keyword_rank": 5,
+    "of_competitors": 5,
+    "matches": [
+     {
+      "listing_id": "396020956760",
+      "found_in": [
+       "title",
+       "description"
+      ],
+      "snippet": "E27 Vintage Industrial Wall Light Metal Brushed Adjustable Wall Sconce La"
+     },
+     {
+      "listing_id": "398080102857",
+      "found_in": [
+       "title",
+       "description"
+      ],
+      "snippet": "Modern LED Wall Light Up Down Sconce Indoor Wall Lamp Hallway"
+     },
+     {
+      "listing_id": "407083487842",
+      "found_in": [
+       "title",
+       "description"
+      ],
+      "snippet": "Modern LED Wall Light Fixture Sconce Up Down Outdoor Indoor E"
+     },
+     {
+      "listing_id": "389368085243",
+      "found_in": [
+       "title",
+       "description"
+      ],
+      "snippet": "LED Wall Light Gold 3000K/4500K/6500K Indoor Lighting"
+     },
+     {
+      "listing_id": "407173398771",
+      "found_in": [
+       "title",
+       "description"
+      ],
+      "snippet": "Modern LED Wall Light Up Down Sconce Indoor Wall Lamp Hallway"
+     }
+    ],
+    "titles_with_phrase": 5
+   }
+  ],
+  "Secondary Keywords": [
+   {
+    "keyword": "Sconce",
+    "keyword_rank": 5,
+    "of_competitors": 5,
+    "matches": [
+     {
+      "listing_id": "396020956760",
+      "found_in": [
+       "title",
+       "description"
+      ],
+      "snippet": "dustrial Wall Light Metal Brushed Adjustable Wall Sconce Lamp Skzy"
+     },
+     {
+      "listing_id": "398080102857",
+      "found_in": [
+       "title",
+       "description"
+      ],
+      "snippet": "Modern LED Wall Light Up Down Sconce Indoor Wall Lamp Hallway Bedroom Fixtur"
+     },
+     {
+      "listing_id": "407083487842",
+      "found_in": [
+       "title",
+       "description"
+      ],
+      "snippet": "Modern LED Wall Light Fixture Sconce Up Down Outdoor Indoor Exterior Door La"
+     },
+     {
+      "listing_id": "389368085243",
+      "found_in": [
+       "title",
+       "description"
+      ],
+      "snippet": "d 3000K/4500K/6500K Indoor Lighting Fixture Moden Sconce Lamp"
+     },
+     {
+      "listing_id": "407173398771",
+      "found_in": [
+       "title",
+       "description"
+      ],
+      "snippet": "Modern LED Wall Light Up Down Sconce Indoor Wall Lamp Hallway Bedroom Fixtur"
+     }
+    ],
+    "titles_with_phrase": 5
+   },
+   {
+    "keyword": "Lamp",
+    "keyword_rank": 5,
+    "of_competitors": 5,
+    "matches": [
+     {
+      "listing_id": "396020956760",
+      "found_in": [
+       "title",
+       "description"
+      ],
+      "snippet": "l Wall Light Metal Brushed Adjustable Wall Sconce Lamp Skzy"
+     },
+     {
+      "listing_id": "398080102857",
+      "found_in": [
+       "title",
+       "description"
+      ],
+      "snippet": "Modern LED Wall Light Up Down Sconce Indoor Wall Lamp Hallway Bedroom Fixture"
+     },
+     {
+      "listing_id": "407083487842",
+      "found_in": [
+       "title",
+       "description"
+      ],
+      "snippet": "xture Sconce Up Down Outdoor Indoor Exterior Door Lamp"
+     },
+     {
+      "listing_id": "389368085243",
+      "found_in": [
+       "title",
+       "description"
+      ],
+      "snippet": "/4500K/6500K Indoor Lighting Fixture Moden Sconce Lamp"
+     },
+     {
+      "listing_id": "407173398771",
+      "found_in": [
+       "title",
+       "description"
+      ],
+      "snippet": "Modern LED Wall Light Up Down Sconce Indoor Wall Lamp Hallway Bedroom Fixture"
+     }
+    ],
+    "titles_with_phrase": 5
+   },
+   {
+    "keyword": "Indoor",
+    "keyword_rank": 4,
+    "of_competitors": 5,
+    "matches": [
+     {
+      "listing_id": "398080102857",
+      "found_in": [
+       "title",
+       "description"
+      ],
+      "snippet": "Modern LED Wall Light Up Down Sconce Indoor Wall Lamp Hallway Bedroom Fixture"
+     },
+     {
+      "listing_id": "407083487842",
+      "found_in": [
+       "title",
+       "description"
+      ],
+      "snippet": "ern LED Wall Light Fixture Sconce Up Down Outdoor Indoor Exterior Door Lamp"
+     },
+     {
+      "listing_id": "389368085243",
+      "found_in": [
+       "title",
+       "description"
+      ],
+      "snippet": "LED Wall Light Gold 3000K/4500K/6500K Indoor Lighting Fixture Moden Sconce Lamp"
+     },
+     {
+      "listing_id": "407173398771",
+      "found_in": [
+       "title",
+       "description"
+      ],
+      "snippet": "Modern LED Wall Light Up Down Sconce Indoor Wall Lamp Hallway Bedroom Fixture"
+     }
+    ],
+    "titles_with_phrase": 4
+   }
+  ],
+  "Long-Tail Keywords": [
+   {
+    "keyword": "LED Wall Light",
+    "keyword_rank": 4,
+    "of_competitors": 5,
+    "matches": [
+     {
+      "listing_id": "398080102857",
+      "found_in": [
+       "title",
+       "description"
+      ],
+      "snippet": "Modern LED Wall Light Up Down Sconce Indoor Wall Lamp Hallway"
+     },
+     {
+      "listing_id": "407083487842",
+      "found_in": [
+       "title",
+       "description"
+      ],
+      "snippet": "Modern LED Wall Light Fixture Sconce Up Down Outdoor Indoor E"
+     },
+     {
+      "listing_id": "389368085243",
+      "found_in": [
+       "title",
+       "description"
+      ],
+      "snippet": "LED Wall Light Gold 3000K/4500K/6500K Indoor Lighting"
+     },
+     {
+      "listing_id": "407173398771",
+      "found_in": [
+       "title",
+       "description"
+      ],
+      "snippet": "Modern LED Wall Light Up Down Sconce Indoor Wall Lamp Hallway"
+     }
+    ],
+    "titles_with_phrase": 4
+   },
+   {
+    "keyword": "Modern LED Wall Light",
+    "keyword_rank": 3,
+    "of_competitors": 5,
+    "matches": [
+     {
+      "listing_id": "398080102857",
+      "found_in": [
+       "title",
+       "description"
+      ],
+      "snippet": "Modern LED Wall Light Up Down Sconce Indoor Wall Lamp Hallway"
+     },
+     {
+      "listing_id": "407083487842",
+      "found_in": [
+       "title",
+       "description"
+      ],
+      "snippet": "Modern LED Wall Light Fixture Sconce Up Down Outdoor Indoor E"
+     },
+     {
+      "listing_id": "407173398771",
+      "found_in": [
+       "title",
+       "description"
+      ],
+      "snippet": "Modern LED Wall Light Up Down Sconce Indoor Wall Lamp Hallway"
+     }
+    ],
+    "titles_with_phrase": 3
+   },
+   {
+    "keyword": "Modern LED Wall Light Up",
+    "keyword_rank": 2,
+    "of_competitors": 5,
+    "matches": [
+     {
+      "listing_id": "398080102857",
+      "found_in": [
+       "title",
+       "description"
+      ],
+      "snippet": "Modern LED Wall Light Up Down Sconce Indoor Wall Lamp Hallway Be"
+     },
+     {
+      "listing_id": "407173398771",
+      "found_in": [
+       "title",
+       "description"
+      ],
+      "snippet": "Modern LED Wall Light Up Down Sconce Indoor Wall Lamp Hallway Be"
+     }
+    ],
+    "titles_with_phrase": 2
+   }
+  ],
+  "Competitor Keywords": [
+   {
+    "keyword": "Up Down",
+    "keyword_rank": 3,
+    "of_competitors": 5,
+    "matches": [
+     {
+      "listing_id": "398080102857",
+      "found_in": [
+       "title",
+       "description"
+      ],
+      "snippet": "Modern LED Wall Light Up Down Sconce Indoor Wall Lamp Hallway Bedroom"
+     },
+     {
+      "listing_id": "407083487842",
+      "found_in": [
+       "title",
+       "description"
+      ],
+      "snippet": "Modern LED Wall Light Fixture Sconce Up Down Outdoor Indoor Exterior Door Lamp"
+     },
+     {
+      "listing_id": "407173398771",
+      "found_in": [
+       "title",
+       "description"
+      ],
+      "snippet": "Modern LED Wall Light Up Down Sconce Indoor Wall Lamp Hallway Bedroom"
+     }
+    ],
+    "titles_with_phrase": 3
+   },
+   {
+    "keyword": "Down Sconce Indoor Wall Lamp",
+    "keyword_rank": 2,
+    "of_competitors": 5,
+    "matches": [
+     {
+      "listing_id": "398080102857",
+      "found_in": [
+       "title",
+       "description"
+      ],
+      "snippet": "Modern LED Wall Light Up Down Sconce Indoor Wall Lamp Hallway Bedroom Fixture"
+     },
+     {
+      "listing_id": "407173398771",
+      "found_in": [
+       "title",
+       "description"
+      ],
+      "snippet": "Modern LED Wall Light Up Down Sconce Indoor Wall Lamp Hallway Bedroom Fixture"
+     }
+    ],
+    "titles_with_phrase": 2
+   },
+   {
+    "keyword": "Sconce Indoor Wall Lamp Hallway",
+    "keyword_rank": 2,
+    "of_competitors": 5,
+    "matches": [
+     {
+      "listing_id": "398080102857",
+      "found_in": [
+       "title",
+       "description"
+      ],
+      "snippet": "Modern LED Wall Light Up Down Sconce Indoor Wall Lamp Hallway Bedroom Fixture"
+     },
+     {
+      "listing_id": "407173398771",
+      "found_in": [
+       "title",
+       "description"
+      ],
+      "snippet": "Modern LED Wall Light Up Down Sconce Indoor Wall Lamp Hallway Bedroom Fixture"
+     }
+    ],
+    "titles_with_phrase": 2
+   }
+  ]
+ },
+ "import_check": {
+  "keywords_and_ranks_equal_old_project": true,
+  "old": "same"
+ }
+}

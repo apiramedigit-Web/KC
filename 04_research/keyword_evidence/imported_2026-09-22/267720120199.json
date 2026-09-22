@@ -1,0 +1,551 @@
+{
+ "product_id": "267720120199",
+ "sku": "Plug In Wall Lamp",
+ "product_name": "2 Pack Industrial Wall Sconce Light Metal Cone Shade E27 Plug In Adjustable",
+ "origin": "IMPORTED",
+ "imported_from": "C:\\Users\\LED 222\\Keywords check\\02_Data\\requested\\ids\\267720120199.json",
+ "run_id": "imported-2026-09-22",
+ "run_date": "2026-09-22",
+ "product_subtype": "Wall Light",
+ "mapping_source": "OLD PROJECT: listings.ebay_listings.title phrase 'Industrial Wall Sconce Light' (no SOT sub-type)",
+ "search_term": "LED Wall Light",
+ "search_term_rule": "OLD title-derived rule (superseded 2026-09-22 by SOT -> eBay category rule)",
+ "exit_ip": {
+  "ip": "145.239.6.2",
+  "country": "GB",
+  "city": "London",
+  "org": "AS16276 OVH SAS"
+ },
+ "started_at": "2026-09-22T06:46:34.017282+00:00",
+ "captured_at": "2026-09-22T06:46:34.017282+00:00",
+ "finished_at": "2026-09-22T06:46:40.065422+00:00",
+ "search_evidence": {
+  "search_capture": null,
+  "captured_at": "2026-09-22T06:46:34.017282+00:00",
+  "pages": [
+   {
+    "page": 1,
+    "url": "https://www.ebay.co.uk/sch/i.html?_nkw=LED+Wall+Light&LH_BIN=1&LH_ItemCondition=3&LH_PrefLoc=1&_pgn=1",
+    "http_status": 200,
+    "raw_html": "04_research/search_results/imported_2026-09-22/0d6d881454b3_p1.html"
+   },
+   {
+    "page": 2,
+    "url": "https://www.ebay.co.uk/sch/i.html?_nkw=LED+Wall+Light&LH_BIN=1&LH_ItemCondition=3&LH_PrefLoc=1&_pgn=2",
+    "http_status": 200,
+    "raw_html": "04_research/search_results/imported_2026-09-22/0d6d881454b3_p2.html"
+   },
+   {
+    "page": 3,
+    "url": "https://www.ebay.co.uk/sch/i.html?_nkw=LED+Wall+Light&LH_BIN=1&LH_ItemCondition=3&LH_PrefLoc=1&_pgn=3",
+    "http_status": 200,
+    "raw_html": "04_research/search_results/imported_2026-09-22/0d6d881454b3_p3.html"
+   }
+  ],
+  "complete": true
+ },
+ "screening_profile": {
+  "alternatives": [
+   [
+    "wall",
+    "light"
+   ]
+  ],
+  "heads": [
+   "light"
+  ],
+  "own_title_tokens": [
+   "pack",
+   "industrial",
+   "wall",
+   "sconce",
+   "light",
+   "metal",
+   "cone",
+   "shade",
+   "e27",
+   "plug",
+   "adjustable"
+  ]
+ },
+ "candidates": 190,
+ "internal_excluded": 6,
+ "tier_counts": {
+  "EXACT MATCH": 1,
+  "SIMILAR": 169,
+  "SAME CATEGORY": 11,
+  "NOT RELEVANT": 3
+ },
+ "shortlist": [
+  {
+   "listing_id": "396020956760",
+   "tier": "EXACT MATCH",
+   "similarity": 0.636,
+   "result_page": 1,
+   "result_position": 72,
+   "item_cache": "02_Data/item_cache/396020956760.json",
+   "item_status": "OK"
+  },
+  {
+   "listing_id": "206153690771",
+   "tier": "SIMILAR",
+   "similarity": 0.364,
+   "result_page": 1,
+   "result_position": 56,
+   "item_cache": "02_Data/item_cache/206153690771.json",
+   "item_status": "OK"
+  },
+  {
+   "listing_id": "407168273385",
+   "tier": "SIMILAR",
+   "similarity": 0.364,
+   "result_page": 2,
+   "result_position": 8,
+   "item_cache": "02_Data/item_cache/407168273385.json",
+   "item_status": "OK"
+  },
+  {
+   "listing_id": "158306485849",
+   "tier": "SIMILAR",
+   "similarity": 0.364,
+   "result_page": 2,
+   "result_position": 26,
+   "item_cache": "02_Data/item_cache/158306485849.json",
+   "item_status": "OK"
+  },
+  {
+   "listing_id": "128026609612",
+   "tier": "SIMILAR",
+   "similarity": 0.273,
+   "result_page": 1,
+   "result_position": 2,
+   "item_cache": "02_Data/item_cache/128026609612.json",
+   "item_status": "OK"
+  },
+  {
+   "listing_id": "147482192876",
+   "tier": "SIMILAR",
+   "similarity": 0.273,
+   "result_page": 1,
+   "result_position": 5,
+   "item_cache": "02_Data/item_cache/147482192876.json",
+   "item_status": "OK"
+  }
+ ],
+ "final_competitors": [
+  {
+   "listing_id": "396020956760",
+   "seller": "creatbetterlifede",
+   "title": "E27 Vintage Industrial Wall Light Metal Brushed Adjustable Wall Sconce Lamp Skzy",
+   "url": "https://www.ebay.co.uk/itm/396020956760",
+   "search_page": 1,
+   "search_position": 72,
+   "product_match": "EXACT MATCH",
+   "similarity": 0.636,
+   "sold": "244 sold",
+   "sales_30_day": "NOT VERIFIED",
+   "description_checked": "Yes",
+   "item_location": "Leicestershire, United Kingdom",
+   "raw_search_page": "04_research/search_results/imported_2026-09-22/0d6d881454b3_p1.html",
+   "raw_item_page": "04_research/competitor_listings/imported_2026-09-22/item_396020956760.html",
+   "raw_description": "04_research/descriptions/imported_2026-09-22/desc_396020956760.txt",
+   "captured_at": "2026-09-22T06:12:44.967964+00:00"
+  },
+  {
+   "listing_id": "206153690771",
+   "seller": "Briloner UK",
+   "title": "Wall Lamp Single Light Reading Spotlight Bedroom Adjustable LED GU10 Metal",
+   "url": "https://www.ebay.co.uk/itm/206153690771",
+   "search_page": 1,
+   "search_position": 56,
+   "product_match": "SIMILAR",
+   "similarity": 0.364,
+   "sold": "137 sold",
+   "sales_30_day": "NOT VERIFIED",
+   "description_checked": "Yes",
+   "item_location": "United Kingdom",
+   "raw_search_page": "04_research/search_results/imported_2026-09-22/0d6d881454b3_p1.html",
+   "raw_item_page": "04_research/competitor_listings/imported_2026-09-22/item_206153690771.html",
+   "raw_description": "04_research/descriptions/imported_2026-09-22/desc_206153690771.txt",
+   "captured_at": "2026-09-22T06:21:17.572423+00:00"
+  },
+  {
+   "listing_id": "147482192876",
+   "seller": "yntbuyagain",
+   "title": "Modern LED Wall Lamp Living Room Wall Light Bedroom Bedside Wall Sconce Lighting",
+   "url": "https://www.ebay.co.uk/itm/147482192876",
+   "search_page": 1,
+   "search_position": 5,
+   "product_match": "SIMILAR",
+   "similarity": 0.273,
+   "sold": "48 sold",
+   "sales_30_day": "NOT VERIFIED",
+   "description_checked": "Yes",
+   "item_location": "Birmingham, United Kingdom",
+   "raw_search_page": "04_research/search_results/imported_2026-09-22/0d6d881454b3_p1.html",
+   "raw_item_page": "04_research/competitor_listings/imported_2026-09-22/item_147482192876.html",
+   "raw_description": "04_research/descriptions/imported_2026-09-22/desc_147482192876.txt",
+   "captured_at": "2026-09-22T06:13:37.899280+00:00"
+  },
+  {
+   "listing_id": "407168273385",
+   "seller": "brightlights8888",
+   "title": "2 Pack Modern Matte Aluminium LED Wall Lights Up Down Lighting Decor Sconce Lamp",
+   "url": "https://www.ebay.co.uk/itm/407168273385",
+   "search_page": 2,
+   "search_position": 8,
+   "product_match": "SIMILAR",
+   "similarity": 0.364,
+   "sold": "25 sold",
+   "sales_30_day": "NOT VERIFIED",
+   "description_checked": "Yes",
+   "item_location": "Castle Donington,Leicestershire, United Kingdom",
+   "raw_search_page": "04_research/search_results/imported_2026-09-22/0d6d881454b3_p2.html",
+   "raw_item_page": "04_research/competitor_listings/imported_2026-09-22/item_407168273385.html",
+   "raw_description": "04_research/descriptions/imported_2026-09-22/desc_407168273385.txt",
+   "captured_at": "2026-09-22T06:21:29.459058+00:00"
+  },
+  {
+   "listing_id": "128026609612",
+   "seller": "monios",
+   "title": "LED Wall Light Sconce Waterproof Outdoor Lamp Exterior Lights Long Strip Modern",
+   "url": "https://www.ebay.co.uk/itm/128026609612",
+   "search_page": 1,
+   "search_position": 2,
+   "product_match": "SIMILAR",
+   "similarity": 0.273,
+   "sold": "19 sold",
+   "sales_30_day": "NOT VERIFIED",
+   "description_checked": "Yes",
+   "item_location": "Cannock, United Kingdom",
+   "raw_search_page": "04_research/search_results/imported_2026-09-22/0d6d881454b3_p1.html",
+   "raw_item_page": "04_research/competitor_listings/imported_2026-09-22/item_128026609612.html",
+   "raw_description": "04_research/descriptions/imported_2026-09-22/desc_128026609612.txt",
+   "captured_at": "2026-09-22T06:13:28.564498+00:00"
+  }
+ ],
+ "verification_status": "VERIFIED",
+ "research_status": "RESEARCHED",
+ "keywords": {
+  "Primary Keyword": [
+   {
+    "keyword": "Light",
+    "keyword_rank": 5,
+    "of_competitors": 5,
+    "matches": [
+     {
+      "listing_id": "396020956760",
+      "found_in": [
+       "title",
+       "description"
+      ],
+      "snippet": "E27 Vintage Industrial Wall Light Metal Brushed Adjustable Wall Sconce La"
+     },
+     {
+      "listing_id": "206153690771",
+      "found_in": [
+       "title",
+       "description"
+      ],
+      "snippet": "Wall Lamp Single Light Reading Spotlight Bedroom Adjustable LE"
+     },
+     {
+      "listing_id": "147482192876",
+      "found_in": [
+       "title",
+       "description"
+      ],
+      "snippet": "Modern LED Wall Lamp Living Room Wall Light Bedroom Bedside Wall Sconce Lighting"
+     },
+     {
+      "listing_id": "407168273385",
+      "found_in": [
+       "title",
+       "description"
+      ],
+      "snippet": "2 Pack Modern Matte Aluminium LED Wall Lights Up Down Lighting Decor Sconce Lamp"
+     },
+     {
+      "listing_id": "128026609612",
+      "found_in": [
+       "title",
+       "description"
+      ],
+      "snippet": "LED Wall Light Sconce Waterproof Outdoor Lamp Exterior"
+     }
+    ],
+    "titles_with_phrase": 5
+   }
+  ],
+  "Secondary Keywords": [
+   {
+    "keyword": "Wall",
+    "keyword_rank": 5,
+    "of_competitors": 5,
+    "matches": [
+     {
+      "listing_id": "396020956760",
+      "found_in": [
+       "title",
+       "description"
+      ],
+      "snippet": "E27 Vintage Industrial Wall Light Metal Brushed Adjustable Wall Sco"
+     },
+     {
+      "listing_id": "206153690771",
+      "found_in": [
+       "title",
+       "description"
+      ],
+      "snippet": "Wall Lamp Single Light Reading Spotlight Bed"
+     },
+     {
+      "listing_id": "147482192876",
+      "found_in": [
+       "title",
+       "description"
+      ],
+      "snippet": "Modern LED Wall Lamp Living Room Wall Light Bedroom Bed"
+     },
+     {
+      "listing_id": "407168273385",
+      "found_in": [
+       "title",
+       "description"
+      ],
+      "snippet": "2 Pack Modern Matte Aluminium LED Wall Lights Up Down Lighting Decor Sconce La"
+     },
+     {
+      "listing_id": "128026609612",
+      "found_in": [
+       "title",
+       "description"
+      ],
+      "snippet": "LED Wall Light Sconce Waterproof Outdoor Lamp Ex"
+     }
+    ],
+    "titles_with_phrase": 5
+   },
+   {
+    "keyword": "Lamp",
+    "keyword_rank": 5,
+    "of_competitors": 5,
+    "matches": [
+     {
+      "listing_id": "396020956760",
+      "found_in": [
+       "title",
+       "description"
+      ],
+      "snippet": "l Wall Light Metal Brushed Adjustable Wall Sconce Lamp Skzy"
+     },
+     {
+      "listing_id": "206153690771",
+      "found_in": [
+       "title",
+       "description"
+      ],
+      "snippet": "Wall Lamp Single Light Reading Spotlight Bedroom"
+     },
+     {
+      "listing_id": "147482192876",
+      "found_in": [
+       "title",
+       "description"
+      ],
+      "snippet": "Modern LED Wall Lamp Living Room Wall Light Bedroom Bedside"
+     },
+     {
+      "listing_id": "407168273385",
+      "found_in": [
+       "title",
+       "description"
+      ],
+      "snippet": "ium LED Wall Lights Up Down Lighting Decor Sconce Lamp"
+     },
+     {
+      "listing_id": "128026609612",
+      "found_in": [
+       "title",
+       "description"
+      ],
+      "snippet": "LED Wall Light Sconce Waterproof Outdoor Lamp Exterior Lights Long Strip Modern"
+     }
+    ],
+    "titles_with_phrase": 5
+   },
+   {
+    "keyword": "Wall Light",
+    "keyword_rank": 4,
+    "of_competitors": 5,
+    "matches": [
+     {
+      "listing_id": "396020956760",
+      "found_in": [
+       "title",
+       "description"
+      ],
+      "snippet": "E27 Vintage Industrial Wall Light Metal Brushed Adjustable Wall Sconce La"
+     },
+     {
+      "listing_id": "147482192876",
+      "found_in": [
+       "title",
+       "description"
+      ],
+      "snippet": "Modern LED Wall Lamp Living Room Wall Light Bedroom Bedside Wall Sconce Lighting"
+     },
+     {
+      "listing_id": "407168273385",
+      "found_in": [
+       "title",
+       "description"
+      ],
+      "snippet": "2 Pack Modern Matte Aluminium LED Wall Lights Up Down Lighting Decor Sconce Lamp"
+     },
+     {
+      "listing_id": "128026609612",
+      "found_in": [
+       "title",
+       "description"
+      ],
+      "snippet": "LED Wall Light Sconce Waterproof Outdoor Lamp Exterior"
+     }
+    ],
+    "titles_with_phrase": 4
+   }
+  ],
+  "Long-Tail Keywords": [
+   {
+    "keyword": "LED Wall Lights",
+    "keyword_rank": 1,
+    "of_competitors": 5,
+    "matches": [
+     {
+      "listing_id": "407168273385",
+      "found_in": [
+       "title",
+       "description"
+      ],
+      "snippet": "2 Pack Modern Matte Aluminium LED Wall Lights Up Down Lighting Decor Sconce Lamp"
+     }
+    ],
+    "titles_with_phrase": 2
+   }
+  ],
+  "Competitor Keywords": [
+   {
+    "keyword": "Modern",
+    "keyword_rank": 5,
+    "of_competitors": 5,
+    "matches": [
+     {
+      "listing_id": "396020956760",
+      "found_in": [
+       "description"
+      ],
+      "snippet": "The black sconce combines two styles, antique and modern, which gives you a vintage feeling. Bri"
+     },
+     {
+      "listing_id": "206153690771",
+      "found_in": [
+       "description"
+      ],
+      "snippet": "potlight Bedroom Adjustable GU10 Item description Modern GU10 Wall Spotlight, Adjustable Metal L"
+     },
+     {
+      "listing_id": "147482192876",
+      "found_in": [
+       "title",
+       "description"
+      ],
+      "snippet": "Modern LED Wall Lamp Living Room Wall Light Be"
+     },
+     {
+      "listing_id": "407168273385",
+      "found_in": [
+       "title",
+       "description"
+      ],
+      "snippet": "2 Pack Modern Matte Aluminium LED Wall Lights Up Down"
+     },
+     {
+      "listing_id": "128026609612",
+      "found_in": [
+       "title",
+       "description"
+      ],
+      "snippet": "aterproof Outdoor Lamp Exterior Lights Long Strip Modern"
+     }
+    ],
+    "titles_with_phrase": 3
+   },
+   {
+    "keyword": "Sconce Lamp",
+    "keyword_rank": 2,
+    "of_competitors": 5,
+    "matches": [
+     {
+      "listing_id": "396020956760",
+      "found_in": [
+       "title",
+       "description"
+      ],
+      "snippet": "dustrial Wall Light Metal Brushed Adjustable Wall Sconce Lamp Skzy"
+     },
+     {
+      "listing_id": "407168273385",
+      "found_in": [
+       "title",
+       "description"
+      ],
+      "snippet": "Aluminium LED Wall Lights Up Down Lighting Decor Sconce Lamp"
+     }
+    ],
+    "titles_with_phrase": 2
+   },
+   {
+    "keyword": "Wall Lamp",
+    "keyword_rank": 4,
+    "of_competitors": 5,
+    "matches": [
+     {
+      "listing_id": "206153690771",
+      "found_in": [
+       "title",
+       "description"
+      ],
+      "snippet": "Wall Lamp Single Light Reading Spotlight Bedroom"
+     },
+     {
+      "listing_id": "147482192876",
+      "found_in": [
+       "title",
+       "description"
+      ],
+      "snippet": "Modern LED Wall Lamp Living Room Wall Light Bedroom Bedside"
+     },
+     {
+      "listing_id": "407168273385",
+      "found_in": [
+       "description"
+      ],
+      "snippet": "all Lights Up Down Lighting Decor Sconce Lamp LED Wall Lamp Up Down Indoor Garden Light Room Decora"
+     },
+     {
+      "listing_id": "128026609612",
+      "found_in": [
+       "description"
+      ],
+      "snippet": "s: 【Excellent lighting effect】- The black outdoor wall lamp wall mount bracket can emit light, with"
+     }
+    ],
+    "titles_with_phrase": 2
+   }
+  ]
+ },
+ "import_check": {
+  "keywords_and_ranks_equal_old_project": true,
+  "old": "same"
+ }
+}

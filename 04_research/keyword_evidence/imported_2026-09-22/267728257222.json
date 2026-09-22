@@ -1,0 +1,597 @@
+{
+ "product_id": "267728257222",
+ "sku": "TPOSBDBM2PK",
+ "product_name": "2 Pack Raven Crow Table Lamp Resin Gothic Bird LED Bedside Light Home Décor",
+ "origin": "IMPORTED",
+ "imported_from": "C:\\Users\\LED 222\\Keywords check\\02_Data\\requested\\ids\\267728257222.json",
+ "run_id": "imported-2026-09-22",
+ "run_date": "2026-09-22",
+ "product_subtype": "Table Lamp",
+ "mapping_source": "OLD PROJECT: listings.ebay_listings.title phrase 'Raven Crow Table Lamp' (no SOT sub-type)",
+ "search_term": "LED Table Lamp",
+ "search_term_rule": "OLD title-derived rule (superseded 2026-09-22 by SOT -> eBay category rule)",
+ "exit_ip": {
+  "ip": "145.239.6.2",
+  "country": "GB",
+  "city": "London",
+  "org": "AS16276 OVH SAS"
+ },
+ "started_at": "2026-09-22T06:46:27.955642+00:00",
+ "captured_at": "2026-09-22T06:46:27.955642+00:00",
+ "finished_at": "2026-09-22T06:46:34.016135+00:00",
+ "search_evidence": {
+  "search_capture": null,
+  "captured_at": "2026-09-22T06:46:27.955642+00:00",
+  "pages": [
+   {
+    "page": 1,
+    "url": "https://www.ebay.co.uk/sch/i.html?_nkw=LED+Table+Lamp&LH_BIN=1&LH_ItemCondition=3&LH_PrefLoc=1&_pgn=1",
+    "http_status": 200,
+    "raw_html": "04_research/search_results/imported_2026-09-22/45be1a32cdc0_p1.html"
+   },
+   {
+    "page": 2,
+    "url": "https://www.ebay.co.uk/sch/i.html?_nkw=LED+Table+Lamp&LH_BIN=1&LH_ItemCondition=3&LH_PrefLoc=1&_pgn=2",
+    "http_status": 200,
+    "raw_html": "04_research/search_results/imported_2026-09-22/45be1a32cdc0_p2.html"
+   },
+   {
+    "page": 3,
+    "url": "https://www.ebay.co.uk/sch/i.html?_nkw=LED+Table+Lamp&LH_BIN=1&LH_ItemCondition=3&LH_PrefLoc=1&_pgn=3",
+    "http_status": 200,
+    "raw_html": "04_research/search_results/imported_2026-09-22/45be1a32cdc0_p3.html"
+   }
+  ],
+  "complete": true
+ },
+ "screening_profile": {
+  "alternatives": [
+   [
+    "table",
+    "lamp"
+   ]
+  ],
+  "heads": [
+   "lamp"
+  ],
+  "own_title_tokens": [
+   "pack",
+   "raven",
+   "crow",
+   "table",
+   "lamp",
+   "resin",
+   "gothic",
+   "bird",
+   "bedside",
+   "light",
+   "home",
+   "d",
+   "cor"
+  ]
+ },
+ "candidates": 192,
+ "internal_excluded": 1,
+ "tier_counts": {
+  "EXACT MATCH": 0,
+  "SIMILAR": 160,
+  "SAME CATEGORY": 30,
+  "NOT RELEVANT": 1
+ },
+ "shortlist": [
+  {
+   "listing_id": "366419318221",
+   "tier": "SIMILAR",
+   "similarity": 0.385,
+   "result_page": 1,
+   "result_position": 56,
+   "item_cache": "02_Data/item_cache/366419318221.json",
+   "item_status": "OK"
+  },
+  {
+   "listing_id": "137419166020",
+   "tier": "SIMILAR",
+   "similarity": 0.385,
+   "result_page": 2,
+   "result_position": 45,
+   "item_cache": "02_Data/item_cache/137419166020.json",
+   "item_status": "OK"
+  },
+  {
+   "listing_id": "377070726636",
+   "tier": "SIMILAR",
+   "similarity": 0.385,
+   "result_page": 3,
+   "result_position": 33,
+   "item_cache": "02_Data/item_cache/377070726636.json",
+   "item_status": "OK"
+  },
+  {
+   "listing_id": "307005226468",
+   "tier": "SIMILAR",
+   "similarity": 0.308,
+   "result_page": 1,
+   "result_position": 1,
+   "item_cache": "02_Data/item_cache/307005226468.json",
+   "item_status": "OK"
+  },
+  {
+   "listing_id": "306891729286",
+   "tier": "SIMILAR",
+   "similarity": 0.308,
+   "result_page": 1,
+   "result_position": 2,
+   "item_cache": "02_Data/item_cache/306891729286.json",
+   "item_status": "OK"
+  },
+  {
+   "listing_id": "366501621748",
+   "tier": "SIMILAR",
+   "similarity": 0.308,
+   "result_page": 1,
+   "result_position": 3,
+   "item_cache": "02_Data/item_cache/366501621748.json",
+   "item_status": "OK"
+  }
+ ],
+ "final_competitors": [
+  {
+   "listing_id": "306891729286",
+   "seller": "kirkl41",
+   "title": "2 x USB LED Crystal Table Lamp Touch Dimmable Bedside Night Light Bedroom Decor",
+   "url": "https://www.ebay.co.uk/itm/306891729286",
+   "search_page": 1,
+   "search_position": 2,
+   "product_match": "SIMILAR",
+   "similarity": 0.308,
+   "sold": "67 sold",
+   "sales_30_day": "NOT VERIFIED",
+   "description_checked": "Yes",
+   "item_location": "Dunstable, United Kingdom",
+   "raw_search_page": "04_research/search_results/imported_2026-09-22/45be1a32cdc0_p1.html",
+   "raw_item_page": "04_research/competitor_listings/imported_2026-09-22/item_306891729286.html",
+   "raw_description": "04_research/descriptions/imported_2026-09-22/desc_306891729286.txt",
+   "captured_at": "2026-09-22T06:20:55.648012+00:00"
+  },
+  {
+   "listing_id": "307005226468",
+   "seller": "kirkl41",
+   "title": "2 x LED Crystal Table Lamp Touch Dimmable Bedside Night Light Bedroom Decor-USB",
+   "url": "https://www.ebay.co.uk/itm/307005226468",
+   "search_page": 1,
+   "search_position": 1,
+   "product_match": "SIMILAR",
+   "similarity": 0.308,
+   "sold": "12 sold",
+   "sales_30_day": "NOT VERIFIED",
+   "description_checked": "Yes",
+   "item_location": "Dunstable, United Kingdom",
+   "raw_search_page": "04_research/search_results/imported_2026-09-22/45be1a32cdc0_p1.html",
+   "raw_item_page": "04_research/competitor_listings/imported_2026-09-22/item_307005226468.html",
+   "raw_description": "04_research/descriptions/imported_2026-09-22/desc_307005226468.txt",
+   "captured_at": "2026-09-22T06:20:46.231065+00:00"
+  },
+  {
+   "listing_id": "377070726636",
+   "seller": "Augestern",
+   "title": "LED Table Lamp Touch Sensor USB Rechargeable Night Light Bedroom Bedside Home UK",
+   "url": "https://www.ebay.co.uk/itm/377070726636",
+   "search_page": 3,
+   "search_position": 33,
+   "product_match": "SIMILAR",
+   "similarity": 0.385,
+   "sold": "9 sold",
+   "sales_30_day": "NOT VERIFIED",
+   "description_checked": "Yes",
+   "item_location": "Northampton, United Kingdom",
+   "raw_search_page": "04_research/search_results/imported_2026-09-22/45be1a32cdc0_p3.html",
+   "raw_item_page": "04_research/competitor_listings/imported_2026-09-22/item_377070726636.html",
+   "raw_description": "04_research/descriptions/imported_2026-09-22/desc_377070726636.txt",
+   "captured_at": "2026-09-22T06:20:32.169988+00:00"
+  },
+  {
+   "listing_id": "366501621748",
+   "seller": "clickrushltduk",
+   "title": "Iridescent Clam Shell Pearl Table Lamp Changing Glitter Globe Night Light Home",
+   "url": "https://www.ebay.co.uk/itm/366501621748",
+   "search_page": 1,
+   "search_position": 3,
+   "product_match": "SIMILAR",
+   "similarity": 0.308,
+   "sold": "7 sold",
+   "sales_30_day": "NOT VERIFIED",
+   "description_checked": "Yes",
+   "item_location": "BlackBlackburnburn, United Kingdom",
+   "raw_search_page": "04_research/search_results/imported_2026-09-22/45be1a32cdc0_p1.html",
+   "raw_item_page": "04_research/competitor_listings/imported_2026-09-22/item_366501621748.html",
+   "raw_description": "04_research/descriptions/imported_2026-09-22/desc_366501621748.txt",
+   "captured_at": "2026-09-22T06:21:08.475165+00:00"
+  },
+  {
+   "listing_id": "366419318221",
+   "seller": "clickrushltduk",
+   "title": "Silver Chrome Bird Table Lamp Touch Dimmer LED Bedside Light Crushed Diamond",
+   "url": "https://www.ebay.co.uk/itm/366419318221",
+   "search_page": 1,
+   "search_position": 56,
+   "product_match": "SIMILAR",
+   "similarity": 0.385,
+   "sold": "1 sold",
+   "sales_30_day": "NOT VERIFIED",
+   "description_checked": "Yes",
+   "item_location": "BlackBlackburnburn, United Kingdom",
+   "raw_search_page": "04_research/search_results/imported_2026-09-22/45be1a32cdc0_p1.html",
+   "raw_item_page": "04_research/competitor_listings/imported_2026-09-22/item_366419318221.html",
+   "raw_description": "04_research/descriptions/imported_2026-09-22/desc_366419318221.txt",
+   "captured_at": "2026-09-22T06:20:15.663343+00:00"
+  }
+ ],
+ "verification_status": "VERIFIED",
+ "research_status": "RESEARCHED",
+ "keywords": {
+  "Primary Keyword": [
+   {
+    "keyword": "Table Lamp",
+    "keyword_rank": 5,
+    "of_competitors": 5,
+    "matches": [
+     {
+      "listing_id": "306891729286",
+      "found_in": [
+       "title",
+       "description"
+      ],
+      "snippet": "2 x USB LED Crystal Table Lamp Touch Dimmable Bedside Night Light Bedr"
+     },
+     {
+      "listing_id": "307005226468",
+      "found_in": [
+       "title",
+       "description"
+      ],
+      "snippet": "2 x LED Crystal Table Lamp Touch Dimmable Bedside Night Light Bedr"
+     },
+     {
+      "listing_id": "377070726636",
+      "found_in": [
+       "title"
+      ],
+      "snippet": "LED Table Lamp Touch Sensor USB Rechargeable Night Lig"
+     },
+     {
+      "listing_id": "366501621748",
+      "found_in": [
+       "title"
+      ],
+      "snippet": "Iridescent Clam Shell Pearl Table Lamp Changing Glitter Globe Night Light Home"
+     },
+     {
+      "listing_id": "366419318221",
+      "found_in": [
+       "title"
+      ],
+      "snippet": "Silver Chrome Bird Table Lamp Touch Dimmer LED Bedside Light Crushed"
+     }
+    ],
+    "titles_with_phrase": 5
+   }
+  ],
+  "Secondary Keywords": [
+   {
+    "keyword": "Light",
+    "keyword_rank": 5,
+    "of_competitors": 5,
+    "matches": [
+     {
+      "listing_id": "306891729286",
+      "found_in": [
+       "title",
+       "description"
+      ],
+      "snippet": "D Crystal Table Lamp Touch Dimmable Bedside Night Light Bedroom Decor"
+     },
+     {
+      "listing_id": "307005226468",
+      "found_in": [
+       "title",
+       "description"
+      ],
+      "snippet": "D Crystal Table Lamp Touch Dimmable Bedside Night Light Bedroom Decor-USB"
+     },
+     {
+      "listing_id": "377070726636",
+      "found_in": [
+       "title",
+       "description"
+      ],
+      "snippet": "ED Table Lamp Touch Sensor USB Rechargeable Night Light Bedroom Bedside Home UK"
+     },
+     {
+      "listing_id": "366501621748",
+      "found_in": [
+       "title",
+       "description"
+      ],
+      "snippet": "ell Pearl Table Lamp Changing Glitter Globe Night Light Home"
+     },
+     {
+      "listing_id": "366419318221",
+      "found_in": [
+       "title",
+       "description"
+      ],
+      "snippet": "r Chrome Bird Table Lamp Touch Dimmer LED Bedside Light Crushed Diamond"
+     }
+    ],
+    "titles_with_phrase": 5
+   },
+   {
+    "keyword": "Night Light",
+    "keyword_rank": 4,
+    "of_competitors": 5,
+    "matches": [
+     {
+      "listing_id": "306891729286",
+      "found_in": [
+       "title",
+       "description"
+      ],
+      "snippet": "USB LED Crystal Table Lamp Touch Dimmable Bedside Night Light Bedroom Decor"
+     },
+     {
+      "listing_id": "307005226468",
+      "found_in": [
+       "title"
+      ],
+      "snippet": "2 x LED Crystal Table Lamp Touch Dimmable Bedside Night Light Bedroom Decor-USB"
+     },
+     {
+      "listing_id": "377070726636",
+      "found_in": [
+       "title"
+      ],
+      "snippet": "LED Table Lamp Touch Sensor USB Rechargeable Night Light Bedroom Bedside Home UK"
+     },
+     {
+      "listing_id": "366501621748",
+      "found_in": [
+       "title"
+      ],
+      "snippet": "lam Shell Pearl Table Lamp Changing Glitter Globe Night Light Home"
+     }
+    ],
+    "titles_with_phrase": 4
+   },
+   {
+    "keyword": "LED",
+    "keyword_rank": 4,
+    "of_competitors": 5,
+    "matches": [
+     {
+      "listing_id": "306891729286",
+      "found_in": [
+       "title",
+       "description"
+      ],
+      "snippet": "2 x USB LED Crystal Table Lamp Touch Dimmable Bedsi"
+     },
+     {
+      "listing_id": "307005226468",
+      "found_in": [
+       "title",
+       "description"
+      ],
+      "snippet": "2 x LED Crystal Table Lamp Touch Dimmable Bedsi"
+     },
+     {
+      "listing_id": "377070726636",
+      "found_in": [
+       "title",
+       "description"
+      ],
+      "snippet": "LED Table Lamp Touch Sensor USB Rechargeabl"
+     },
+     {
+      "listing_id": "366419318221",
+      "found_in": [
+       "title",
+       "description"
+      ],
+      "snippet": "Silver Chrome Bird Table Lamp Touch Dimmer LED Bedside Light Crushed Diamond"
+     }
+    ],
+    "titles_with_phrase": 4
+   }
+  ],
+  "Long-Tail Keywords": [
+   {
+    "keyword": "Table Lamp Touch",
+    "keyword_rank": 4,
+    "of_competitors": 5,
+    "matches": [
+     {
+      "listing_id": "306891729286",
+      "found_in": [
+       "title",
+       "description"
+      ],
+      "snippet": "2 x USB LED Crystal Table Lamp Touch Dimmable Bedside Night Light Bedroom De"
+     },
+     {
+      "listing_id": "307005226468",
+      "found_in": [
+       "title"
+      ],
+      "snippet": "2 x LED Crystal Table Lamp Touch Dimmable Bedside Night Light Bedroom De"
+     },
+     {
+      "listing_id": "377070726636",
+      "found_in": [
+       "title"
+      ],
+      "snippet": "LED Table Lamp Touch Sensor USB Rechargeable Night Light Bed"
+     },
+     {
+      "listing_id": "366419318221",
+      "found_in": [
+       "title"
+      ],
+      "snippet": "Silver Chrome Bird Table Lamp Touch Dimmer LED Bedside Light Crushed Diamon"
+     }
+    ],
+    "titles_with_phrase": 4
+   },
+   {
+    "keyword": "Night Light Bedroom",
+    "keyword_rank": 3,
+    "of_competitors": 5,
+    "matches": [
+     {
+      "listing_id": "306891729286",
+      "found_in": [
+       "title",
+       "description"
+      ],
+      "snippet": "USB LED Crystal Table Lamp Touch Dimmable Bedside Night Light Bedroom Decor"
+     },
+     {
+      "listing_id": "307005226468",
+      "found_in": [
+       "title"
+      ],
+      "snippet": "2 x LED Crystal Table Lamp Touch Dimmable Bedside Night Light Bedroom Decor-USB"
+     },
+     {
+      "listing_id": "377070726636",
+      "found_in": [
+       "title"
+      ],
+      "snippet": "LED Table Lamp Touch Sensor USB Rechargeable Night Light Bedroom Bedside Home UK"
+     }
+    ],
+    "titles_with_phrase": 3
+   },
+   {
+    "keyword": "LED Crystal Table Lamp Touch",
+    "keyword_rank": 2,
+    "of_competitors": 5,
+    "matches": [
+     {
+      "listing_id": "306891729286",
+      "found_in": [
+       "title",
+       "description"
+      ],
+      "snippet": "2 x USB LED Crystal Table Lamp Touch Dimmable Bedside Night Light Bedroom De"
+     },
+     {
+      "listing_id": "307005226468",
+      "found_in": [
+       "title"
+      ],
+      "snippet": "2 x LED Crystal Table Lamp Touch Dimmable Bedside Night Light Bedroom De"
+     }
+    ],
+    "titles_with_phrase": 2
+   }
+  ],
+  "Competitor Keywords": [
+   {
+    "keyword": "USB",
+    "keyword_rank": 5,
+    "of_competitors": 5,
+    "matches": [
+     {
+      "listing_id": "306891729286",
+      "found_in": [
+       "title",
+       "description"
+      ],
+      "snippet": "2 x USB LED Crystal Table Lamp Touch Dimmable B"
+     },
+     {
+      "listing_id": "307005226468",
+      "found_in": [
+       "title",
+       "description"
+      ],
+      "snippet": "Touch Dimmable Bedside Night Light Bedroom Decor-USB"
+     },
+     {
+      "listing_id": "377070726636",
+      "found_in": [
+       "title",
+       "description"
+      ],
+      "snippet": "LED Table Lamp Touch Sensor USB Rechargeable Night Light Bedroom Bedsid"
+     },
+     {
+      "listing_id": "366501621748",
+      "found_in": [
+       "description"
+      ],
+      "snippet": "owing lights. The lamp can be battery-operated or USB powered. It requires 3 x AAA batteries"
+     },
+     {
+      "listing_id": "366419318221",
+      "found_in": [
+       "description"
+      ],
+      "snippet": "ile remaining cool to the touch and eco-friendly. USB Powered Convenience: Easily powered via"
+     }
+    ],
+    "titles_with_phrase": 3
+   },
+   {
+    "keyword": "Crystal Table Lamp Touch Dimmable",
+    "keyword_rank": 2,
+    "of_competitors": 5,
+    "matches": [
+     {
+      "listing_id": "306891729286",
+      "found_in": [
+       "title",
+       "description"
+      ],
+      "snippet": "2 x USB LED Crystal Table Lamp Touch Dimmable Bedside Night Light Bedroom Decor"
+     },
+     {
+      "listing_id": "307005226468",
+      "found_in": [
+       "title"
+      ],
+      "snippet": "2 x LED Crystal Table Lamp Touch Dimmable Bedside Night Light Bedroom Decor-USB"
+     }
+    ],
+    "titles_with_phrase": 2
+   },
+   {
+    "keyword": "Table Lamp Touch Dimmable Bedside",
+    "keyword_rank": 2,
+    "of_competitors": 5,
+    "matches": [
+     {
+      "listing_id": "306891729286",
+      "found_in": [
+       "title",
+       "description"
+      ],
+      "snippet": "2 x USB LED Crystal Table Lamp Touch Dimmable Bedside Night Light Bedroom Decor"
+     },
+     {
+      "listing_id": "307005226468",
+      "found_in": [
+       "title"
+      ],
+      "snippet": "2 x LED Crystal Table Lamp Touch Dimmable Bedside Night Light Bedroom Decor-USB"
+     }
+    ],
+    "titles_with_phrase": 2
+   }
+  ]
+ },
+ "import_check": {
+  "keywords_and_ranks_equal_old_project": true,
+  "old": "same"
+ }
+}

@@ -1,0 +1,346 @@
+{
+ "_meta": {
+  "fetched_at": "2026-09-22T10:13:02.498004+00:00",
+  "run_date": "2026-09-22",
+  "scope_version": 2,
+  "approved_ids": [
+   "265660310933",
+   "267742103780",
+   "267791295531",
+   "267784997642",
+   "267773888902",
+   "267768578649",
+   "267765767284",
+   "267761469770",
+   "267728257222",
+   "267720120199",
+   "267695260771",
+   "267687534749"
+  ],
+  "source": "env WLP_SOURCE_DB_URL (read-only)",
+  "queries": [
+   "sql/fetch_listings.sql",
+   "sql/fetch_sot_subtypes.sql"
+  ],
+  "db_rows": 32,
+  "sot_rows": 0,
+  "run_id": "20260922T101300Z-9d4f"
+ },
+ "records": [
+  {
+   "product_id": "265660310933",
+   "found": true,
+   "row_count": 3,
+   "parent_rows": 1,
+   "sku": "ENC1651-Pendant Light",
+   "product_name": "3-Way Hanging Cage Pendant Light LED Ceiling Light Modern Vintage Chandelier UK",
+   "marketplace": "UK",
+   "account": "Electricalsone",
+   "sub_source": 22,
+   "listing_status": "Active",
+   "is_ended": 0,
+   "end_date": "2026-09-24 17:34:01",
+   "ebay_category_path": "Home, Furniture & DIY:Lighting:Ceiling Lights & Chandeliers",
+   "category_id": "117503",
+   "listing_url": "https://www.ebay.co.uk/itm/3-Way-Hanging-Cage-Pendant-Light-LED-Ceiling-Light-Modern-Vintage-Chandelier-UK-/265660310933",
+   "source_updated_at": "2026-09-22 02:00:33",
+   "source_created_at": "2022-04-24 17:34:01",
+   "variation_skus": [
+    "CRFF500BC+WCBCBC3PK",
+    "ENC1651"
+   ],
+   "listing_skus": [
+    "CRFF500BC+WCBCBC3PK",
+    "ENC1651",
+    "ENC1651-Pendant Light"
+   ]
+  },
+  {
+   "product_id": "267742103780",
+   "found": true,
+   "row_count": 1,
+   "parent_rows": 1,
+   "sku": "CRSFM110080BM+WSCH135BM+LSCY290BG",
+   "product_name": "Industrial Vintage Wall Light E27 Black Gold Inner Metal Farmhouse Sconce Lamp",
+   "marketplace": "UK",
+   "account": "Electricalsone",
+   "sub_source": 22,
+   "listing_status": "Active",
+   "is_ended": 0,
+   "end_date": "2026-09-29 12:24:00",
+   "ebay_category_path": "Home, Furniture & DIY:Lighting:Wall Lights",
+   "category_id": "116880",
+   "listing_url": "https://www.ebay.co.uk/itm/Industrial-Vintage-Wall-Light-E27-Black-Gold-Inner-Metal-Farmhouse-Sconce-Lamp-/267742103780",
+   "source_updated_at": "2026-09-22 03:01:07",
+   "source_created_at": "2026-07-29 12:24:00",
+   "variation_skus": [],
+   "listing_skus": [
+    "CRSFM110080BM+WSCH135BM+LSCY290BG"
+   ]
+  },
+  {
+   "product_id": "267791295531",
+   "found": true,
+   "row_count": 4,
+   "parent_rows": 1,
+   "sku": "sku not assigneds",
+   "product_name": "20mm Pushfit Waste Pipe 2 Metre Length White PVCU Plumbing Pipe fittings",
+   "marketplace": "UK",
+   "account": "Electricalsone",
+   "sub_source": 22,
+   "listing_status": "Active",
+   "is_ended": 0,
+   "end_date": "2026-10-21 05:55:55",
+   "ebay_category_path": "Home, Furniture & DIY:DIY Materials:Electrical Supplies:Electrical Wires & Cables",
+   "category_id": "259293",
+   "listing_url": "https://www.ebay.co.uk/itm/20mm-Pushfit-Waste-Pipe-2-Metre-Length-White-PVCU-Plumbing-Pipe-fittings-/267791295531",
+   "source_updated_at": "2026-09-22 02:01:23",
+   "source_created_at": "2026-09-21 05:55:55",
+   "variation_skus": [
+    "PCUPVCD202WH2PK",
+    "PCUPVCD202WH5PK",
+    "PCUPVCD202WHAPK"
+   ],
+   "listing_skus": [
+    "PCUPVCD202WH2PK",
+    "PCUPVCD202WH5PK",
+    "PCUPVCD202WHAPK"
+   ]
+  },
+  {
+   "product_id": "267784997642",
+   "found": true,
+   "row_count": 3,
+   "parent_rows": 1,
+   "sku": "LED Ceiling Spot Light",
+   "product_name": "7W LED Recessed Downlight Ceiling Spot Light Cool White 6400K 38°/60° Beam",
+   "marketplace": "UK",
+   "account": "Electricalsone",
+   "sub_source": 22,
+   "listing_status": "Active",
+   "is_ended": 0,
+   "end_date": "2026-10-14 11:46:08",
+   "ebay_category_path": "Home, Furniture & DIY:Lighting:Ceiling Lights & Chandeliers",
+   "category_id": "117503",
+   "listing_url": "https://www.ebay.co.uk/itm/7W-LED-Recessed-Downlight-Ceiling-Spot-Light-Cool-White-6400K-38-60-Beam-/267784997642",
+   "source_updated_at": "2026-09-22 02:01:23",
+   "source_created_at": "2026-09-14 11:46:08",
+   "variation_skus": [],
+   "listing_skus": [
+    "LED Ceiling Spot Light"
+   ]
+  },
+  {
+   "product_id": "267773888902",
+   "found": true,
+   "row_count": 3,
+   "parent_rows": 1,
+   "sku": "Plug-In Wall Light Bedroom Bedside Living Room",
+   "product_name": "Modern LED Wall Light Bedroom Bedside Living Room Wall Sconce Lamp",
+   "marketplace": "UK",
+   "account": "Electricalsone",
+   "sub_source": 22,
+   "listing_status": "Active",
+   "is_ended": 0,
+   "end_date": "2026-10-02 06:49:51",
+   "ebay_category_path": "Home, Furniture & DIY:Lighting:Wall Lights",
+   "category_id": "116880",
+   "listing_url": "https://www.ebay.co.uk/itm/Modern-LED-Wall-Light-Bedroom-Bedside-Living-Room-Wall-Sconce-Lamp-/267773888902",
+   "source_updated_at": "2026-09-22 02:01:23",
+   "source_created_at": "2026-09-02 06:49:51",
+   "variation_skus": [
+    "ENC10055",
+    "ENC10058"
+   ],
+   "listing_skus": [
+    "ENC10055",
+    "ENC10058",
+    "Plug-In Wall Light Bedroom Bedside Living Room"
+   ]
+  },
+  {
+   "product_id": "267768578649",
+   "found": true,
+   "row_count": 3,
+   "parent_rows": 1,
+   "sku": "Industrial 3 Way Black Spider Pendant Light",
+   "product_name": "3 Way Spider Pendant Light E27 Industrial Black Ceiling Chandelier Retro Lamp",
+   "marketplace": "UK",
+   "account": "Electricalsone",
+   "sub_source": 22,
+   "listing_status": "Active",
+   "is_ended": 0,
+   "end_date": "2026-09-27 05:38:44",
+   "ebay_category_path": "Home, Furniture & DIY:Lighting:Ceiling Lights & Chandeliers",
+   "category_id": "117503",
+   "listing_url": "https://www.ebay.co.uk/itm/3-Way-Spider-Pendant-Light-E27-Industrial-Black-Ceiling-Chandelier-Retro-Lamp-/267768578649",
+   "source_updated_at": "2026-09-22 02:01:23",
+   "source_created_at": "2026-08-27 05:38:44",
+   "variation_skus": [
+    "ENC7058",
+    "ENC7059"
+   ],
+   "listing_skus": [
+    "ENC7058",
+    "ENC7059",
+    "Industrial 3 Way Black Spider Pendant Light"
+   ]
+  },
+  {
+   "product_id": "267765767284",
+   "found": true,
+   "row_count": 5,
+   "parent_rows": 1,
+   "sku": "sku not assigneds",
+   "product_name": "Vintage E27 Wall Sconce Light Glass Shade Antique Brass Indoor Lamp Fixture",
+   "marketplace": "UK",
+   "account": "Electricalsone",
+   "sub_source": 22,
+   "listing_status": "Active",
+   "is_ended": 0,
+   "end_date": "2026-09-24 08:22:55",
+   "ebay_category_path": "Home, Furniture & DIY:Lighting:Wall Lights",
+   "category_id": "116880",
+   "listing_url": "https://www.ebay.co.uk/itm/Vintage-E27-Wall-Sconce-Light-Glass-Shade-Antique-Brass-Indoor-Lamp-Fixture-/267765767284",
+   "source_updated_at": "2026-09-22 02:01:23",
+   "source_created_at": "2026-08-24 08:22:55",
+   "variation_skus": [
+    "CRSF120YB+WSUSHE27YB+LSGLSC1508CL",
+    "CRSF120YB+WSUSHE27YB+SPAL68YB+LSGLSC1508CL",
+    "ENC10264"
+   ],
+   "listing_skus": [
+    "CRSF120YB+WSUSHE27YB+LSGLSC1508CL",
+    "CRSF120YB+WSUSHE27YB+SPAL68YB+LSGLSC1508CL",
+    "ENC10264"
+   ]
+  },
+  {
+   "product_id": "267761469770",
+   "found": true,
+   "row_count": 1,
+   "parent_rows": 1,
+   "sku": "LDDTCB2212APK",
+   "product_name": "LED Corn Bulb E14 E27 B22 Screw Bayonet 12W 14W High Power Light Bulb",
+   "marketplace": "UK",
+   "account": "Electricalsone",
+   "sub_source": 22,
+   "listing_status": "Active",
+   "is_ended": 0,
+   "end_date": "2026-10-19 08:46:56",
+   "ebay_category_path": "Home, Furniture & DIY:Lighting:Light Bulbs",
+   "category_id": "20706",
+   "listing_url": "https://www.ebay.co.uk/itm/LED-Corn-Bulb-E14-E27-B22-Screw-Bayonet-12W-14W-High-Power-Light-Bulb-/267761469770",
+   "source_updated_at": "2026-09-22 03:01:07",
+   "source_created_at": "2026-08-19 08:46:56",
+   "variation_skus": [],
+   "listing_skus": [
+    "LDDTCB2212APK"
+   ]
+  },
+  {
+   "product_id": "267728257222",
+   "found": true,
+   "row_count": 1,
+   "parent_rows": 1,
+   "sku": "TPOSBDBM2PK",
+   "product_name": "2 Pack Raven Crow Table Lamp Resin Gothic Bird LED Bedside Light Home Décor",
+   "marketplace": "UK",
+   "account": "Electricalsone",
+   "sub_source": 22,
+   "listing_status": "Active",
+   "is_ended": 0,
+   "end_date": "2026-10-15 08:52:46",
+   "ebay_category_path": "Home, Furniture & DIY:Lighting:Lamps",
+   "category_id": "112581",
+   "listing_url": "https://www.ebay.co.uk/itm/2-Pack-Raven-Crow-Table-Lamp-Resin-Gothic-Bird-LED-Bedside-Light-Home-Decor-/267728257222",
+   "source_updated_at": "2026-09-22 03:01:07",
+   "source_created_at": "2026-07-15 08:52:46",
+   "variation_skus": [],
+   "listing_skus": [
+    "TPOSBDBM2PK"
+   ]
+  },
+  {
+   "product_id": "267720120199",
+   "found": true,
+   "row_count": 2,
+   "parent_rows": 1,
+   "sku": "Plug In Wall Lamp",
+   "product_name": "2 Pack Industrial Wall Sconce Light Metal Cone Shade E27 Plug In Adjustable",
+   "marketplace": "UK",
+   "account": "Electricalsone",
+   "sub_source": 22,
+   "listing_status": "Active",
+   "is_ended": 0,
+   "end_date": "2026-10-07 08:10:40",
+   "ebay_category_path": "Home, Furniture & DIY:Lighting:Lampshades & Lightshades",
+   "category_id": "20708",
+   "listing_url": "https://www.ebay.co.uk/itm/2-Pack-Industrial-Wall-Sconce-Light-Metal-Cone-Shade-E27-Plug-Adjustable-/267720120199",
+   "source_updated_at": "2026-09-22 02:01:23",
+   "source_created_at": "2026-07-07 08:10:40",
+   "variation_skus": [
+    "ENC7758"
+   ],
+   "listing_skus": [
+    "ENC7758",
+    "Plug In Wall Lamp"
+   ]
+  },
+  {
+   "product_id": "267695260771",
+   "found": true,
+   "row_count": 3,
+   "parent_rows": 1,
+   "sku": "3 HEAD PENDAN LIGHT",
+   "product_name": "Industrial 3 Light Black Metal Pendant Ceiling Light E27 Kitchen Dining Lamp",
+   "marketplace": "UK",
+   "account": "Electricalsone",
+   "sub_source": 22,
+   "listing_status": "Active",
+   "is_ended": 0,
+   "end_date": "2026-10-10 12:09:30",
+   "ebay_category_path": "Home, Furniture & DIY:Lighting:Ceiling Lights & Chandeliers",
+   "category_id": "117503",
+   "listing_url": "https://www.ebay.co.uk/itm/Industrial-3-Light-Black-Metal-Pendant-Ceiling-Light-E27-Kitchen-Dining-Lamp-/267695260771",
+   "source_updated_at": "2026-09-22 02:01:23",
+   "source_created_at": "2026-06-10 12:09:30",
+   "variation_skus": [
+    "CRFF500BM+PHCH1BMRBM3PK+LSCY210BG3PK",
+    "ENC8467"
+   ],
+   "listing_skus": [
+    "CRFF500BM+PHCH1BMRBM3PK+LSCY210BG3PK",
+    "ENC8467"
+   ]
+  },
+  {
+   "product_id": "267687534749",
+   "found": true,
+   "row_count": 3,
+   "parent_rows": 1,
+   "sku": "sku not assigneds",
+   "product_name": "2 Pack Industrial Pendant Light Shades 18cm E27 Kitchen Ceiling Lamp Shade Set",
+   "marketplace": "UK",
+   "account": "Electricalsone",
+   "sub_source": 22,
+   "listing_status": "Active",
+   "is_ended": 0,
+   "end_date": "2026-10-02 12:19:46",
+   "ebay_category_path": "Home, Furniture & DIY:Lighting:Lampshades & Lightshades",
+   "category_id": "20708",
+   "listing_url": "https://www.ebay.co.uk/itm/2-Pack-Industrial-Pendant-Light-Shades-18cm-E27-Kitchen-Ceiling-Lamp-Shade-Set-/267687534749",
+   "source_updated_at": "2026-09-22 02:01:23",
+   "source_created_at": "2026-06-02 12:19:46",
+   "variation_skus": [
+    "LSHQ180BG2PK+RPR44WH2PK",
+    "LSHQ180BM2PK+RPR44WH2PK"
+   ],
+   "listing_skus": [
+    "LSHQ180BG2PK+RPR44WH2PK",
+    "LSHQ180BM2PK+RPR44WH2PK"
+   ]
+  }
+ ],
+ "sot": []
+}

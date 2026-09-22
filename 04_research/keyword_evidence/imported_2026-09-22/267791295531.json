@@ -1,0 +1,650 @@
+{
+ "product_id": "267791295531",
+ "sku": "sku not assigneds",
+ "product_name": "20mm Pushfit Waste Pipe 2 Metre Length White PVCU Plumbing Pipe fittings",
+ "origin": "IMPORTED",
+ "imported_from": "C:\\Users\\LED 222\\Keywords check\\02_Data\\requested\\ids\\267791295531.json",
+ "run_id": "imported-2026-09-22",
+ "run_date": "2026-09-22",
+ "product_subtype": "Pushfit Waste Pipe",
+ "mapping_source": "OLD PROJECT: listings.ebay_listings.title phrase '20mm Pushfit Waste Pipe' (no SOT sub-type)",
+ "search_term": "Pushfit Waste Pipe",
+ "search_term_rule": "OLD title-derived rule (superseded 2026-09-22 by SOT -> eBay category rule)",
+ "exit_ip": {
+  "ip": "145.239.6.2",
+  "country": "GB",
+  "city": "London",
+  "org": "AS16276 OVH SAS"
+ },
+ "started_at": "2026-09-22T06:45:51.583102+00:00",
+ "captured_at": "2026-09-22T06:45:51.583102+00:00",
+ "finished_at": "2026-09-22T06:45:57.616494+00:00",
+ "search_evidence": {
+  "search_capture": null,
+  "captured_at": "2026-09-22T06:45:51.583102+00:00",
+  "pages": [
+   {
+    "page": 1,
+    "url": "https://www.ebay.co.uk/sch/i.html?_nkw=Pushfit+Waste+Pipe&LH_BIN=1&LH_ItemCondition=3&LH_PrefLoc=1&_pgn=1",
+    "http_status": 200,
+    "raw_html": "04_research/search_results/imported_2026-09-22/a74c3659ad23_p1.html"
+   },
+   {
+    "page": 2,
+    "url": "https://www.ebay.co.uk/sch/i.html?_nkw=Pushfit+Waste+Pipe&LH_BIN=1&LH_ItemCondition=3&LH_PrefLoc=1&_pgn=2",
+    "http_status": 200,
+    "raw_html": "04_research/search_results/imported_2026-09-22/a74c3659ad23_p2.html"
+   },
+   {
+    "page": 3,
+    "url": "https://www.ebay.co.uk/sch/i.html?_nkw=Pushfit+Waste+Pipe&LH_BIN=1&LH_ItemCondition=3&LH_PrefLoc=1&_pgn=3",
+    "http_status": 200,
+    "raw_html": "04_research/search_results/imported_2026-09-22/a74c3659ad23_p3.html"
+   }
+  ],
+  "complete": true
+ },
+ "screening_profile": {
+  "alternatives": [
+   [
+    "pushfit",
+    "waste",
+    "pipe"
+   ]
+  ],
+  "heads": [
+   "pipe"
+  ],
+  "own_title_tokens": [
+   "20mm",
+   "pushfit",
+   "waste",
+   "pipe",
+   "metre",
+   "length",
+   "white",
+   "pvcu",
+   "plumbing",
+   "fittings"
+  ]
+ },
+ "candidates": 178,
+ "internal_excluded": 1,
+ "tier_counts": {
+  "EXACT MATCH": 67,
+  "SIMILAR": 76,
+  "SAME CATEGORY": 33,
+  "NOT RELEVANT": 1
+ },
+ "shortlist": [
+  {
+   "listing_id": "155792832855",
+   "tier": "EXACT MATCH",
+   "similarity": 0.7,
+   "result_page": 1,
+   "result_position": 26,
+   "item_cache": "02_Data/item_cache/155792832855.json",
+   "item_status": "OK"
+  },
+  {
+   "listing_id": "155792832732",
+   "tier": "EXACT MATCH",
+   "similarity": 0.7,
+   "result_page": 1,
+   "result_position": 40,
+   "item_cache": "02_Data/item_cache/155792832732.json",
+   "item_status": "OK"
+  },
+  {
+   "listing_id": "154181016929",
+   "tier": "EXACT MATCH",
+   "similarity": 0.7,
+   "result_page": 1,
+   "result_position": 43,
+   "item_cache": "02_Data/item_cache/154181016929.json",
+   "item_status": "OK"
+  },
+  {
+   "listing_id": "154181016950",
+   "tier": "EXACT MATCH",
+   "similarity": 0.6,
+   "result_page": 1,
+   "result_position": 5,
+   "item_cache": "02_Data/item_cache/154181016950.json",
+   "item_status": "OK"
+  },
+  {
+   "listing_id": "357423328667",
+   "tier": "EXACT MATCH",
+   "similarity": 0.6,
+   "result_page": 1,
+   "result_position": 6,
+   "item_cache": "02_Data/item_cache/357423328667.json",
+   "item_status": "OK"
+  },
+  {
+   "listing_id": "123183696447",
+   "tier": "EXACT MATCH",
+   "similarity": 0.6,
+   "result_page": 1,
+   "result_position": 18,
+   "item_cache": "02_Data/item_cache/123183696447.json",
+   "item_status": "OK"
+  }
+ ],
+ "final_competitors": [
+  {
+   "listing_id": "154181016950",
+   "seller": "Smart-Plumbing",
+   "title": "32mm 40mm Pushfit Waste Pipe 1 Metre Length Plastic Kitchen GREY WHITE BLACK",
+   "url": "https://www.ebay.co.uk/itm/154181016950",
+   "search_page": 1,
+   "search_position": 5,
+   "product_match": "EXACT MATCH",
+   "similarity": 0.6,
+   "sold": "733 sold",
+   "sales_30_day": "NOT VERIFIED",
+   "description_checked": "Yes",
+   "item_location": "Burnley, United Kingdom",
+   "raw_search_page": "04_research/search_results/imported_2026-09-22/a74c3659ad23_p1.html",
+   "raw_item_page": "04_research/competitor_listings/imported_2026-09-22/item_154181016950.html",
+   "raw_description": "04_research/descriptions/imported_2026-09-22/desc_154181016950.txt",
+   "captured_at": "2026-09-22T06:14:38.791316+00:00"
+  },
+  {
+   "listing_id": "123183696447",
+   "seller": "PlumbUniverse",
+   "title": "32mm, 40mm Pushfit Waste Pipe 1 Metre Length Plastic Black White Grey",
+   "url": "https://www.ebay.co.uk/itm/123183696447",
+   "search_page": 1,
+   "search_position": 18,
+   "product_match": "EXACT MATCH",
+   "similarity": 0.6,
+   "sold": "724 sold",
+   "sales_30_day": "NOT VERIFIED",
+   "description_checked": "Yes",
+   "item_location": "Dewsbury, West Yorkshire, United Kingdom",
+   "raw_search_page": "04_research/search_results/imported_2026-09-22/a74c3659ad23_p1.html",
+   "raw_item_page": "04_research/competitor_listings/imported_2026-09-22/item_123183696447.html",
+   "raw_description": "04_research/descriptions/imported_2026-09-22/desc_123183696447.txt",
+   "captured_at": "2026-09-22T06:15:01.007719+00:00"
+  },
+  {
+   "listing_id": "357423328667",
+   "seller": "bathrooms and taps uk",
+   "title": "Pushfit White Waste Pipe Fitting 32mm 40mm Plumbing Connector Push Fit",
+   "url": "https://www.ebay.co.uk/itm/357423328667",
+   "search_page": 1,
+   "search_position": 6,
+   "product_match": "EXACT MATCH",
+   "similarity": 0.6,
+   "sold": "357 sold",
+   "sales_30_day": "NOT VERIFIED",
+   "description_checked": "Yes",
+   "item_location": "Birmingham, United Kingdom",
+   "raw_search_page": "04_research/search_results/imported_2026-09-22/a74c3659ad23_p1.html",
+   "raw_item_page": "04_research/competitor_listings/imported_2026-09-22/item_357423328667.html",
+   "raw_description": "04_research/descriptions/imported_2026-09-22/desc_357423328667.txt",
+   "captured_at": "2026-09-22T06:14:46.628468+00:00"
+  },
+  {
+   "listing_id": "154181016929",
+   "seller": "Smart-Plumbing",
+   "title": "32mm 40mm Pushfit Waste Pipe 1 Metre Length Plastic Plumbing GREY WHITE BLACK",
+   "url": "https://www.ebay.co.uk/itm/154181016929",
+   "search_page": 1,
+   "search_position": 43,
+   "product_match": "EXACT MATCH",
+   "similarity": 0.7,
+   "sold": "142 sold",
+   "sales_30_day": "NOT VERIFIED",
+   "description_checked": "Yes",
+   "item_location": "Burnley, United Kingdom",
+   "raw_search_page": "04_research/search_results/imported_2026-09-22/a74c3659ad23_p1.html",
+   "raw_item_page": "04_research/competitor_listings/imported_2026-09-22/item_154181016929.html",
+   "raw_description": "04_research/descriptions/imported_2026-09-22/desc_154181016929.txt",
+   "captured_at": "2026-09-22T06:14:31.080784+00:00"
+  },
+  {
+   "listing_id": "155792832855",
+   "seller": "Smart-Plumbing",
+   "title": "Pushfit Waste Pipe Fitting 1 Metre Pipe Length 32mm, 40mm, 50mm BLACK WHITE GREY",
+   "url": "https://www.ebay.co.uk/itm/155792832855",
+   "search_page": 1,
+   "search_position": 26,
+   "product_match": "EXACT MATCH",
+   "similarity": 0.7,
+   "sold": "20 sold",
+   "sales_30_day": "NOT VERIFIED",
+   "description_checked": "Yes",
+   "item_location": "Burnley, United Kingdom",
+   "raw_search_page": "04_research/search_results/imported_2026-09-22/a74c3659ad23_p1.html",
+   "raw_item_page": "04_research/competitor_listings/imported_2026-09-22/item_155792832855.html",
+   "raw_description": "04_research/descriptions/imported_2026-09-22/desc_155792832855.txt",
+   "captured_at": "2026-09-22T06:14:13.152973+00:00"
+  }
+ ],
+ "verification_status": "VERIFIED",
+ "research_status": "RESEARCHED",
+ "keywords": {
+  "Primary Keyword": [
+   {
+    "keyword": "Waste Pipe",
+    "keyword_rank": 5,
+    "of_competitors": 5,
+    "matches": [
+     {
+      "listing_id": "154181016950",
+      "found_in": [
+       "title",
+       "description"
+      ],
+      "snippet": "32mm 40mm Pushfit Waste Pipe 1 Metre Length Plastic Kitchen GREY WHI"
+     },
+     {
+      "listing_id": "123183696447",
+      "found_in": [
+       "title",
+       "description"
+      ],
+      "snippet": "32mm, 40mm Pushfit Waste Pipe 1 Metre Length Plastic Black White Grey"
+     },
+     {
+      "listing_id": "357423328667",
+      "found_in": [
+       "title",
+       "description"
+      ],
+      "snippet": "Pushfit White Waste Pipe Fitting 32mm 40mm Plumbing Connector Pu"
+     },
+     {
+      "listing_id": "154181016929",
+      "found_in": [
+       "title",
+       "description"
+      ],
+      "snippet": "32mm 40mm Pushfit Waste Pipe 1 Metre Length Plastic Plumbing GREY WH"
+     },
+     {
+      "listing_id": "155792832855",
+      "found_in": [
+       "title",
+       "description"
+      ],
+      "snippet": "Pushfit Waste Pipe Fitting 1 Metre Pipe Length 32mm, 40mm,"
+     }
+    ],
+    "titles_with_phrase": 5
+   }
+  ],
+  "Secondary Keywords": [
+   {
+    "keyword": "32mm",
+    "keyword_rank": 5,
+    "of_competitors": 5,
+    "matches": [
+     {
+      "listing_id": "154181016950",
+      "found_in": [
+       "title",
+       "description"
+      ],
+      "snippet": "32mm 40mm Pushfit Waste Pipe 1 Metre Length"
+     },
+     {
+      "listing_id": "123183696447",
+      "found_in": [
+       "title",
+       "description"
+      ],
+      "snippet": "32mm, 40mm Pushfit Waste Pipe 1 Metre Length"
+     },
+     {
+      "listing_id": "357423328667",
+      "found_in": [
+       "title",
+       "description"
+      ],
+      "snippet": "Pushfit White Waste Pipe Fitting 32mm 40mm Plumbing Connector Push Fit"
+     },
+     {
+      "listing_id": "154181016929",
+      "found_in": [
+       "title",
+       "description"
+      ],
+      "snippet": "32mm 40mm Pushfit Waste Pipe 1 Metre Length"
+     },
+     {
+      "listing_id": "155792832855",
+      "found_in": [
+       "title",
+       "description"
+      ],
+      "snippet": "Pushfit Waste Pipe Fitting 1 Metre Pipe Length 32mm, 40mm, 50mm BLACK WHITE GREY"
+     }
+    ],
+    "titles_with_phrase": 5
+   },
+   {
+    "keyword": "40mm",
+    "keyword_rank": 5,
+    "of_competitors": 5,
+    "matches": [
+     {
+      "listing_id": "154181016950",
+      "found_in": [
+       "title",
+       "description"
+      ],
+      "snippet": "32mm 40mm Pushfit Waste Pipe 1 Metre Length Plast"
+     },
+     {
+      "listing_id": "123183696447",
+      "found_in": [
+       "title",
+       "description"
+      ],
+      "snippet": "32mm, 40mm Pushfit Waste Pipe 1 Metre Length Plast"
+     },
+     {
+      "listing_id": "357423328667",
+      "found_in": [
+       "title",
+       "description"
+      ],
+      "snippet": "Pushfit White Waste Pipe Fitting 32mm 40mm Plumbing Connector Push Fit"
+     },
+     {
+      "listing_id": "154181016929",
+      "found_in": [
+       "title",
+       "description"
+      ],
+      "snippet": "32mm 40mm Pushfit Waste Pipe 1 Metre Length Plast"
+     },
+     {
+      "listing_id": "155792832855",
+      "found_in": [
+       "title",
+       "description"
+      ],
+      "snippet": "hfit Waste Pipe Fitting 1 Metre Pipe Length 32mm, 40mm, 50mm BLACK WHITE GREY"
+     }
+    ],
+    "titles_with_phrase": 5
+   },
+   {
+    "keyword": "Pushfit",
+    "keyword_rank": 5,
+    "of_competitors": 5,
+    "matches": [
+     {
+      "listing_id": "154181016950",
+      "found_in": [
+       "title",
+       "description"
+      ],
+      "snippet": "32mm 40mm Pushfit Waste Pipe 1 Metre Length Plastic Kitch"
+     },
+     {
+      "listing_id": "123183696447",
+      "found_in": [
+       "title",
+       "description"
+      ],
+      "snippet": "32mm, 40mm Pushfit Waste Pipe 1 Metre Length Plastic Black"
+     },
+     {
+      "listing_id": "357423328667",
+      "found_in": [
+       "title",
+       "description"
+      ],
+      "snippet": "Pushfit White Waste Pipe Fitting 32mm 40mm Plum"
+     },
+     {
+      "listing_id": "154181016929",
+      "found_in": [
+       "title",
+       "description"
+      ],
+      "snippet": "32mm 40mm Pushfit Waste Pipe 1 Metre Length Plastic Plumb"
+     },
+     {
+      "listing_id": "155792832855",
+      "found_in": [
+       "title",
+       "description"
+      ],
+      "snippet": "Pushfit Waste Pipe Fitting 1 Metre Pipe Length"
+     }
+    ],
+    "titles_with_phrase": 5
+   }
+  ],
+  "Long-Tail Keywords": [
+   {
+    "keyword": "Pushfit Waste Pipe",
+    "keyword_rank": 4,
+    "of_competitors": 5,
+    "matches": [
+     {
+      "listing_id": "154181016950",
+      "found_in": [
+       "title",
+       "description"
+      ],
+      "snippet": "32mm 40mm Pushfit Waste Pipe 1 Metre Length Plastic Kitchen GREY WHI"
+     },
+     {
+      "listing_id": "123183696447",
+      "found_in": [
+       "title",
+       "description"
+      ],
+      "snippet": "32mm, 40mm Pushfit Waste Pipe 1 Metre Length Plastic Black White Grey"
+     },
+     {
+      "listing_id": "154181016929",
+      "found_in": [
+       "title",
+       "description"
+      ],
+      "snippet": "32mm 40mm Pushfit Waste Pipe 1 Metre Length Plastic Plumbing GREY WH"
+     },
+     {
+      "listing_id": "155792832855",
+      "found_in": [
+       "title",
+       "description"
+      ],
+      "snippet": "Pushfit Waste Pipe Fitting 1 Metre Pipe Length 32mm, 40mm,"
+     }
+    ],
+    "titles_with_phrase": 4
+   },
+   {
+    "keyword": "40mm Pushfit Waste Pipe 1",
+    "keyword_rank": 3,
+    "of_competitors": 5,
+    "matches": [
+     {
+      "listing_id": "154181016950",
+      "found_in": [
+       "title",
+       "description"
+      ],
+      "snippet": "32mm 40mm Pushfit Waste Pipe 1 Metre Length Plastic Kitchen GREY WHITE"
+     },
+     {
+      "listing_id": "123183696447",
+      "found_in": [
+       "title",
+       "description"
+      ],
+      "snippet": "32mm, 40mm Pushfit Waste Pipe 1 Metre Length Plastic Black White Grey"
+     },
+     {
+      "listing_id": "154181016929",
+      "found_in": [
+       "title"
+      ],
+      "snippet": "32mm 40mm Pushfit Waste Pipe 1 Metre Length Plastic Plumbing GREY WHIT"
+     }
+    ],
+    "titles_with_phrase": 3
+   },
+   {
+    "keyword": "Pushfit Waste Pipe 1 Metre",
+    "keyword_rank": 3,
+    "of_competitors": 5,
+    "matches": [
+     {
+      "listing_id": "154181016950",
+      "found_in": [
+       "title",
+       "description"
+      ],
+      "snippet": "32mm 40mm Pushfit Waste Pipe 1 Metre Length Plastic Kitchen GREY WHITE BLACK"
+     },
+     {
+      "listing_id": "123183696447",
+      "found_in": [
+       "title",
+       "description"
+      ],
+      "snippet": "32mm, 40mm Pushfit Waste Pipe 1 Metre Length Plastic Black White Grey"
+     },
+     {
+      "listing_id": "154181016929",
+      "found_in": [
+       "title",
+       "description"
+      ],
+      "snippet": "32mm 40mm Pushfit Waste Pipe 1 Metre Length Plastic Plumbing GREY WHITE BLAC"
+     }
+    ],
+    "titles_with_phrase": 3
+   }
+  ],
+  "Competitor Keywords": [
+   {
+    "keyword": "GREY",
+    "keyword_rank": 4,
+    "of_competitors": 5,
+    "matches": [
+     {
+      "listing_id": "154181016950",
+      "found_in": [
+       "title",
+       "description"
+      ],
+      "snippet": "Pushfit Waste Pipe 1 Metre Length Plastic Kitchen GREY WHITE BLACK"
+     },
+     {
+      "listing_id": "123183696447",
+      "found_in": [
+       "title",
+       "description"
+      ],
+      "snippet": "fit Waste Pipe 1 Metre Length Plastic Black White Grey"
+     },
+     {
+      "listing_id": "154181016929",
+      "found_in": [
+       "title",
+       "description"
+      ],
+      "snippet": "ushfit Waste Pipe 1 Metre Length Plastic Plumbing GREY WHITE BLACK"
+     },
+     {
+      "listing_id": "155792832855",
+      "found_in": [
+       "title",
+       "description"
+      ],
+      "snippet": "1 Metre Pipe Length 32mm, 40mm, 50mm BLACK WHITE GREY"
+     }
+    ],
+    "titles_with_phrase": 4
+   },
+   {
+    "keyword": "BLACK",
+    "keyword_rank": 4,
+    "of_competitors": 5,
+    "matches": [
+     {
+      "listing_id": "154181016950",
+      "found_in": [
+       "title",
+       "description"
+      ],
+      "snippet": "te Pipe 1 Metre Length Plastic Kitchen GREY WHITE BLACK"
+     },
+     {
+      "listing_id": "123183696447",
+      "found_in": [
+       "title",
+       "description"
+      ],
+      "snippet": "m, 40mm Pushfit Waste Pipe 1 Metre Length Plastic Black White Grey"
+     },
+     {
+      "listing_id": "154181016929",
+      "found_in": [
+       "title",
+       "description"
+      ],
+      "snippet": "e Pipe 1 Metre Length Plastic Plumbing GREY WHITE BLACK"
+     },
+     {
+      "listing_id": "155792832855",
+      "found_in": [
+       "title",
+       "description"
+      ],
+      "snippet": "Pipe Fitting 1 Metre Pipe Length 32mm, 40mm, 50mm BLACK WHITE GREY"
+     }
+    ],
+    "titles_with_phrase": 4
+   },
+   {
+    "keyword": "Waste Pipe 1 Metre Length",
+    "keyword_rank": 3,
+    "of_competitors": 5,
+    "matches": [
+     {
+      "listing_id": "154181016950",
+      "found_in": [
+       "title",
+       "description"
+      ],
+      "snippet": "32mm 40mm Pushfit Waste Pipe 1 Metre Length Plastic Kitchen GREY WHITE BLACK"
+     },
+     {
+      "listing_id": "123183696447",
+      "found_in": [
+       "title",
+       "description"
+      ],
+      "snippet": "32mm, 40mm Pushfit Waste Pipe 1 Metre Length Plastic Black White Grey"
+     },
+     {
+      "listing_id": "154181016929",
+      "found_in": [
+       "title",
+       "description"
+      ],
+      "snippet": "32mm 40mm Pushfit Waste Pipe 1 Metre Length Plastic Plumbing GREY WHITE BLACK"
+     }
+    ],
+    "titles_with_phrase": 3
+   }
+  ]
+ },
+ "import_check": {
+  "keywords_and_ranks_equal_old_project": true,
+  "old": "same"
+ }
+}

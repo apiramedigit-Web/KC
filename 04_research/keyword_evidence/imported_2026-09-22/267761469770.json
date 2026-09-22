@@ -1,0 +1,572 @@
+{
+ "product_id": "267761469770",
+ "sku": "LDDTCB2212APK",
+ "product_name": "LED Corn Bulb E14 E27 B22 Screw Bayonet 12W 14W High Power Light Bulb",
+ "origin": "IMPORTED",
+ "imported_from": "C:\\Users\\LED 222\\Keywords check\\02_Data\\requested\\ids\\267761469770.json",
+ "run_id": "imported-2026-09-22",
+ "run_date": "2026-09-22",
+ "product_subtype": "Corn Bulb",
+ "mapping_source": "OLD PROJECT: listings.ebay_listings.title phrase 'LED Corn Bulb' (no SOT sub-type)",
+ "search_term": "LED Corn Bulb",
+ "search_term_rule": "OLD title-derived rule (superseded 2026-09-22 by SOT -> eBay category rule)",
+ "exit_ip": {
+  "ip": "145.239.6.2",
+  "country": "GB",
+  "city": "London",
+  "org": "AS16276 OVH SAS"
+ },
+ "started_at": "2026-09-22T06:46:21.900557+00:00",
+ "captured_at": "2026-09-22T06:46:21.900557+00:00",
+ "finished_at": "2026-09-22T06:46:27.954525+00:00",
+ "search_evidence": {
+  "search_capture": null,
+  "captured_at": "2026-09-22T06:46:21.900557+00:00",
+  "pages": [
+   {
+    "page": 1,
+    "url": "https://www.ebay.co.uk/sch/i.html?_nkw=LED+Corn+Bulb&LH_BIN=1&LH_ItemCondition=3&LH_PrefLoc=1&_pgn=1",
+    "http_status": 200,
+    "raw_html": "04_research/search_results/imported_2026-09-22/34f466552f4a_p1.html"
+   },
+   {
+    "page": 2,
+    "url": "https://www.ebay.co.uk/sch/i.html?_nkw=LED+Corn+Bulb&LH_BIN=1&LH_ItemCondition=3&LH_PrefLoc=1&_pgn=2",
+    "http_status": 200,
+    "raw_html": "04_research/search_results/imported_2026-09-22/34f466552f4a_p2.html"
+   },
+   {
+    "page": 3,
+    "url": "https://www.ebay.co.uk/sch/i.html?_nkw=LED+Corn+Bulb&LH_BIN=1&LH_ItemCondition=3&LH_PrefLoc=1&_pgn=3",
+    "http_status": 200,
+    "raw_html": "04_research/search_results/imported_2026-09-22/34f466552f4a_p3.html"
+   }
+  ],
+  "complete": true
+ },
+ "screening_profile": {
+  "alternatives": [
+   [
+    "corn",
+    "bulb"
+   ]
+  ],
+  "heads": [
+   "bulb"
+  ],
+  "own_title_tokens": [
+   "corn",
+   "bulb",
+   "e14",
+   "e27",
+   "b22",
+   "screw",
+   "bayonet",
+   "12w",
+   "14w",
+   "high",
+   "power",
+   "light"
+  ]
+ },
+ "candidates": 181,
+ "internal_excluded": 18,
+ "tier_counts": {
+  "EXACT MATCH": 34,
+  "SIMILAR": 55,
+  "SAME CATEGORY": 70,
+  "NOT RELEVANT": 4
+ },
+ "shortlist": [
+  {
+   "listing_id": "256001182732",
+   "tier": "EXACT MATCH",
+   "similarity": 0.833,
+   "result_page": 1,
+   "result_position": 7,
+   "item_cache": "02_Data/item_cache/256001182732.json",
+   "item_status": "OK"
+  },
+  {
+   "listing_id": "800316332601",
+   "tier": "EXACT MATCH",
+   "similarity": 0.75,
+   "result_page": 2,
+   "result_position": 63,
+   "item_cache": "02_Data/item_cache/800316332601.json",
+   "item_status": "OK"
+  },
+  {
+   "listing_id": "306032941623",
+   "tier": "EXACT MATCH",
+   "similarity": 0.667,
+   "result_page": 2,
+   "result_position": 14,
+   "item_cache": "02_Data/item_cache/306032941623.json",
+   "item_status": "OK"
+  },
+  {
+   "listing_id": "298514846984",
+   "tier": "EXACT MATCH",
+   "similarity": 0.583,
+   "result_page": 1,
+   "result_position": 63,
+   "item_cache": "02_Data/item_cache/298514846984.json",
+   "item_status": "OK"
+  },
+  {
+   "listing_id": "127912341789",
+   "tier": "EXACT MATCH",
+   "similarity": 0.583,
+   "result_page": 3,
+   "result_position": 34,
+   "item_cache": "02_Data/item_cache/127912341789.json",
+   "item_status": "OK"
+  },
+  {
+   "listing_id": "198577129962",
+   "tier": "EXACT MATCH",
+   "similarity": 0.583,
+   "result_page": 3,
+   "result_position": 48,
+   "item_cache": "02_Data/item_cache/198577129962.json",
+   "item_status": "OK"
+  }
+ ],
+ "final_competitors": [
+  {
+   "listing_id": "256001182732",
+   "seller": "G.W.S LED Wholesale",
+   "title": "LED Corn Bulbs E14 E27 Screw/B22 Bayonet 12W 16W 20W High Powered Light",
+   "url": "https://www.ebay.co.uk/itm/256001182732",
+   "search_page": 1,
+   "search_position": 7,
+   "product_match": "EXACT MATCH",
+   "similarity": 0.833,
+   "sold": "4,587 sold",
+   "sales_30_day": "NOT VERIFIED",
+   "description_checked": "Yes",
+   "item_location": "Birmingham, United Kingdom",
+   "raw_search_page": "04_research/search_results/imported_2026-09-22/34f466552f4a_p1.html",
+   "raw_item_page": "04_research/competitor_listings/imported_2026-09-22/item_256001182732.html",
+   "raw_description": "04_research/descriptions/imported_2026-09-22/desc_256001182732.txt",
+   "captured_at": "2026-09-22T06:18:49.087673+00:00"
+  },
+  {
+   "listing_id": "127912341789",
+   "seller": "Top-e-shop",
+   "title": "E27 LED Corn Bulb Light 20W 16W 12W 3 Colors 220V 2835SMD Lamp High Power BC",
+   "url": "https://www.ebay.co.uk/itm/127912341789",
+   "search_page": 3,
+   "search_position": 34,
+   "product_match": "EXACT MATCH",
+   "similarity": 0.583,
+   "sold": "2306 sold",
+   "sales_30_day": "NOT VERIFIED",
+   "description_checked": "Yes",
+   "item_location": "Nottingham, United Kingdom",
+   "raw_search_page": "04_research/search_results/imported_2026-09-22/34f466552f4a_p3.html",
+   "raw_item_page": "04_research/competitor_listings/imported_2026-09-22/item_127912341789.html",
+   "raw_description": "04_research/descriptions/imported_2026-09-22/desc_127912341789.txt",
+   "captured_at": "2026-09-22T06:19:30.906098+00:00"
+  },
+  {
+   "listing_id": "306032941623",
+   "seller": "LUMLOG Shop",
+   "title": "LED Corn Bulbs E14 E27 Screw/B22 Bayonet7W 12W 15W 20W 25W 30WHigh Powered Light",
+   "url": "https://www.ebay.co.uk/itm/306032941623",
+   "search_page": 2,
+   "search_position": 14,
+   "product_match": "EXACT MATCH",
+   "similarity": 0.667,
+   "sold": "371 sold",
+   "sales_30_day": "NOT VERIFIED",
+   "description_checked": "Yes",
+   "item_location": "Manchester, United Kingdom",
+   "raw_search_page": "04_research/search_results/imported_2026-09-22/34f466552f4a_p2.html",
+   "raw_item_page": "04_research/competitor_listings/imported_2026-09-22/item_306032941623.html",
+   "raw_description": "04_research/descriptions/imported_2026-09-22/desc_306032941623.txt",
+   "captured_at": "2026-09-22T06:19:07.722156+00:00"
+  },
+  {
+   "listing_id": "800316332601",
+   "seller": "findora_primedeals",
+   "title": "E27 E14 B22 LED Corn Light Bulbs Screw Bayonet Cap SES 7W 12W 30W 45W Ultra Brig",
+   "url": "https://www.ebay.co.uk/itm/800316332601",
+   "search_page": 2,
+   "search_position": 63,
+   "product_match": "EXACT MATCH",
+   "similarity": 0.75,
+   "sold": "4 sold",
+   "sales_30_day": "NOT VERIFIED",
+   "description_checked": "Yes",
+   "item_location": "Manchester, Manchester, United Kingdom",
+   "raw_search_page": "04_research/search_results/imported_2026-09-22/34f466552f4a_p2.html",
+   "raw_item_page": "04_research/competitor_listings/imported_2026-09-22/item_800316332601.html",
+   "raw_description": "04_research/descriptions/imported_2026-09-22/desc_800316332601.txt",
+   "captured_at": "2026-09-22T06:18:58.471730+00:00"
+  },
+  {
+   "listing_id": "198577129962",
+   "seller": "andrewcaudwell9",
+   "title": "LED High Bright Corn Bulbs E27/B22/E14/G10/G9 Saving Light Lamp Warm Cool White",
+   "url": "https://www.ebay.co.uk/itm/198577129962",
+   "search_page": 3,
+   "search_position": 48,
+   "product_match": "EXACT MATCH",
+   "similarity": 0.583,
+   "sold": "3 sold",
+   "sales_30_day": "NOT VERIFIED",
+   "description_checked": "Yes",
+   "item_location": "London, United Kingdom",
+   "raw_search_page": "04_research/search_results/imported_2026-09-22/34f466552f4a_p3.html",
+   "raw_item_page": "04_research/competitor_listings/imported_2026-09-22/item_198577129962.html",
+   "raw_description": "04_research/descriptions/imported_2026-09-22/desc_198577129962.txt",
+   "captured_at": "2026-09-22T06:19:39.429083+00:00"
+  }
+ ],
+ "verification_status": "VERIFIED",
+ "research_status": "RESEARCHED",
+ "keywords": {
+  "Primary Keyword": [
+   {
+    "keyword": "Bulbs",
+    "keyword_rank": 4,
+    "of_competitors": 5,
+    "matches": [
+     {
+      "listing_id": "256001182732",
+      "found_in": [
+       "title",
+       "description"
+      ],
+      "snippet": "LED Corn Bulbs E14 E27 Screw/B22 Bayonet 12W 16W 20W H"
+     },
+     {
+      "listing_id": "306032941623",
+      "found_in": [
+       "title",
+       "description"
+      ],
+      "snippet": "LED Corn Bulbs E14 E27 Screw/B22 Bayonet7W 12W 15W 20W"
+     },
+     {
+      "listing_id": "800316332601",
+      "found_in": [
+       "title",
+       "description"
+      ],
+      "snippet": "E27 E14 B22 LED Corn Light Bulbs Screw Bayonet Cap SES 7W 12W 30W 45W Ul"
+     },
+     {
+      "listing_id": "198577129962",
+      "found_in": [
+       "title",
+       "description"
+      ],
+      "snippet": "LED High Bright Corn Bulbs E27/B22/E14/G10/G9 Saving Light Lamp Wa"
+     }
+    ],
+    "titles_with_phrase": 5
+   }
+  ],
+  "Secondary Keywords": [
+   {
+    "keyword": "LED",
+    "keyword_rank": 5,
+    "of_competitors": 5,
+    "matches": [
+     {
+      "listing_id": "256001182732",
+      "found_in": [
+       "title",
+       "description"
+      ],
+      "snippet": "LED Corn Bulbs E14 E27 Screw/B22 Bayonet 12"
+     },
+     {
+      "listing_id": "127912341789",
+      "found_in": [
+       "title",
+       "description"
+      ],
+      "snippet": "E27 LED Corn Bulb Light 20W 16W 12W 3 Colors 22"
+     },
+     {
+      "listing_id": "306032941623",
+      "found_in": [
+       "title",
+       "description"
+      ],
+      "snippet": "LED Corn Bulbs E14 E27 Screw/B22 Bayonet7W"
+     },
+     {
+      "listing_id": "800316332601",
+      "found_in": [
+       "title",
+       "description"
+      ],
+      "snippet": "E27 E14 B22 LED Corn Light Bulbs Screw Bayonet Cap SES"
+     },
+     {
+      "listing_id": "198577129962",
+      "found_in": [
+       "title",
+       "description"
+      ],
+      "snippet": "LED High Bright Corn Bulbs E27/B22/E14/G10/"
+     }
+    ],
+    "titles_with_phrase": 5
+   },
+   {
+    "keyword": "Corn",
+    "keyword_rank": 5,
+    "of_competitors": 5,
+    "matches": [
+     {
+      "listing_id": "256001182732",
+      "found_in": [
+       "title",
+       "description"
+      ],
+      "snippet": "LED Corn Bulbs E14 E27 Screw/B22 Bayonet 12W 16W"
+     },
+     {
+      "listing_id": "127912341789",
+      "found_in": [
+       "title"
+      ],
+      "snippet": "E27 LED Corn Bulb Light 20W 16W 12W 3 Colors 220V 28"
+     },
+     {
+      "listing_id": "306032941623",
+      "found_in": [
+       "title"
+      ],
+      "snippet": "LED Corn Bulbs E14 E27 Screw/B22 Bayonet7W 12W 1"
+     },
+     {
+      "listing_id": "800316332601",
+      "found_in": [
+       "title",
+       "description"
+      ],
+      "snippet": "E27 E14 B22 LED Corn Light Bulbs Screw Bayonet Cap SES 7W 12"
+     },
+     {
+      "listing_id": "198577129962",
+      "found_in": [
+       "title",
+       "description"
+      ],
+      "snippet": "LED High Bright Corn Bulbs E27/B22/E14/G10/G9 Saving Light L"
+     }
+    ],
+    "titles_with_phrase": 5
+   },
+   {
+    "keyword": "E27",
+    "keyword_rank": 5,
+    "of_competitors": 5,
+    "matches": [
+     {
+      "listing_id": "256001182732",
+      "found_in": [
+       "title",
+       "description"
+      ],
+      "snippet": "LED Corn Bulbs E14 E27 Screw/B22 Bayonet 12W 16W 20W High Powe"
+     },
+     {
+      "listing_id": "127912341789",
+      "found_in": [
+       "title",
+       "description"
+      ],
+      "snippet": "E27 LED Corn Bulb Light 20W 16W 12W 3 Color"
+     },
+     {
+      "listing_id": "306032941623",
+      "found_in": [
+       "title",
+       "description"
+      ],
+      "snippet": "LED Corn Bulbs E14 E27 Screw/B22 Bayonet7W 12W 15W 20W 25W 30W"
+     },
+     {
+      "listing_id": "800316332601",
+      "found_in": [
+       "title",
+       "description"
+      ],
+      "snippet": "E27 E14 B22 LED Corn Light Bulbs Screw Bayo"
+     },
+     {
+      "listing_id": "198577129962",
+      "found_in": [
+       "title",
+       "description"
+      ],
+      "snippet": "LED High Bright Corn Bulbs E27/B22/E14/G10/G9 Saving Light Lamp Warm C"
+     }
+    ],
+    "titles_with_phrase": 5
+   }
+  ],
+  "Long-Tail Keywords": [
+   {
+    "keyword": "LED Corn Bulbs",
+    "keyword_rank": 2,
+    "of_competitors": 5,
+    "matches": [
+     {
+      "listing_id": "256001182732",
+      "found_in": [
+       "title",
+       "description"
+      ],
+      "snippet": "LED Corn Bulbs E14 E27 Screw/B22 Bayonet 12W 16W 20W H"
+     },
+     {
+      "listing_id": "306032941623",
+      "found_in": [
+       "title"
+      ],
+      "snippet": "LED Corn Bulbs E14 E27 Screw/B22 Bayonet7W 12W 15W 20W"
+     }
+    ],
+    "titles_with_phrase": 3
+   },
+   {
+    "keyword": "LED Corn Bulbs E14 E27",
+    "keyword_rank": 2,
+    "of_competitors": 5,
+    "matches": [
+     {
+      "listing_id": "256001182732",
+      "found_in": [
+       "title"
+      ],
+      "snippet": "LED Corn Bulbs E14 E27 Screw/B22 Bayonet 12W 16W 20W High Powe"
+     },
+     {
+      "listing_id": "306032941623",
+      "found_in": [
+       "title"
+      ],
+      "snippet": "LED Corn Bulbs E14 E27 Screw/B22 Bayonet7W 12W 15W 20W 25W 30W"
+     }
+    ],
+    "titles_with_phrase": 2
+   },
+   {
+    "keyword": "Corn Bulbs E14 E27 Screw",
+    "keyword_rank": 2,
+    "of_competitors": 5,
+    "matches": [
+     {
+      "listing_id": "256001182732",
+      "found_in": [
+       "title"
+      ],
+      "snippet": "LED Corn Bulbs E14 E27 Screw/B22 Bayonet 12W 16W 20W High Powered Li"
+     },
+     {
+      "listing_id": "306032941623",
+      "found_in": [
+       "title"
+      ],
+      "snippet": "LED Corn Bulbs E14 E27 Screw/B22 Bayonet7W 12W 15W 20W 25W 30WHigh P"
+     }
+    ],
+    "titles_with_phrase": 2
+   }
+  ],
+  "Competitor Keywords": [
+   {
+    "keyword": "20W",
+    "keyword_rank": 3,
+    "of_competitors": 5,
+    "matches": [
+     {
+      "listing_id": "256001182732",
+      "found_in": [
+       "title",
+       "description"
+      ],
+      "snippet": "LED Corn Bulbs E14 E27 Screw/B22 Bayonet 12W 16W 20W High Powered Light"
+     },
+     {
+      "listing_id": "127912341789",
+      "found_in": [
+       "title",
+       "description"
+      ],
+      "snippet": "E27 LED Corn Bulb Light 20W 16W 12W 3 Colors 220V 2835SMD Lamp High"
+     },
+     {
+      "listing_id": "306032941623",
+      "found_in": [
+       "title",
+       "description"
+      ],
+      "snippet": "ED Corn Bulbs E14 E27 Screw/B22 Bayonet7W 12W 15W 20W 25W 30WHigh Powered Light"
+     }
+    ],
+    "titles_with_phrase": 3
+   },
+   {
+    "keyword": "Powered Light",
+    "keyword_rank": 2,
+    "of_competitors": 5,
+    "matches": [
+     {
+      "listing_id": "256001182732",
+      "found_in": [
+       "title",
+       "description"
+      ],
+      "snippet": "Bulbs E14 E27 Screw/B22 Bayonet 12W 16W 20W High Powered Light"
+     },
+     {
+      "listing_id": "306032941623",
+      "found_in": [
+       "title"
+      ],
+      "snippet": "4 E27 Screw/B22 Bayonet7W 12W 15W 20W 25W 30WHigh Powered Light"
+     }
+    ],
+    "titles_with_phrase": 2
+   },
+   {
+    "keyword": "16W",
+    "keyword_rank": 2,
+    "of_competitors": 5,
+    "matches": [
+     {
+      "listing_id": "256001182732",
+      "found_in": [
+       "title",
+       "description"
+      ],
+      "snippet": "LED Corn Bulbs E14 E27 Screw/B22 Bayonet 12W 16W 20W High Powered Light"
+     },
+     {
+      "listing_id": "127912341789",
+      "found_in": [
+       "title",
+       "description"
+      ],
+      "snippet": "E27 LED Corn Bulb Light 20W 16W 12W 3 Colors 220V 2835SMD Lamp High Pow"
+     }
+    ],
+    "titles_with_phrase": 2
+   }
+  ]
+ },
+ "import_check": {
+  "keywords_and_ranks_equal_old_project": true,
+  "old": "same"
+ }
+}

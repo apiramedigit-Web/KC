@@ -1,0 +1,22 @@
+{
+  "_about": "Authoritative scope for Keyword Check - Kobiga. The ONLY Product IDs the automation may fetch, research, show or publish. Change this list explicitly (with a new version and change_note); it is never inferred from the database.",
+  "version": 2,
+  "approved_by": "Kobiga (task owner)",
+  "approved_at": "2026-09-22",
+  "change_note": "v2: 267765726284 removed (rejected, transposed digits); 267765767284 is the approved ID. v1 had been supplied with 267765726284.",
+  "rejected_product_ids": ["267765726284"],
+  "product_ids": [
+    "265660310933",
+    "267742103780",
+    "267791295531",
+    "267784997642",
+    "267773888902",
+    "267768578649",
+    "267765767284",
+    "267761469770",
+    "267728257222",
+    "267720120199",
+    "267695260771",
+    "267687534749"
+  ]
+}

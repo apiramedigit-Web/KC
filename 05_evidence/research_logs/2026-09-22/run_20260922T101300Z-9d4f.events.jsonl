@@ -1,0 +1,7 @@
+{"ts": "2026-09-22T10:13:02.495683+00:00", "stage": "PREFLIGHT", "status": "DONE", "scope": "OK", "source_db_env": true, "ph_env": ["PGHOST", "PGPORT", "PGDATABASE", "PGUSER", "PGPASSWORD"], "browser_cdp": "NOT REACHABLE (URLError)"}
+{"ts": "2026-09-22T10:13:04.232362+00:00", "stage": "VALIDATE_SOURCE", "status": "PASS", "issues": {"267791295531": ["SKU placeholder/empty on parent row ('sku not assigneds')"], "267765767284": ["SKU placeholder/empty on parent row ('sku not assigneds')"], "267687534749": ["SKU placeholder/empty on parent row ('sku not assigneds')"]}}
+{"ts": "2026-09-22T10:13:05.255321+00:00", "stage": "RESEARCH", "status": "PLAN", "todo": 12, "skipped": 0, "detail": {}}
+{"ts": "2026-09-22T10:13:06.195505+00:00", "stage": "RESEARCH", "status": "STOPPED", "reason": "browser not reachable at http://127.0.0.1:9222: Error"}
+{"ts": "2026-09-22T10:13:14.811155+00:00", "stage": "VALIDATE_OUTPUT", "status": "PASS", "critical": 0, "warnings": 1}
+{"ts": "2026-09-22T10:13:14.812417+00:00", "stage": "PUBLISH_LOCAL", "status": "REFUSED"}
+{"ts": "2026-09-22T10:13:15.358090+00:00", "stage": "RUN", "status": "PUBLISH_LOCAL_FAILED", "summary": "evidence/research_logs/2026-09-22/run_summary_20260922T101300Z-9d4f.json"}

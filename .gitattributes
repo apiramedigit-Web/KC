@@ -1,0 +1,2 @@
+# Keep every file byte-exact: evidence md5 manifests must stay valid after clone
+* -text

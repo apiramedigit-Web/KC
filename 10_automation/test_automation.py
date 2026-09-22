@@ -226,6 +226,41 @@ class Publish(unittest.TestCase):
                     if v is not None: os.environ[k] = v
 
 
+class RunStatus(unittest.TestCase):
+    """VPN / browser / CAPTCHA problems must be visible (exit 4), and retry slots must not redo finished work."""
+    ok_local, ds_cf, ds_cur = {"result": "PUBLISHED"}, {"rows": [{"freshness": "CARRIED FORWARD from 2026-09-22"}]}, {"rows": [{"freshness": "CURRENT"}]}
+
+    def test_research_problem_classes(self):
+        self.assertEqual(RUN.research_problem({"todo": ["1"], "stopped": "browser not reachable at http://127.0.0.1:9222: Error", "results": {"1": "FAILED"}}), "RESEARCH_FAILED_BROWSER")
+        self.assertEqual(RUN.research_problem({"todo": ["1"], "stopped": "UK exit check failed: ExitNotUK: exit country LK", "results": {"1": "FAILED"}}), "RESEARCH_FAILED_VPN")
+        self.assertEqual(RUN.research_problem({"todo": ["1", "2"], "stopped": "blocked", "results": {"1": "NOT_VERIFIED (blocked)"}}), "RESEARCH_BLOCKED_CAPTCHA")
+        self.assertEqual(RUN.research_problem({"todo": ["1", "2"], "stopped": None, "results": {"1": "VERIFIED", "2": "FAILED"}}), "RESEARCH_PARTIAL_FAILED")
+        self.assertIsNone(RUN.research_problem({"todo": ["1"], "stopped": None, "results": {"1": "VERIFIED"}}))
+        self.assertIsNone(RUN.research_problem({"todo": [], "stopped": None, "results": {}}))
+        self.assertIsNone(RUN.research_problem({"todo": ["1"], "stopped": "dry-run: no browser", "results": {}}))
+
+    def test_vpn_off_is_a_visible_failure_but_publish_problems_rank_higher(self):
+        vpn = {"todo": ["1"], "stopped": "UK exit check failed: exit country LK", "results": {"1": "FAILED"}}
+        self.assertEqual(RUN.final_status(vpn, self.ds_cf, self.ok_local, {"result": "PUBLISHED"}, False), "RESEARCH_FAILED_VPN")
+        self.assertEqual(RUN.EXIT["RESEARCH_FAILED_VPN"], 4)
+        self.assertEqual(RUN.final_status(vpn, self.ds_cf, self.ok_local, {"result": "FAILED"}, False), "PUBLISH_FAILED")
+        self.assertEqual(RUN.final_status({"todo": ["1"], "results": {"1": "VERIFIED"}}, self.ds_cur, self.ok_local, {"result": "PUBLISHED"}, False), "SUCCESS")
+
+    def test_retry_slot_skips_only_when_everything_done_and_published_today(self):
+        with Sandbox():
+            day = "2026-01-01"
+            snap = {"records": [{"product_id": "1", "found": True, "listing_status": "Active", "is_ended": 0}]}
+            mapping = [{"product_id": "1", "mapping_status": "VERIFIED"}]
+            st = {}; research.set_status(st, "1", day, "r", "FAILED", retryable=True); research.save_status(st)
+            C.write_json_atomic(C.LAST_SUCCESS_FILE, {"run_date": day, "research_complete": False})
+            self.assertFalse(RUN.already_complete(snap, mapping, day))            # 08:45 VPN was off -> retry slot must research
+            research.set_status(st, "1", day, "r2", "VERIFIED"); research.save_status(st)
+            self.assertFalse(RUN.already_complete(snap, mapping, day))            # researched but dashboard not yet published with it
+            C.write_json_atomic(C.LAST_SUCCESS_FILE, {"run_date": day, "research_complete": True})
+            self.assertTrue(RUN.already_complete(snap, mapping, day))             # nothing left -> no eBay, no rebuild
+            self.assertFalse(RUN.already_complete(snap, mapping, "2026-01-02"))   # next day starts fresh
+
+
 class Lock(unittest.TestCase):
     def test_second_run_is_refused_and_stale_lock_cleared(self):
         with Sandbox():

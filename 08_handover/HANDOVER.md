@@ -6,7 +6,7 @@
 | Requirement | `00_requirements/System Task - Keyword check- Kobiga.csv` (output columns, Rank definition) · method `00_requirements/Keyword Analysis.pdf` |
 | Owner / requester | Kobiga |
 | Status (2026-09-22) | **Built, tested, scheduled.** Local pipeline verified end-to-end. **PH push not yet performed** (see Blockers). |
-| Next scheduled run | 2026-09-23 08:45 (task `KeywordCheckKobiga_Daily`) |
+| Next scheduled run | 2026-09-23 08:45, with same-day retries 10:45 / 12:45 / 14:45 (task `KeywordCheckKobiga_Daily`) |
 | How it works | `10_automation/README.md` |
 
 ## 1. What was done
@@ -16,7 +16,7 @@
 3. Scope fixed in `10_automation/scope.json` v2 (12 IDs). `267765726284` is rejected; `267765767284` is approved.
 4. Read-only preflight: 12/12 IDs found. The SOT holds no sub-type for any of their 25 SKUs, so all 12 are mapped from the eBay category.
 5. One-time import of the old project's research as history: 125 raw files copied (the old project was only read). Recomputing keywords and ranks with the new code matched the old values exactly for all 12 IDs.
-6. The full pipeline was implemented, with 21 offline tests.
+6. The full pipeline was implemented, with 24 offline tests.
 
 ## 2. Verification evidence
 
@@ -28,7 +28,8 @@
 | Manual full run (without PH) validates and publishes locally | `05_evidence/research_logs/2026-09-22/run_summary_*.json` → `LOCAL_PUBLISHED_PH_SKIPPED`; `06_validation/2026-09-22/local_validation_*.json` 0 critical failures | VERIFIED |
 | Rerun is idempotent | Second run: 12 rows, 60 competitors, 118 keywords, all unique; 12 status entries | VERIFIED |
 | Publish protection | A run whose validated hash did not match was **refused** and the live file was untouched (run `20260922T101300Z-9d4f`, bug since fixed); unit test covers it | VERIFIED |
-| Scheduler | `10_automation/scheduler.ps1 -Status`: daily 08:45, one task after repeated registration | VERIFIED |
+| Scheduler | `10_automation/scheduler.ps1 -Status`: daily 08:45, 10:45, 12:45, 14:45, one task after repeated registration | VERIFIED |
+| VPN/browser problem is visible | Run `20260922T110110Z-6932` (Chrome not running): status `RESEARCH_FAILED_BROWSER`, exit 4, dashboard still validated and published with CARRIED FORWARD rows | VERIFIED |
 | Live eBay research by the automation | Not yet run: UK-VPN Chrome (CDP 9222) was not running on 2026-09-22 | **UNPROVEN until the first run with the browser up** |
 | PH Dashboard push | Credentials set and dry run OK (would update 8 KWC rows, insert 0); first real push scheduled for the 2026-09-23 08:45 run by owner decision | **UNPROVEN until that run** |
 
@@ -39,7 +40,7 @@ All 12 rows currently show **CARRIED FORWARD from 2026-09-22 (imported from old 
 ## 4. Blockers / actions for the owner
 
 1. **PH credentials: DONE (2026-09-22).** `temp_user` is saved as Windows user environment variables. Read-only access is verified (8 KWC rows), and the PH dry run would update 8 rows and insert 0.
-2. **UK-VPN Chrome at 08:45:** Chrome must be running with remote debugging on `127.0.0.1:9222` and the VPN set to the United Kingdom. Otherwise research is retried the next day and rows stay CARRIED FORWARD.
+2. **UK-VPN Chrome at 08:45:** Chrome must be running with remote debugging on `127.0.0.1:9222` and the VPN set to the United Kingdom. Otherwise the run ends `RESEARCH_FAILED_VPN` / `RESEARCH_FAILED_BROWSER` (Task Scheduler Last Run Result = 4) and the 10:45 / 12:45 / 14:45 slots retry the same day; turning the VPN on before the next slot is enough.
 3. **First PH publish:** the owner decided on 2026-09-22 to keep today's PH content and let the **2026-09-23 08:45 run** do the first push. That run updates only the 8 `KWC` rows (genga, Jarsini, kobiga, powsteena, Sharmilan, Sivajitha, Thasanan, Thinesh). Check `05_evidence/database/ph_publish_log.jsonl` for a `PUBLISHED` entry.
 
 ## 5. Known limits

@@ -7,11 +7,11 @@
    "origin": "IMPORTED",
    "status": "VERIFIED"
   },
-  "attempts": 1,
+  "attempts": 2,
   "day": "2026-09-22",
-  "run_id": "20260922T103103Z-c678",
+  "run_id": "20260922T110110Z-6932",
   "status": "FAILED",
-  "updated_at": "2026-09-22T10:31:09.487063+00:00",
+  "updated_at": "2026-09-22T11:01:16.506419+00:00",
   "retryable": true,
   "error": "browser not reachable at http://127.0.0.1:9222: Error"
  },
@@ -23,11 +23,11 @@
    "origin": "IMPORTED",
    "status": "VERIFIED"
   },
-  "attempts": 1,
+  "attempts": 2,
   "day": "2026-09-22",
-  "run_id": "20260922T103103Z-c678",
+  "run_id": "20260922T110110Z-6932",
   "status": "FAILED",
-  "updated_at": "2026-09-22T10:31:09.487081+00:00",
+  "updated_at": "2026-09-22T11:01:16.506436+00:00",
   "retryable": true,
   "error": "browser not reachable at http://127.0.0.1:9222: Error"
  },
@@ -39,11 +39,11 @@
    "origin": "IMPORTED",
    "status": "VERIFIED"
   },
-  "attempts": 1,
+  "attempts": 2,
   "day": "2026-09-22",
-  "run_id": "20260922T103103Z-c678",
+  "run_id": "20260922T110110Z-6932",
   "status": "FAILED",
-  "updated_at": "2026-09-22T10:31:09.487088+00:00",
+  "updated_at": "2026-09-22T11:01:16.506444+00:00",
   "retryable": true,
   "error": "browser not reachable at http://127.0.0.1:9222: Error"
  },
@@ -55,11 +55,11 @@
    "origin": "IMPORTED",
    "status": "VERIFIED"
   },
-  "attempts": 1,
+  "attempts": 2,
   "day": "2026-09-22",
-  "run_id": "20260922T103103Z-c678",
+  "run_id": "20260922T110110Z-6932",
   "status": "FAILED",
-  "updated_at": "2026-09-22T10:31:09.487094+00:00",
+  "updated_at": "2026-09-22T11:01:16.506449+00:00",
   "retryable": true,
   "error": "browser not reachable at http://127.0.0.1:9222: Error"
  },
@@ -71,11 +71,11 @@
    "origin": "IMPORTED",
    "status": "VERIFIED"
   },
-  "attempts": 1,
+  "attempts": 2,
   "day": "2026-09-22",
-  "run_id": "20260922T103103Z-c678",
+  "run_id": "20260922T110110Z-6932",
   "status": "FAILED",
-  "updated_at": "2026-09-22T10:31:09.487098+00:00",
+  "updated_at": "2026-09-22T11:01:16.506454+00:00",
   "retryable": true,
   "error": "browser not reachable at http://127.0.0.1:9222: Error"
  },
@@ -87,11 +87,11 @@
    "origin": "IMPORTED",
    "status": "VERIFIED"
   },
-  "attempts": 1,
+  "attempts": 2,
   "day": "2026-09-22",
-  "run_id": "20260922T103103Z-c678",
+  "run_id": "20260922T110110Z-6932",
   "status": "FAILED",
-  "updated_at": "2026-09-22T10:31:09.487102+00:00",
+  "updated_at": "2026-09-22T11:01:16.506459+00:00",
   "retryable": true,
   "error": "browser not reachable at http://127.0.0.1:9222: Error"
  },
@@ -103,11 +103,11 @@
    "origin": "IMPORTED",
    "status": "VERIFIED"
   },
-  "attempts": 1,
+  "attempts": 2,
   "day": "2026-09-22",
-  "run_id": "20260922T103103Z-c678",
+  "run_id": "20260922T110110Z-6932",
   "status": "FAILED",
-  "updated_at": "2026-09-22T10:31:09.487107+00:00",
+  "updated_at": "2026-09-22T11:01:16.506463+00:00",
   "retryable": true,
   "error": "browser not reachable at http://127.0.0.1:9222: Error"
  },
@@ -119,11 +119,11 @@
    "origin": "IMPORTED",
    "status": "VERIFIED"
   },
-  "attempts": 1,
+  "attempts": 2,
   "day": "2026-09-22",
-  "run_id": "20260922T103103Z-c678",
+  "run_id": "20260922T110110Z-6932",
   "status": "FAILED",
-  "updated_at": "2026-09-22T10:31:09.487110+00:00",
+  "updated_at": "2026-09-22T11:01:16.506467+00:00",
   "retryable": true,
   "error": "browser not reachable at http://127.0.0.1:9222: Error"
  },
@@ -135,11 +135,11 @@
    "origin": "IMPORTED",
    "status": "VERIFIED"
   },
-  "attempts": 1,
+  "attempts": 2,
   "day": "2026-09-22",
-  "run_id": "20260922T103103Z-c678",
+  "run_id": "20260922T110110Z-6932",
   "status": "FAILED",
-  "updated_at": "2026-09-22T10:31:09.487114+00:00",
+  "updated_at": "2026-09-22T11:01:16.506471+00:00",
   "retryable": true,
   "error": "browser not reachable at http://127.0.0.1:9222: Error"
  },
@@ -151,11 +151,11 @@
    "origin": "IMPORTED",
    "status": "VERIFIED"
   },
-  "attempts": 1,
+  "attempts": 2,
   "day": "2026-09-22",
-  "run_id": "20260922T103103Z-c678",
+  "run_id": "20260922T110110Z-6932",
   "status": "FAILED",
-  "updated_at": "2026-09-22T10:31:09.487118+00:00",
+  "updated_at": "2026-09-22T11:01:16.506475+00:00",
   "retryable": true,
   "error": "browser not reachable at http://127.0.0.1:9222: Error"
  },
@@ -167,11 +167,11 @@
    "origin": "IMPORTED",
    "status": "VERIFIED"
   },
-  "attempts": 1,
+  "attempts": 2,
   "day": "2026-09-22",
-  "run_id": "20260922T103103Z-c678",
+  "run_id": "20260922T110110Z-6932",
   "status": "FAILED",
-  "updated_at": "2026-09-22T10:31:09.487122+00:00",
+  "updated_at": "2026-09-22T11:01:16.506479+00:00",
   "retryable": true,
   "error": "browser not reachable at http://127.0.0.1:9222: Error"
  },
@@ -183,11 +183,11 @@
    "origin": "IMPORTED",
    "status": "VERIFIED"
   },
-  "attempts": 1,
+  "attempts": 2,
   "day": "2026-09-22",
-  "run_id": "20260922T103103Z-c678",
+  "run_id": "20260922T110110Z-6932",
   "status": "FAILED",
-  "updated_at": "2026-09-22T10:31:09.487126+00:00",
+  "updated_at": "2026-09-22T11:01:16.506483+00:00",
   "retryable": true,
   "error": "browser not reachable at http://127.0.0.1:9222: Error"
  }

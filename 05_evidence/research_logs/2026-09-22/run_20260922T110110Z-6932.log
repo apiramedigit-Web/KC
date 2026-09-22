@@ -1,0 +1,9 @@
+2026-09-22 16:31:12,735 INFO [PREFLIGHT] DONE scope=OK source_db_env=True ph_env=['PGHOST', 'PGPORT', 'PGDATABASE', 'PGUSER', 'PGPASSWORD'] browser_cdp=NOT REACHABLE (URLError)
+2026-09-22 16:31:14,508 INFO [VALIDATE_SOURCE] PASS issues={'267791295531': ["SKU placeholder/empty on parent row ('sku not assigneds')"], '267765767284': ["SKU placeholder/empty on parent row ('sku not assigneds')"], '267687534749': ["SKU placeholder/empty on parent row ('sku not assigneds')"]}
+2026-09-22 16:31:15,544 INFO [RESEARCH] PLAN todo=12 skipped=0
+2026-09-22 16:31:16,508 INFO [RESEARCH] STOPPED reason=browser not reachable at http://127.0.0.1:9222: Error
+2026-09-22 16:31:25,015 INFO [VALIDATE_OUTPUT] PASS critical=0 warnings=1
+2026-09-22 16:31:25,087 INFO [PUBLISH_LOCAL] PUBLISHED 
+2026-09-22 16:31:25,091 INFO [PUBLISH_PH] SKIPPED (--no-ph) error=None
+2026-09-22 16:31:25,092 INFO [RESEARCH] RESEARCH_FAILED_BROWSER reason=browser not reachable at http://127.0.0.1:9222: Error next_retry=next scheduled slot
+2026-09-22 16:31:25,698 INFO [RUN] RESEARCH_FAILED_BROWSER summary=05_evidence/research_logs/2026-09-22/run_summary_20260922T110110Z-6932.json

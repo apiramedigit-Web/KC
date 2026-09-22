@@ -6,7 +6,15 @@
     python 10_automation/run.py --as-of 2026-09-23  # full run labelled with that date (DB is still read live)
     python 10_automation/run.py --no-research       # skip eBay (rows use last verified evidence, labelled CARRIED FORWARD)
     python 10_automation/run.py --no-ph             # everything except the PH Dashboard push
-Exit codes: 0 SUCCESS / SUCCESS_WITH_CARRIED_FORWARD / preflight or dry-run OK; 2 PUBLISH_FAILED; 3 ALREADY_RUNNING; 1 any other failure."""
+Scheduled daily at 08:45 with same-day retry slots 10:45, 12:45, 14:45 (scheduler.ps1). A retry slot researches only the IDs
+not finished today; if everything is done it exits ALREADY_COMPLETE_TODAY without touching eBay.
+Exit codes (Task Scheduler "Last Run Result"):
+  0  SUCCESS / SUCCESS_WITH_CARRIED_FORWARD / ALREADY_COMPLETE_TODAY / LOCAL_PUBLISHED_PH_SKIPPED / preflight or dry-run OK
+  2  PUBLISH_FAILED (PH push failed; local dashboard updated)
+  3  ALREADY_RUNNING
+  4  RESEARCH_FAILED_VPN / RESEARCH_FAILED_BROWSER / RESEARCH_BLOCKED_CAPTCHA / RESEARCH_PARTIAL_FAILED
+     (eBay research did not complete - dashboard + PH still updated with CARRIED FORWARD rows; retried next slot)
+  1  anything else (preflight/source/validation failure: nothing published)"""
 import argparse
 import ctypes
 import json
@@ -85,12 +93,41 @@ def keywords_stage(day):
     return done
 
 
+EXIT = {"SUCCESS": 0, "SUCCESS_WITH_CARRIED_FORWARD": 0, "LOCAL_PUBLISHED_PH_SKIPPED": 0, "ALREADY_COMPLETE_TODAY": 0,
+        "PUBLISH_FAILED": 2, "RESEARCH_FAILED_VPN": 4, "RESEARCH_FAILED_BROWSER": 4, "RESEARCH_BLOCKED_CAPTCHA": 4, "RESEARCH_PARTIAL_FAILED": 4}
+
+
+def research_problem(rout):
+    """None when every due Product ID was researched; else why eBay research did not complete."""
+    if not rout or not rout.get("todo"): return None
+    stop = rout.get("stopped") or ""
+    if stop.startswith("dry-run"): return None
+    if "browser not reachable" in stop or "playwright" in stop: return "RESEARCH_FAILED_BROWSER"
+    if "UK exit" in stop: return "RESEARCH_FAILED_VPN"
+    if stop == "blocked": return "RESEARCH_BLOCKED_CAPTCHA"
+    if any(v not in ("VERIFIED", "PARTIAL", "NOT_VERIFIED") for v in rout.get("results", {}).values()) or len(rout.get("results", {})) < len(rout["todo"]):
+        return "RESEARCH_PARTIAL_FAILED"
+    return None
+
+
 def final_status(research_out, ds, local, ph, dry):
+    """Priority: publish problems > research problems (VPN / browser / CAPTCHA) > carried-forward rows > success."""
     if dry: return "DRY_RUN_OK"
     if local.get("result") != "PUBLISHED": return "PUBLISH_LOCAL_FAILED"
     if ph and ph.get("result") not in ("PUBLISHED", "PUBLISH_SKIPPED_UNCHANGED"): return "PUBLISH_FAILED"
+    prob = research_problem(research_out)
+    if prob: return prob
     if any(r["freshness"] != "CURRENT" for r in ds["rows"]): return "SUCCESS_WITH_CARRIED_FORWARD"
     return "SUCCESS"
+
+
+def already_complete(snap, mapping, day):
+    """Retry runs (10:45, 12:45, 14:45): True when every eligible ID is finished today and today's dashboard is published."""
+    st = research.load_status(); by = {m["product_id"]: m for m in mapping}
+    due = [r["product_id"] for r in snap["records"] if fetch_data.is_active(r) and by[r["product_id"]]["mapping_status"] == "VERIFIED"
+           and research.needs_research(st, r["product_id"], day)]
+    last = json.loads(C.LAST_SUCCESS_FILE.read_text(encoding="utf-8")) if C.LAST_SUCCESS_FILE.exists() else {}
+    return not due and last.get("run_date") == day and last.get("research_complete") is True
 
 
 def main(argv=None):
@@ -146,6 +183,14 @@ def main(argv=None):
             summary["status"] = "SOURCE_FAILED"
             if not a.dry_run and not a.no_ph: summary["stages"]["ph_retry"] = publish.publish_ph(run_id)   # retry a pending validated version, if any
             return 1
+        # retry slot with nothing left to do: no eBay, no rebuild; only a pending PH push is retried
+        if not (a.dry_run or a.no_research) and already_complete(snap, mapping, day):
+            summary["status"] = "ALREADY_COMPLETE_TODAY"
+            if not a.no_ph and publish.load_state().get("pending"):
+                ph = summary["stages"]["ph_retry"] = publish.publish_ph(run_id)
+                if ph["result"] not in ("PUBLISHED", "PUBLISH_SKIPPED_UNCHANGED"): summary["status"] = "PUBLISH_FAILED"
+            L.event("RUN", summary["status"], note="all approved IDs already researched and published today")
+            return EXIT.get(summary["status"], 1)
         # S4 DETECT CHANGES
         prev, last = detect_changes.previous_snapshot()
         changes = detect_changes.compare(prev, snap)
@@ -179,20 +224,24 @@ def main(argv=None):
         ph = None
         if local["result"] == "PUBLISHED":
             publish.mark_pending(val, run_id, ds)
-            C.write_json_atomic(C.LAST_SUCCESS_FILE, {"run_id": run_id, "run_date": day, "snapshot": C.rel(snap_path), "html_md5": val["html_md5"], "validation": C.rel(vpath)})
+            C.write_json_atomic(C.LAST_SUCCESS_FILE, {"run_id": run_id, "run_date": day, "snapshot": C.rel(snap_path), "html_md5": val["html_md5"], "validation": C.rel(vpath),
+                                                      "research_complete": not a.no_research and research_problem(rout) is None})
             staged.unlink()
             # S12 PUBLISH PH
             ph = {"result": "SKIPPED (--no-ph)"} if a.no_ph else publish.publish_ph(run_id)
             summary["stages"]["publish_ph"] = ph; L.event("PUBLISH_PH", ph["result"], error=ph.get("error"))
         summary["status"] = final_status(rout, ds, local, None if a.no_ph else ph, False)
-        if a.no_ph and local.get("result") == "PUBLISHED": summary["status"] = "LOCAL_PUBLISHED_PH_SKIPPED"   # PH stays pending for the next run
+        if a.no_ph and local.get("result") == "PUBLISHED" and summary["status"] in ("SUCCESS", "SUCCESS_WITH_CARRIED_FORWARD"):
+            summary["status"] = "LOCAL_PUBLISHED_PH_SKIPPED"                     # PH stays pending for the next run
+        summary["research_problem"] = None if a.no_research else research_problem(rout)
+        if summary["research_problem"]: L.event("RESEARCH", summary["research_problem"], reason=rout.get("stopped"), next_retry="next scheduled slot")
         # S13 ARCHIVE
         summary["run_completed_at"] = datetime.now(timezone.utc).isoformat()
         built = {"dashboard.html": C.REPORT} if local.get("result") == "PUBLISHED" else {"dashboard_not_published.html": staged}   # never file the previous live page under this run
         adir, _ = archive.archive(day, run_id, {"scope.json": C.SCOPE_FILE, "source_snapshot.json": snap_path, "mapping.csv": map_path, "search_terms.csv": term_path,
                                                 **built, "local_validation.json": vpath}, ds, {"run_summary.json": summary, "ph_publish.json": ph or {}})
         summary["stages"]["archive"] = adir
-        return {"SUCCESS": 0, "SUCCESS_WITH_CARRIED_FORWARD": 0, "LOCAL_PUBLISHED_PH_SKIPPED": 0, "PUBLISH_FAILED": 2}.get(summary["status"], 1)
+        return EXIT.get(summary["status"], 1)
     except Exception as ex:
         summary["status"] = summary["status"] or "ABORTED"; summary["error"] = f"{type(ex).__name__}: {ex}"; summary["traceback"] = traceback.format_exc()
         log.error(summary["traceback"]); return 1

@@ -1,7 +1,8 @@
 {
- "run_id": "20260922T103103Z-c678",
+ "run_id": "20260922T110110Z-6932",
  "run_date": "2026-09-22",
- "snapshot": "05_evidence/database/2026-09-22/source_snapshot_20260922T103103Z-c678.json",
- "html_md5": "2737dc87645bb2c63c7f45a203afde78",
- "validation": "06_validation/2026-09-22/local_validation_20260922T103103Z-c678.json"
+ "snapshot": "05_evidence/database/2026-09-22/source_snapshot_20260922T110110Z-6932.json",
+ "html_md5": "26144e41acce123dec1b39accf4eccc9",
+ "validation": "06_validation/2026-09-22/local_validation_20260922T110110Z-6932.json",
+ "research_complete": false
 }

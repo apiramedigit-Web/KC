@@ -3,7 +3,7 @@
 | Field | Value |
 |---|---|
 | What | A daily automated Keyword Check for the approved eBay UK Product IDs. It reads the live database, researches UK eBay competitors (Keyword Analysis.pdf), calculates keywords and Keyword Rank, builds a standalone HTML dashboard, validates it, publishes it locally, then pushes it to the PH Dashboard. |
-| Schedule | Windows Task Scheduler task `KeywordCheckKobiga_Daily`, **daily at 08:45** local time |
+| Schedule | Windows Task Scheduler task `KeywordCheckKobiga_Daily`: main run **daily at 08:45**, same-day retries **10:45, 12:45, 14:45** (local time) |
 | Live dashboard | `07_report/keyword_check_kobiga.html` (the last version that passed validation) |
 | Scope | `10_automation/scope.json`: 12 approved Product IDs, the **only** source of truth |
 | Design | `10_automation/WORKFLOW_DESIGN.md` · asset reuse: `10_automation/asset_inventory.md` · handover: `08_handover/HANDOVER.md` |
@@ -18,13 +18,13 @@ python 10_automation\run.py --dry-run        # DB read + build + validate in sta
 python 10_automation\run.py --as-of 2026-09-23   # full run filed under that date (the DB is still read live)
 python 10_automation\run.py --no-research    # skip eBay; rows show last verified evidence, labelled CARRIED FORWARD
 python 10_automation\run.py --no-ph          # everything except the PH Dashboard push
-python 10_automation\test_automation.py      # 21 offline tests
-powershell -ExecutionPolicy Bypass -File 10_automation\scheduler.ps1            # register/update the 08:45 task
+python 10_automation\test_automation.py      # 24 offline tests
+powershell -ExecutionPolicy Bypass -File 10_automation\scheduler.ps1            # register/update (08:45 + retries 10:45, 12:45, 14:45)
 powershell -ExecutionPolicy Bypass -File 10_automation\scheduler.ps1 -Status    # next run time
 powershell -ExecutionPolicy Bypass -File 10_automation\scheduler.ps1 -Unregister
 ```
 
-Exit codes: `0` success (incl. carried-forward rows, preflight/dry-run OK) · `2` PH publish failed (local dashboard is updated) · `3` another run is already running · `1` anything else.
+Exit codes (shown as Task Scheduler "Last Run Result"): `0` success (incl. carried-forward rows, `ALREADY_COMPLETE_TODAY`, preflight/dry-run OK) · `2` PH publish failed (local dashboard is updated) · `3` another run is already running · **`4` eBay research did not complete**: `RESEARCH_FAILED_VPN` (exit country not GB), `RESEARCH_FAILED_BROWSER` (UK-VPN Chrome not reachable on 9222), `RESEARCH_BLOCKED_CAPTCHA`, `RESEARCH_PARTIAL_FAILED`. The dashboard and PH are still updated with dated CARRIED FORWARD rows, and the next slot retries · `1` anything else (nothing published).
 
 ## 2. What must be in place at 08:45
 
@@ -66,7 +66,8 @@ PREFLIGHT → FETCH (approved IDs) → VALIDATE SOURCE → DETECT CHANGES → MA
 |---|---|
 | An approved ID not found in the DB | Run stops (`SOURCE_FAILED`); nothing is built or published |
 | Validation fails | `VALIDATION_FAILED`; live HTML and PH untouched; the failed page stays in `07_report/.staging/` for inspection |
-| Browser / VPN down, CAPTCHA | Affected IDs `FAILED` / `NOT_VERIFIED`; rows show the last verified evidence **with its own date**; retried next run |
+| Browser / VPN down, CAPTCHA | eBay is not touched without a GB exit. Affected IDs `FAILED` / `NOT_VERIFIED`; rows show the last verified evidence **with its own date**; run ends `RESEARCH_FAILED_*` (exit 4, visible in Task Scheduler). The **same-day retry slots (10:45, 12:45, 14:45)** research only the unfinished IDs, so turning the VPN on later that day is enough. |
+| Retry slot with nothing left | Every ID finished and published today → `ALREADY_COMPLETE_TODAY` (exit 0): no eBay, no rebuild, no PH push unless one is still pending |
 | PH push fails | `PUBLISH_FAILED`; local dashboard updated; `05_evidence/research_logs/ph_state.json` keeps it *pending*; the next run retries it |
 | Run killed mid-way | Next run resumes: IDs `VERIFIED`/`PARTIAL` today are not researched again; an `IN_PROGRESS` ID is redone |
 | Same run twice | No duplicate rows, competitors or keywords (keyed by Product ID / listing ID); PH upsert per user; identical PH content is skipped; one scheduled task |

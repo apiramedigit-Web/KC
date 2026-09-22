@@ -11,12 +11,12 @@ The database determines the eligible product population. The requirement defines
 | Field | Value |
 |---|---|
 | Scope | 12 approved Product IDs in `10_automation/scope.json` (v2), the only source of truth for eligibility |
-| Automation | Daily at 08:45 (Windows task `KeywordCheckKobiga_Daily`); how it works: `10_automation/README.md` |
+| Automation | Daily at 08:45, same-day retries 10:45 / 12:45 / 14:45 (Windows task `KeywordCheckKobiga_Daily`); how it works: `10_automation/README.md` |
 | Live dashboard | `07_report/keyword_check_kobiga.html` (last validated version; never hand-edited) |
 | Status | Built, tested, scheduled. Live eBay research and the PH Dashboard push are not yet proven (see `08_handover/HANDOVER.md`) |
 | Owner / requester | Kobiga |
 | Governance | `Mini-AIOS_Master_Instruction_and_Skill_Guide (1).docx` |
-| Next step | Set the PH credentials; check the 2026-09-23 08:45 run (`09_closure/CLOSURE_2026-09-22.md`) |
+| Next step | Check the 2026-09-23 08:45 run (`09_closure/CLOSURE_2026-09-22.md`) |
 
 ## Folder map (numbered in workflow order; one copy of everything)
 
